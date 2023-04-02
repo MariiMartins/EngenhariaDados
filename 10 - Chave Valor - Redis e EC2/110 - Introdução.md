@@ -1,0 +1,28 @@
+110. Introdução
+Redis é o segundo produto da família NoSQL que nós vamos estudar.
+Então, o nome, diz ele, vem de Remote Dictionary Server. Ele é um banco de dados que armazena chave e valor em memória. Então essa é uma característica muito importante dele. Ele é um banco de dados que armazena os valores em memória, qual a consequência principal disso? Ele é muito rápido, então ele é usado para aplicações que a estrutura de dados precisa ser simples e por isso ele tem uma estrutura chave-valor, mas que precisa de acesso rápido aos dados. Ele tem suporte a vários tipos de dados na coluna de valor. Ele tem uma coluna chave que deve ser única na coluna de valor e tem vários suporte a várias estruturas de dados. Então ele é um banco de dados em memória. A principal característica dele é ele pode usar disco para persistência, então ele pode, em algumas situações, persistir os dados em disco. Mas ele funciona por padrão, de forma natural, em memória, armazenando os dados em memória. 
+
+Ao contrário do que se possa pensar, ele é um banco de dados bastante popular. Então a gente tem de novo aqui o ranking dos bancos de dados.
+Então vejo que o Redis está na oitava posição.
+Se você analisar que dá família NoSQL: A gente tem o Mongo e o próximo da família já é o Redis. Então, é um banco de dados bastante popular, muito utilizado.
+
+Mas para que tipo de aplicações se usa o Redis? A gente falou várias vezes durante o curso que cada vez mais nos quesitos dados, existem aplicações servidores de banco de dados e estruturas de dados cada vez mais especializadas. Então, se antigamente praticamente tudo usava banco de dados relacional. Hoje nós temos bancos de dados, estruturas de armazenamento de dados cada vez mais especializadas e o  Redis é uma dessas estruturas, um desses mecanismos de bancos de dados altamente especializado.
+
+Então, para que tipo de aplicações ele é utilizado? Para muitos tipos, mas aí a gente vai ver dois exemplos o cache de sessões. Então, imagine em um site de e-commerce, um site de comércio eletrônico. Ele tem milhares de usuários.
+E o que o usuário está fazendo? A cesta de compras dele? O carrinho de compras dele. Precisa ser persistido enquanto ele navega pelo site e então ele vai colocando produtos no carrinho de compras dele. Precisa haver uma relação com quem ele precisa identificar ele e quais produtos ele está colocando no carrinho de compras e outras informações relativas à sessão.
+
+O que acontece com um banco de dados em memória se consegue armazenar e recuperar esses valores de forma muito rápida e quando o usuário vai embora, por exemplo, ele fecha o site, o Redis por exemplo, ele tem uma funcionalidade que os dados são marcados para expirar, então eles são apagados da memória automaticamente. Então, essa é uma das aplicações do Redis, cache de seções de e-commerce de websites.
+
+Outro tipo de aplicação são cache de páginas. Então, imagine o seguinte uma aplicação web, um site de internet, qualquer site de internet como ele funciona? Ele vai ter um servidor e tem um cliente que pode ser, por exemplo, um computador, um navegador ou pode ser um celular.
+Quando o usuário aqui ele digita um determinado endereço, ele faz uma requisição para o servidor. O servidor que ele vai fazer, ele vai pegar aquela página, vai renderizar, vai produzir o HTML para aquela página e vai devolver o HTML para o servidor. E aqui o navegador vai montar a página para o usuário.
+
+Para que você pode usar, por exemplo, uma aplicação em redes para fazer cache dessa página? Então, por exemplo, se você tem uma página que é muito acessada, então, por exemplo, você tem milhares de acessos de uma mesma página simultaneamente. Para que o servidor não tenha que construir, gerar o HTML toda vez que há uma requisição, o que ele faz? Ele gera essa página uma única vez e coloca em cache. Quando houver uma requisição da página, o servidor ele vai devolver a página que está em cache. Não vai ser mais preciso renderizar a página toda vez. E de novo, aqui você pode configurar para que em determinado tempo a página expire. Esse cache expire seja substituído por uma nova versão da página, uma versão atualizada da página.
+
+Uma característica do Redis é que não existe o conceito de banco de dados, como em todos os outros gerenciadores de banco de dados que a gente conhece.
+Existe separação lógica por valores com mesmas chaves. Essa separação são numeradas e fixas, que são chamados de database (bancos de dados), mas não são bancos de dados.
+Então, o que acontece? Você não pode repetir uma chave. Mas você pode separar essas chaves, logicamente nos chamados data bases. E inclusive todas essas separações são persistidas no mesmo arquivo físico. Quando elas são persistidas fisicamente, faz tudo para o mesmo arquivo físico.
+Então, por exemplo, se você quer trocar o banco de dados aqui, entre aspas, essa separação lógica você digita na Select 1, por exemplo, o padrão quando você está usando.Quando você faz uma conexão com Redis, é que você está no data base zero. Você digita Select 1, por exemplo, Você passa a usar o Database 1. Então, essa é a forma que o Redis separa, logicamente, os dados.
+
+Outras características que o Redis tem: suporte à partição, divisão de dados entre instâncias. Ele tem suporte a streaming, tem um formato de streaming e ele também tem suporte a cluster. Então ele pode também operar em cluster.
+Como outras aplicações que nós vimos aqui hoje, é uma característica fundamental em aplicações de Big Data, então a gente vai começar a partir do próximo vídeo a conhecer tecnicamente um pouco mais desse banco de dados no criou.
+
