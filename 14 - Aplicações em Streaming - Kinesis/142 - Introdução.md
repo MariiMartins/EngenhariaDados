@@ -1,0 +1,17 @@
+142. Introdução
+Nessa sessão o nosso objetivo é a gente entender um pouco o que são aplicações de streaming. E obviamente, a gente vai ter alguns, alguns casos práticos. A gente vai desenvolver algumas aplicações, mas antes de começar é bom a gente relembrar alguns conceitos que a gente já estudou durante o curso, que seria basicamente a diferença entre uma aplicação orientada a dados, embate e uma aplicação realtime que processa dados em streaming.
+
+Então, vamos pensar o seguinte vamos supor que você seja um gerente de vendas de uma grande empresa e que essa empresa tem filiais em todo o Brasil, em todo o mundo. E ela produz dezenas de milhares de vendas todo dia, nesse caso, não faz sentido um sistema em que você, como gerente, receba as vendas em tempo real. Isso não faz nenhum sentido ter uma aplicação desse tipo.
+Neste caso, o gerente ele precisa de informações consolidadas, ele precisa saber quantas vendas ocorrida por filial, por produto, por sazonalidade no último verão, no último inverno. E essa informação pode ter uma atualização, por exemplo, diária, semanal ou a cada N dias, isso não vai ter implicação nenhuma na capacidade da tomada de decisão do gerente ou do negócio.
+
+Então uma aplicação vai processar esses dados em batch, vai consolidar essas informações. E vai ter que realizar diversos tipos de transformações e, se dado esses dados, realizar vários tipos de cálculos. E ela vai produzir, por exemplo, alguns dashboards para o gerente que ele vai consultar. E, como eu falei, vão ser atualizados diariamente a cada 15 dias. Então, esse é um caso típico de uma aplicação de processamento de dados em Batch.
+
+Agora, quando a gente fala de streaming de dados, a gente está falando de aplicações que produzem dados no tempo real, próximo o tempo real. Dados em streams e aplicações em tempo real não são necessariamente a mesma coisa, então dados podem ser produzidos em tempo real, mas processados em Batch.
+
+Então vamos falar aqui de aplicações que capturam dados.
+Gerados em streaming processam esses dados em tempo real, próximo a tempo real. Então vamos supor que um carro de Fórmula um tem aproximadamente 300 sensores esses sensores, eles alimentam 4000 parâmetros. E um carro durante uma corrida, ele vai gerar aproximadamente sete gigabytes de informação.
+
+Agora, claro que faz sentido depois da corrida os engenheiros, os estrategistas da equipe analisaram esses dados., mas o mais importante aqui é analisar esses dados em tempo real. Então, os engenheiros precisam saber, por exemplo, se tem algum tipo de vibração ou desgaste do pneu. Se tem alguma coisa colocando em risco, alguma coisa está prejudicando a performance do carro. Para que ações possam ser tomadas em tempo real não vai adiantar nada se esses dados forem analisados apenas depois da corrida, então esse é um caso típico de uma aplicação de Real Time ou Near Real time.
+
+Um outro caso interessante, um caso clássico: Fraude. Então você tem uma aplicação de comércio eletrônico, a fraude tem que ser detectada o mais rápido possível. Não adianta você processar os dados, horas, dias depois, você tem que impedir a fraude enquanto ela e quando for possível, tomar alguma medida, alguma precaução. É um sistema de cercamento eletrônico por vídeo, que agora é muito comum nas cidades. Então, por exemplo, se um carro roubado ele entra na cidade, não adianta, por exemplo, a equipe de segurança guarda a Guarda Municipal e a polícia ter essas informações alguns dias depois. Eles têm que ter essa informação o mais rápido possível.
+
