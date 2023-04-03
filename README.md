@@ -23,7 +23,7 @@ git push -u origin main
 
 This repository serves to document the lessons of the course.
 
-# MÓDULOS UDEMY - FORMAÇÃO ENGENHARIA DE DADOS - BIGDATA
+# MÓDULOS UDEMY
  - [Módulo 1 - Introdução](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/1%20-%20Introdu%C3%A7%C3%A3o)
  - [Módulo 2 - Aspectos Gerais sobre Engenharia de Dados](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/2%20-%20Aspectos%20Gerais%20sobre%20Engenharia%20de%20Dados)
  - [Módulo 3 - Criando conta e ambiente - AWS e EC2](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/3%20-%20Criando%20conta%20e%20ambiente%20no%20AWS)
