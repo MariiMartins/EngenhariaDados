@@ -19,7 +19,7 @@ git push -u origin main
 <h1 align="center">ABOUT</h1>
 <p align="center"><i>Transcrição do Curso de Formação de Engenheiro de Dados: Dominando o BigData.</i></p>
 
-##  About this project
+## About this project
 
 This repository serves to document the lessons of the course.
 
@@ -34,14 +34,13 @@ This repository serves to document the lessons of the course.
 - [Módulo 7 - Data Warehouse Moderno e Data Lake - Redshift](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/7%20-%20Data%20Warehouse%20Moderno%20e%20Data%20Lake%20-%20Redshift)
 - [Módulo 8 - Fundamentos de NoSQL](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/8%20-%20Fundamentos%20de%20NoSQL)
 - [Módulo 9 - Orientado a Documento - Mongodb e EC2](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/9%20-%20Orientado%20a%20Documento%20-%20Mongodb%20e%20EC2)
- - [Módulo 10 - Chave Valor - Redis e EC2](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/10%20-%20Chave%20Valor%20-%20Redis%20e%20EC2)
+- [Módulo 10 - Chave Valor - Redis e EC2](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/10%20-%20Chave%20Valor%20-%20Redis%20e%20EC2)
 - [Módulo 11 - Introdução ao Ecosistema Hadoop](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/11%20-%20Introdu%C3%A7%C3%A3o%20ao%20Ecosistema%20Hadoop)
 - [Módulo 12 - Spark  - Databricks](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/12%20-%20Spark%20%20-%20Databricks)
 - [Módulo 13 - Engenharia de Dados com Python](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/13%20-%20Engenharia%20de%20Dados%20com%20Python)
 - [Módulo 14 - Aplicações em Streaming - Kinesis](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/14%20-%20Aplica%C3%A7%C3%B5es%20em%20Streaming%20-%20Kinesis)
 - [Módulo 15 - ETL e Data Crawler - Glue e Athena](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/15%20-%20ETL%20e%20Data%20Crawler%20-%20Glue%20e%20Athena)
 - [Módulo 16 - Gerenciando Serviços pela CLI](https://github.com/MariiMartins/EngenhariaDados/tree/main/Udemy%20-%20Forma%C3%A7%C3%A3o/16%20-%20Gerenciando%20Servi%C3%A7os%20pela%20CLI)
-
 
 <!-- Para finalizar o nosso README podemos adicionar estatísticas sobre o repositório como Linguagem mais utilizada, Número de linguagens presentes, qualidade do código e muitas outras através da ferramenta oferecida pela Codacy. Não abordaremos aqui como cadastrar seu repositório e ter acesso a estas estatísticas já que no site deles já tem uma documentação completa sobre isto. Veja como fica: 
 
