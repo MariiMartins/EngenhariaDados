@@ -1,0 +1,19 @@
+Passos para efetuar o release
+Cadastre-se em https://test.pypi.org
+Obtenha seu token em https://test.pypi.org/manage/account/ clicando em ADD API TOKEN
+Copie o token completo incluindo `pypi-...`
+salve este token e exporte para o ambiente
+# use __token__
+export TWINE_USERNAME=__token__
+# coloque seu token
+export TWINE_PASSWORD=pypi-AgENdGVzdC5weXBpLm9yZwIkNWM2NDYxZjktN2JiNy00ZmYyLTkxNWUtM2IyNjQ5MmZmYmZhAAIleyJw\
+ZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiBUgfgBSxob9HthmlYU17TfiOQH3qwtnz4glIdcbB_fkA
+Arquivos alterados: https://github.com/rochacbruno/dundie-rewards/pull/21/files
+
+Branch com suporte a empacotamento: https://github.com/rochacbruno/dundie-rewards/tree/package
+
+Lembrando que a branch main também contém este suporte (porém contém spoilers dos próximos capitulos do treinamento)
+
+Execute `make clean install build publish-test`
+
+OBS: O tema `poetry` foi abordado no final do video de pacotes do day 3 https://school.linuxtips.io/courses/python-base/le...
