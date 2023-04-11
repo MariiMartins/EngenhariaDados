@@ -1,0 +1,74 @@
+Exemplo de Github CI:
+
+# .github/workflows/main.yml
+name: CI
+
+on: 
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches:
+      - "main"
+
+  workflow_dispatch:
+
+
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.9', '3.10']
+        os: [ubuntu-latest]
+    runs-on: ${{matrix.os}}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: ${{matrix.python-version}}
+      - name: Install Project 
+        run: pip install '.[test]'
+      - name: Run tests 
+        run: pytest -vv tests integration
+ 
+
+# pyproject.toml
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q -vv"
+testpaths = [
+    "tests",
+    "integration",
+]
+ 
+
+# conftest.py
+MARKER = """\
+unit: Mark unit tests
+integration: Mark integration tests
+high: High Priority
+medium: Medium Priority
+low: Low Priority
+"""
+
+
+def pytest_configure(config):
+    for line in MARKER.split("\n"):
+        config.addinivalue_line('markers', line)
+ 
+
+# integration/test_load.py
+import pytest
+from subprocess import check_output
+
+
+@pytest.mark.integration
+@pytest.mark.medium
+def test_load():
+    """test command load"""
+    out = check_output(
+        ["dundie", "load", "tests/assets/people.csv"]
+    ).decode("utf-8").split("\n")
+    assert len(out) == 2
+ 

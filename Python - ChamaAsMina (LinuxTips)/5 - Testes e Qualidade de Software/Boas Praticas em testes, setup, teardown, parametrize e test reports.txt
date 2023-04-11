@@ -1,0 +1,21 @@
+Fixtures, Setup teardown e finalizers: 
+
+https://github.com/rochacbruno/dundie-rewards/commit/7acb788d432ea6b8e1cb6d358aef4a2ac1fadced
+
+
+
+Publicando Junit Reports: 
+
+https://github.com/rochacbruno/dundie-rewards/commit/8490d3cb445483d344369ba7d3cf86ef1512a7d0
+
+
+
+Exemplo de Junit Report no GHA: 
+
+https://github.com/rochacbruno/dundie-rewards/pull/15
+
+
+
+Parametrize e testes negativos: 
+
+https://github.com/rochacbruno/dundie-rewards/commit/7966e53554ad665417f842fe61a015d8cc9b6250
