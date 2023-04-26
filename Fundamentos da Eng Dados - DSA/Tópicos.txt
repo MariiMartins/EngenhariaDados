@@ -91,58 +91,38 @@
     31) Quiz
 
 5. Data Warehouse, Data Lake e Data Lakehouse
-    1)
-    2)
-    3) 
-    4) 
-    5) 
-    6) 
-    7) 
-    8)
-    9)
-    10) 
-    11)
-    12)
-    13)
-    14)
-    15)
-    16)
-    17)
-    18)
-    19)
-    20)
-    21)
-    22)
-    23)
-    24)
-    25)
+    1) Como Implementar um Data Warehouse - P1
+    2) Como Implementar um Data Warehouse - P2
+    3) Como Implementar um Data Lake - P1
+    4) Como Implementar um Data Lake - P2
+    5) Como Implementar um Data Lakehouse
+    6) Vantagens e Desvantagens
+    7) Enterprise Data Hub
+    8) Arquitetura Data Mesh
+    9) [PDF] Demonstração Pratica 2 - Implementando um Data Lakehouse
+    10) Demonstração Pratica 2 - Por que usamos o Data Lakehouse?
+    11) Demonstração Pratica 2 - Arquitetura da solução de um Data Lakehouse
+    12) Demonstração Pratica 2 - Definindo o ambiente na Nuvem para o Data Lakehouse
+    13) Demonstração Pratica 2 - Trabalhando com o Data Lakehouse
+    14) Quiz
 
 6. Introdução à Modelagem de Dados
-    1)
-    2)
-    3) 
-    4) 
-    5) 
-    6) 
-    7) 
-    8)
-    9)
-    10) 
-    11)
-    12)
-    13)
-    14)
-    15)
-    16)
-    17)
-    18)
-    19)
-    20)
-    21)
-    22)
-    23)
-    24)
-    25)
+    1) Definição de Dados
+    2) O que é Modelagem de Dados?
+    3) Modelagem Relacional x Dimensional x Modelagem de Data Lakes
+    4) O que é Esquema em Modelagem de Dados?
+    5) O que são Constraints?
+    6) Modelagem de Dados - Modelo conceitual
+    7) Modelagem de Dados - Modelo Lógico
+    8) Modelagem de Dados - Modelo Fisico
+    9) [PDF] Definindo a Granularidade do Modelo de Dados
+    10) [PDF] O que são Formas Normais?
+    11) [PDF] Principais Formas Normais
+    12) [PDF] Projeto de Índices em Modelagem de Dados
+    13) [PDF] A importância do Particionamento em Modelagem de Dados
+    14) [PDF] O Engenheiro de Dados deve ser Responsável pela modelagem de dados?
+    15) [PDF] Qual o papel do Arquiteto de Dados na modelagem de dados?
+    16) Quiz
 
 7. Data Quality, Data Lineage e Data Observability
     1)
