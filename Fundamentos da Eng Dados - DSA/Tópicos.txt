@@ -1,0 +1,228 @@
+## Tópicos a serem Especificados.
+
+1. Introdução
+    1) O que é Engenharia de Dados? Definindo com uma Imagem
+    2) O que é Engenharia de Dados? - Compreendendo o conceito em mais detalhes
+    3) Engenharia de Dados e sua importância Dentro da Ciencia de Dados
+    4) Hierarquia de Necessidades em Data Science.
+    5) [PDF] Perfil do Engenheiro de Dados
+    6) [PDF] Engenheiro de Dados x Cientista de Dados
+    7) [PDF] Engenheiro de Dados x Arquiteto de Dados
+    8) [PDF] Nunca Houve Momento melhor para o Engenheiro de Dados
+
+2. Pipeline de Dados e o Processo de Engenharia de Dados
+    1) O que é um Pipeline de Dados? P1
+    2) O que é um Pipeline de Dados? P2
+    3) Componentes de um Pipeline de Dados
+    4) Pipeline de Dados x Pipeline ETL
+    5) [PDF] Caracteristicas dos Pipelines de Dados Modernos
+    6) Principais Ferramentas para Construir Pipelines de Dados - Transformação de Dados - P1
+    7) Principais Ferramentas para Construir Pipelines de Dados - Transformação de Dados - P2
+    8) Principais Ferramentas para Construir Pipelines de Dados - Armazenamento e Cloud Computing
+    9) Principais Ferramentas para Construir Pipelines de Dados - RealTime Analytics
+    10) Ciclo de Vida da Engenharia de Dados - Diagrama
+    11) Ciclo de Vida da Engenharia de Dados - Fonte de Dados
+    12) Ciclo de Vida da Engenharia de Dados - Ingestão de Dados
+    13) Ciclo de Vida da Engenharia de Dados - Transformação e Enriquecimento
+    14) Ciclo de Vida da Engenharia de Dados - Carga e Uso dos Dados
+    15) Ciclo de Vida da Engenharia de Dados - Armazenamento
+    16) Ciclo de Vida da Engenharia de Dados - Analytics, Machine Learning, IA, Relatórios e Dashboards
+    17) Ciclo de Vida da Engenharia de Dados - Arquitetura de Dados
+    18) Ciclo de Vida da Engenharia de Dados - Gestão de Dados e Metadados
+    19) Ciclo de Vida da Engenharia de Dados - Orquestração
+    20) Ciclo de Vida da Engenharia de Dados - Segurança
+    21) [PDF] O que é CI/CD (Integração Contínua/ Entrega Contínua)
+    22) Ciclo de Vida da Engenharia de Dados - CI/CD 
+    23) Ciclo de Vida da Engenharia de Dados - DataOps
+    24) Ciclo de Vida da Engenharia de Dados - Conclusão
+    25) Quiz
+
+3. Arquitetura e Pipelines de Dados
+    1) A importância da Arquitetura de Pipelines de Dados
+    2) Pipeline de Dados x Pipeline ETL x Pipeline de Machine Learning - P1
+    3) Pipeline de Dados x Pipeline ETL x Pipeline de Machine Learning - P2
+    4) Comece a Arquitetura de Pipelines de Dados por estas Perguntas - P1
+    5) Comece a Arquitetura de Pipelines de Dados por estas Perguntas - P2
+    6) [PDF] Estudo de Caso 1 - Design de Arquitetura Moderna de Pipeline de Dados para empresa da área de Manufatura
+    7) Estudo de Caso 1 - Visão Geral
+    8) Estudo de Caso 1 - Compreensao dos Requisitos de Negócio
+    9) Estudo de Caso 1 - Esboço do Pipeline de Dados
+    10) Estudo de Caso 1 - Batch, Streaming ou Ambos?
+    11) Estudo de Caso 1 - Volume de Dados e Armazenamento
+    12) Estudo de Caso 1 - Repositório de Dados
+    13) Estudo de Caso 1 - Extração e Processamento de Dados
+    14) Estudo de Caso 1 - Containers e Orquestração de Containers como Parte da solução
+    15) Estudo de Caso 1 - IaC (Infraestrutura como código) e CI/CD
+    16) Estudo de Caso 1 - Custo do Pipeline de Dados
+    17) Estudo de Caso 1 - Arquitetura Final do Pipeline e Considerações Finais
+    18) Quiz
+    
+4. Armazenamento e Processamento Distribuido
+    1) Por que o Armazenamento de Dados é Importante?
+    2) Os Padrões de Acesso definem o Tipo de Armazenamento
+    3) Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? P1
+    4) Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? P2
+    5) Armazenamento Colunar x Linha
+    6) Quando usar um Data Warehouse?
+    7) Quando usar um Data Lake?
+    8) Quando usar um Data Lakehouse?
+    9) Quando usar um Data Store? P1
+    10) Quando usar um Data Store? P2
+    11) Quando usar um Data Store? P3
+    12) Formatos de Arquivos frequentemente usados em Engenharia de Dados
+    13) Formato Parquet
+    14) Formato Avro
+    15) Formato ORC, CSV e JSON
+    16) O que é um sistema Distribuido?
+    17) Sistemas de Arquivos Distribuidos e Sistemas de Processamento Distribuido
+    18) Hierarquia de um Sistema Distribuido
+    19) 10 Exemplos de Sistemas de Arquivos Locais
+    20) 10 Exemplos de Sistemas de Arquivos Distribuidos
+    21) 20 Exemplos de Sistemas de Processamento Distribuidos
+    22) Vantagens de Distemas Distribuidos
+    23) Desvantagens de Sistemas Distribuidos
+    24) [PDF] Exemplos de Soluções Para Armazenamento e Processamento Distribuido
+    25) [PDF] Compressão de Arquivos para o ArmazenamentoDistribuido
+    26) [PDF] Demonstração Pratica 1 - O Funcionamento de um Sistema Distribuido
+    27) Demonstração Pratica 1 - Definindo o Ambiente
+    28) Demonstração Pratica 1 - Carga de Dados
+    29) Demonstração Pratica 1 - Comportamento do Sistema Distribuido quando um servidor fica indisponivel
+    30) Demonstração Pratica 1 - Acessando os Dados
+    31) Quiz
+
+5. Data Warehouse, Data Lake e Data Lakehouse
+    1)
+    2)
+    3) 
+    4) 
+    5) 
+    6) 
+    7) 
+    8)
+    9)
+    10) 
+    11)
+    12)
+    13)
+    14)
+    15)
+    16)
+    17)
+    18)
+    19)
+    20)
+    21)
+    22)
+    23)
+    24)
+    25)
+
+6. Introdução à Modelagem de Dados
+    1)
+    2)
+    3) 
+    4) 
+    5) 
+    6) 
+    7) 
+    8)
+    9)
+    10) 
+    11)
+    12)
+    13)
+    14)
+    15)
+    16)
+    17)
+    18)
+    19)
+    20)
+    21)
+    22)
+    23)
+    24)
+    25)
+
+7. Data Quality, Data Lineage e Data Observability
+    1)
+    2)
+    3) 
+    4) 
+    5) 
+    6) 
+    7) 
+    8)
+    9)
+    10) 
+    11)
+    12)
+    13)
+    14)
+    15)
+    16)
+    17)
+    18)
+    19)
+    20)
+    21)
+    22)
+    23)
+    24)
+    25)
+
+8. DevOps para Engenheiros de Dados
+    1)
+    2)
+    3) 
+    4) 
+    5) 
+    6) 
+    7) 
+    8)
+    9)
+    10) 
+    11)
+    12)
+    13)
+    14)
+    15)
+    16)
+    17)
+    18)
+    19)
+    20)
+    21)
+    22)
+    23)
+    24)
+    25)
+
+9. Engenharia de Dados com Linguagem Python
+    1)
+    2)
+    3) 
+    4) 
+    5) 
+    6) 
+    7) 
+    8)
+    9)
+    10) 
+    11)
+    12)
+    13)
+    14)
+    15)
+    16)
+    17)
+    18)
+    19)
+    20)
+    21)
+    22)
+    23)
+    24)
+    25)
+
+10. Avaliação e Certificado de Conclusão
