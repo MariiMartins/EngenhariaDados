@@ -2,7 +2,8 @@
 
 This repository serves to document the lessons of the course.
 
-## Udemy 
+## Udemy
+
     1- Introdução
     2 - Aspectos Gerais sobre Engenharia de Dados
     3 - Criando conta e ambiente no AWS
@@ -21,6 +22,7 @@ This repository serves to document the lessons of the course.
     16 - Gerenciando Serviços pela CLI
 
 ## Python - LinuxTips (#Chama as Minas)
+
     1-  Introdução a programação e ao Python
     2 - Tipo de Dados e Protocolos
     3 - Input,Output,Algoritmos, Condicionais e Repeticoes
