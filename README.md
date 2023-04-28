@@ -2,7 +2,7 @@
 
 This repository serves to document the lessons of the course.
 
-## Udemy
+<details><summary> Udemy </summary>
 
     1- Introdução
     2 - Aspectos Gerais sobre Engenharia de Dados
@@ -20,8 +20,9 @@ This repository serves to document the lessons of the course.
     14 - Aplicações em Streaming - Kinesis
     15 - ETL e Data Crawler - Glue e Athena
     16 - Gerenciando Serviços pela CLI
+</details>
 
-## Python - LinuxTips (#Chama as Minas)
+<details><summary> Python - LinuxTips (#Chama as Minas) </summary>
 
     1-  Introdução a programação e ao Python
     2 - Tipo de Dados e Protocolos
@@ -30,3 +31,4 @@ This repository serves to document the lessons of the course.
     5 - Testes e Qualidade de Software
     6 - Orientacao a Objetos
     7 - Integração com APIs e Banco de Dados
+</details>
