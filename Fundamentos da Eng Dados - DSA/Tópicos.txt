@@ -125,84 +125,57 @@
     16) Quiz
 
 7. Data Quality, Data Lineage e Data Observability
-    1)
-    2)
-    3) 
-    4) 
-    5) 
-    6) 
-    7) 
-    8)
-    9)
-    10) 
-    11)
-    12)
-    13)
-    14)
-    15)
-    16)
-    17)
-    18)
-    19)
-    20)
-    21)
-    22)
-    23)
-    24)
-    25)
+    1) O que é qualidade dos Dados (Data Quality)?
+    2) Como medir qualidade dos Dados (Data Quality)?
+    3) Principais medidas de qualidade dos Dados - Precisão
+    4) Principais medidas de qualidade dos Dados - Exatidão
+    5) Principais medidas de qualidade dos Dados - Consistencia
+    6) Principais medidas de qualidade dos Dados - Relevancia
+    7) Principais medidas de qualidade dos Dados - Cobertura
+    8) Principais medidas de qualidade dos Dados - Atualidade
+    9) O Valor da qualidade dos Dados
+    10) Correções Típicas nos Dados
+    11) O que é Linhagem de Dados (Data Lineage)?
+    12) A importância da Linhagem de Dados (Data Lineage)
+    13) Definindo o Conceito de Observabilidade dos Dados (Data Observability)
+    14) Os 5 pilares da Observabilidade dos Dados (Data Observability)
+    15) [PDF] Exemplos de Ferramentas de Observabilidade dos Dados (Data Observability)
+    16) [PDF] Tendências em Engenharia de Dados - Contrato de Dados
+    17) Demonstração Prática 3 - Visão Geral
+    18) Demonstração Prática 3 - Conhecendo o SQLFlow para Linhagem de Dados - P1
+    19) Demonstração Prática 3 - Conhecendo o SQLFlow para Linhagem de Dados - P2
+    20) Demonstração Prática 3 - Linhagem de Dados de Data Warehouse - P1
+    21) Demonstração Prática 3 - Linhagem de Dados de Data Warehouse - P2
+    22) Demonstração Prática 3 - Linhagem de Dados de Data Warehouse - P3
+    23) Demonstração Prática 3 - Linhagem de Dados de Data Warehouse - P4
+    24) Demonstração Prática 3 - Linhagem de Dados de Data Warehouse - P5
+    25) Quiz
 
 8. DevOps para Engenheiros de Dados
-    1)
-    2)
-    3) 
-    4) 
-    5) 
-    6) 
-    7) 
-    8)
-    9)
-    10) 
-    11)
-    12)
-    13)
-    14)
-    15)
-    16)
-    17)
-    18)
-    19)
-    20)
-    21)
-    22)
-    23)
-    24)
-    25)
+    1) [PDF] O que é DevOps?
+    2) [PDF] Prática de DevOps na Engenharia de Dados
+    3) [PDF] O que é IaC (Infraestrutura como código)?
+    4) [PDF] Como IaC é usada na Engenharia de Dados?
+    5) [PDF] CI/CD (Integração Contínua/Entrega Contínua)
+    6) [PDF] Como aplicar CI/CD em Engenharia de Dados?
+    7) [PDF] containers e Orquestração de Containers
+    8) [PDF] Como usar containers em Engenharia de Dados?
+    9) [PDF] Cloud Computing x Solução Local para Engenharia de Dados
+    10) [PDF] Principais Soluções de IaC para Engenharia de Dados
+    11) [PDF] Plataforma Databricks
+    12) [PDF] Modern Data Stack
+    13) Quiz
 
 9. Engenharia de Dados com Linguagem Python
-    1)
-    2)
-    3) 
-    4) 
-    5) 
-    6) 
-    7) 
-    8)
-    9)
-    10) 
-    11)
-    12)
-    13)
-    14)
-    15)
-    16)
-    17)
-    18)
-    19)
-    20)
-    21)
-    22)
-    23)
-    24)
-    25)
+    1) [PDF] Demonstração Prática 4 - Criação de Pipeline de Extração, Limpeza, Transformação e Enriquecimento de Dados
+    2) Visão Geral da Demonstração Prática 4
+    3) Ferramentas para Demonstração de Engenharia de Dados em Linguagem Python
+    4) Demonstração Prática 4 - Pipeline de Carga de Dados
+    5) Demonstração Prática 4 - Pipeline de Limpeza de Dados
+    6) Demonstração Prática 4 - Pipeline de Transformação de Dados
+    7) Demonstração Prática 4 - Pipeline de Enriquecimento de Dados
+    8) Demonstração Prática 4 - Pipeline de Formatação e Ajuste Final dos Dados
+    9) Encerramento
+    10) [PDF] Scripts e Arquivos da Demonstração Prática 4
 
 10. Avaliação e Certificado de Conclusão
