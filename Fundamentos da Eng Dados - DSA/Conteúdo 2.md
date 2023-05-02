@@ -1,6 +1,6 @@
 # 2. Pipeline de Dados e o Processo de Engenharia de Dados
 
-<!--
+<!---
 ## <details> <summary> 2.4 Pipeline de Dados x Pipeline ETL </summary>
     - Os sistemas de ETL são um tipo de pipeline de dados, pois movem dados de uma origem, transformam os dados e, em seguida carregam os dados em um destino. 
     Mas ETL geralmente é apenas um subprocesso de um pipeline de dados.
