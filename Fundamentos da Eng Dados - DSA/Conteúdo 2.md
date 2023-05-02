@@ -104,13 +104,29 @@ Arquitetura de Dados, Gestão de Dados e Metadados, Orquestração, Segurança, 
     Uma ferramenta como airbyte por exemplo vai buscar esses dados faz a ingestão no sistema de armazenamento, já aplica a transformação e já leva adiante.
     Então a ingestão de dados Visa tirar os dados da fonte e levar esses dados para sua plataforma de dados que é onde a "brincadeira" vai acontecer.
 </details>
+
+## <details><summary> 2.15 Ciclo de Vida da Engenharia de Dados - Armazenamento </summary>
+Os dados são ativos digitais, eles têm que existir em algum lugar. Não pode existir no além ou no Limbo, então quando eu extrai os dados da fonte e eu fizer a ingestão na plataforma de dados para poder aplicar a transformação e enriquecimento; aonde estarão os dados nesse momento? Em um sistema de armazenamento.
+
+Ou seja eu preciso de um armazenamento no mínimo intermediário para que eu possa colocar os dados ali, os dados vão residir naquele armazenamento para então aplicar transformação com linguagem SQL ou usar linguagem Python ou usar alguma outra ferramenta.
+
+uma vez que os dados tenham sido transformados, enriquecidos eu posso tirar os dados desse armazenamento e então levar para o destino. Esse armazenamento pode ser um Data Lake dentro da empresa, pode ser um data Store que é o sistema de
+armazenamento, pode ser um data Warehouse. Depende de como a empresa vai construir a sua arquitetura.
+Se a empresa decide extrair os dados do formato bruto e fazer a ingestão no formato bruto para depois poder limpar
+transformar, o armazenamento provavelmente será um Data Lake.
+
+Eventualmente a empresa pode extrair os dados, e já aplicar alguma transformação e carregar para DataWarehouse se os dados são mais simples e as transformações forem mais simples, isso também é uma arquitetura totalmente viável.
+
+Se os dados são gerados em tempo real você pode extrair os dados no momento que eles são gerados, você já aplica a limpeza, transformação isso pode ficar até na memória do computador se o volume de dados não é tão grande você usa um cluster para um ambiente distribuído, isso fica na memória do ambiente distribuído no cluster, também é possível então você extraiu, jogou na memória do cluster, aplicou a transformação, já alimentou um dashboard lá com o sistema qualquer de analíticos, já entregou o resultado mas isso tem também outro lado é uma infraestrutura mais complexa para você manter, vai precisar de profissionais ainda mais capacitados, vai funcionar muito bem para um propósito, você não pode extrair todos os dados manter tudo no cluster de maneira simultânea o tempo inteiro dependendo do volume.
+
+Talvez isso não seja algo factível veja que temos sempre canalizar cada cenário a necessidade da empresa como a empresa vai usar os dados no dia a dia.
+</details>
+
 -->
 
 ## Tópico
 <!-- 
-2.13) Ciclo de Vida da Engenharia de Dados - Transformação e Enriquecimento
-2.14) Ciclo de Vida da Engenharia de Dados - Carga e Uso dos Dados
-2.15) Ciclo de Vida da Engenharia de Dados - Armazenamento
+
 2.16) Ciclo de Vida da Engenharia de Dados - Analytics, Machine Learning, IA, Relatórios e Dashboards
 2.17) Ciclo de Vida da Engenharia de Dados - Arquitetura de Dados
 2.18) Ciclo de Vida da Engenharia de Dados - Gestão de Dados e Metadados
