@@ -82,6 +82,7 @@
 
 |PaaS| x |
 |Parquet | x |
+|POC| |
 |PIM| x |
 |PuTTY| x |
 
