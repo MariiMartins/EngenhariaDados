@@ -23,6 +23,7 @@ Engenheiro de dados Qual é o seu trabalho?
 # 3. Arquitetura e Pipelines de Dados
 
 ## <details><summary>3.1 A importância da Arquitetura de Pipelines de Dados </summary>
+
 A importância da arquitetura de pipelines de dados.
 
 Os pipelines de dados não são peças isoladas criadas pela área de TI (ou pelo menos não deveriam ser), os pipelines de dados são parte da arquitetura de dados de uma empresa que por sua vez é parte da plataforma de dados da empresa.
