@@ -38,34 +38,24 @@ Logo cada pipeline de dados deve ter um propósito e deve fazer parte de uma arq
 
 </details>
 
+## <details><summary>  3.2 e 3.3 Pipeline de Dados x Pipeline ETL x Pipeline de Machine Learning </summary>
+
+</details>
+
 ##
 <!-- 
-## 3.2 e 3.3 Pipeline de Dados x Pipeline ETL x Pipeline de Machine Learning
-
 ## 3.4 e 3.5 Comece a Arquitetura de Pipelines de Dados por estas Perguntas
-
 ## 3.6 [PDF] Estudo de Caso 1 - Design de Arquitetura Moderna de Pipeline de Dados para empresa da área de Manufatura
-
 ## 3.7 Estudo de Caso 1 - Visão Geral
-
 ## 3.8 Estudo de Caso 1 - Compreensao dos Requisitos de Negócio
 ## 3.9 Estudo de Caso 1 - Esboço do Pipeline de Dados
-
 ## 3.10 Estudo de Caso 1 - Batch, Streaming ou Ambos?
-
 ## 3.11 Estudo de Caso 1 - Volume de Dados e Armazenamento
-
 ## 3.12 Estudo de Caso 1 - Repositório de Dados
-
 ## 3.13 Estudo de Caso 1 - Extração e Processamento de Dados
-
 ## 3.14 Estudo de Caso 1 - Containers e Orquestração de Containers como Parte da solução
-
 ## 3.15 Estudo de Caso 1 - IaC (Infraestrutura como código) e CI/CD
-
 ## 3.16 Estudo de Caso 1 - Custo do Pipeline de Dados
-
 ## 3.17 Estudo de Caso 1 - Arquitetura Final do Pipeline e Considerações Finais
-
 ## 3.18 Quiz
 -->
