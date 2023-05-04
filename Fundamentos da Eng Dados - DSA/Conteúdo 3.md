@@ -38,21 +38,69 @@ Logo cada pipeline de dados deve ter um propósito e deve fazer parte de uma arq
 
 </details>
 
-## <details><summary>  3.2 e 3.3 Pipeline de Dados x Pipeline ETL x Pipeline de Machine Learning </summary>
+## <details><summary> 3.2 e 3.3 Pipeline de Dados x Pipeline ETL x Pipeline de Machine Learning </summary>
+    - ETL: Extração, Limpeza e Transformação;
+    - Dados: Extração de Dados, Limpeza e Transformação, Processamento dos Dados e Fluxo de Dados
+</details>
 
+## <details><summary> 3.4 e 3.5 Comece a Arquitetura de Pipelines de Dados por estas Perguntas </summary>
+    -> Quais são os requisitos de negócio?
+    -> Quais resultados finais são necessarios?
+    -> Os dados estão disponiveis? Quais as fontes?
+    -> Quais tipos de formato(s) de dados estão disponíveis?
+    -> Qual o crescimento esperado do volume de dados?
+    -> Quanto de armazenamento será necessário?
+    -> Quanto de capacidade computacional será necessário?
+    -> Usaremos dados em batch, em streaming ou ambos?
+    -> Ja temos tecnologia que permita criar os pipelines?
+    -> Quais tecnologias devem ser consideradas?
+    -> Quais sao os Acordos de Nível de Serviço (SLA's)?
+    -> Qual o custo de implementar e manter os pipelines?
+    -> Qual será o destino do pipeline?
+    -> Como será monitorado?
+    -> Usaremos diversos pipelines encadeados?
+    -> Vamos criar os pipelines locais, na nuvem ou ambos?
 </details>
 
 ##
 <!-- 
-## 3.4 e 3.5 Comece a Arquitetura de Pipelines de Dados por estas Perguntas
 ## 3.6 [PDF] Estudo de Caso 1 - Design de Arquitetura Moderna de Pipeline de Dados para empresa da área de Manufatura
 ## 3.7 Estudo de Caso 1 - Visão Geral
 ## 3.8 Estudo de Caso 1 - Compreensao dos Requisitos de Negócio
+    -> Compreender o problema
+        - empresa de manufatura
+        - medio porte
+        - fabrica utensilhos domesticos
+        - adquiriu novas máquinas que conectam a rede
+    -> Compreender o que deve ser entregue
+    -> Pesquisar as fontes de dados
+        - máquinas em formato TXT
+    -> Interficar a infraestrutura atual e o que será necessário
+    -> Desenhar o esboço da solução
+
 ## 3.9 Estudo de Caso 1 - Esboço do Pipeline de Dados
 ## 3.10 Estudo de Caso 1 - Batch, Streaming ou Ambos?
+    Batch (dados em Lotes), são dados assincronos na empresa.
+
 ## 3.11 Estudo de Caso 1 - Volume de Dados e Armazenamento
+    -> 10 máquinas, cada uma gerando 1 arquivo a cada 1h e cada arquivo tem aproximadamente 1MB.
+    -> Logo são 10MH/h
+    -> Empresa funciona 12h/dia (5 dias por semana)- 120MB/dia, 600MB/semana, 2.4GB/mes e 30GB/ano.
+        -> mais 5 máquinas irão chegar no próximo semestre, logo esperamos crescimento de cerca de 50% no volume de dados.
+    -> Vamos considerar que precisamos armazener os dados extraidos e também após o processo de limpeza e transformação. Sendo assim cerca de 100GB/ano.    
+
 ## 3.12 Estudo de Caso 1 - Repositório de Dados
+    -> Podemos usar o AWS Data Lake para Armazenamento.
+    -> AWS Glue para criar um catalogo de Dados.
+    -> Amazon Cloud Watch para o monitoramento da infraestrutura.
+
 ## 3.13 Estudo de Caso 1 - Extração e Processamento de Dados
+    -> Podemos usar o Kafka (Apache Kafka) para extrair os dados e enviar-los para o ambiente em nuvem.
+    -> Na nuvem o Spark (Apache Spark) poderia fazer o processamento, assim evitariamos a necessidade de um armazenamento intermediário.
+ - Ou seja, ao invés de armazenar dados em um data lake para processa-los depois, já processariamos os dados no momento em que são extraídos, aplicando as transformações necessárias e reduzindo o espaço total de armazenamento dos dados.
+ Então o resultado do processamento seria gravado em um ?DataLake para então ser usado em Machine Learning.
+ E enviariamos as atualizações necessárias para o sistema de estoque da empresa, atendendo assim os 2 requisitos de entrega do pipeline, com o menor custo possível e com todo o processamento sendo feito na nuvem.
+ 
 ## 3.14 Estudo de Caso 1 - Containers e Orquestração de Containers como Parte da solução
 ## 3.15 Estudo de Caso 1 - IaC (Infraestrutura como código) e CI/CD
 ## 3.16 Estudo de Caso 1 - Custo do Pipeline de Dados
