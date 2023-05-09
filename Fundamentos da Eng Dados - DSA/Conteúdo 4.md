@@ -3,12 +3,15 @@
 ## 1. Por que o Armazenamento de Dados é Importante?
 
 ## 2. Os Padrões de Acesso definem o Tipo de Armazenamento
+
     - quantos sistemas precisarão de acesso à camada de armazenamento de dados?
     - com que frequencia os sistemas acessarão o armazenamento de dados?
     - qual o volume de dados que esses sistemas estarão lendo?
     - quanta logica será aplicada por esses sistemas aos dados?
     - como o sistema acessa tecnicamente os dados?
-## <details>  3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? P1
+
+## <details>  3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos?
+
     -> Depende dos padrões de acesso;
     <details>SQL
         - O armazenamento SQL é o formato tradicional de armazenamento de dados no formato tabular;
@@ -24,12 +27,14 @@
 
     - BigData é definido por 4 Vs: Volume, Velocidade, Viariedade e Veracidade.
     - E o V de Variedxade é normalmente uma das partes mais complexas. Pode ser necessário trabalhar com dados no fromato de vídeo, áudio, imagens, texto, arquivos pdf ou mesmo ícones. Ou ainda dados em um formato que facilite a pesquisa e reduza o espaço necessário para armazenamento.
-   - Bancos de dados SQL ou NoSQL podem nãoser ideais nesses casos, isso sem falar na performance de acesso.
-   - Exatamente aí que precisaremos de alternativas para armazenamento de dados. Precisamos de diferentes formatos e diferentes sistemas.
-   - Alternativas incluem: Parquet, Avro, JSON, CSV, ORC, HDF5 e vários outros formatos.
+    - Bancos de dados SQL ou NoSQL podem nãoser ideais nesses casos, isso sem falar na performance de acesso.
+    - Exatamente aí que precisaremos de alternativas para armazenamento de dados. Precisamos de diferentes formatos e diferentes sistemas.
+    - Alternativas incluem: Parquet, Avro, JSON, CSV, ORC, HDF5 e vários outros formatos.
+
 </details>
-   
+
 ## 5. Armazenamento Colunar x Linha
+
     Armazenamento baseado em Linha
         | ID | Nome | Sobrenome | Salário |
         | -- | -- | --- | --- |
@@ -41,8 +46,9 @@
         | Nome| Manuel: 001, Carlos:002, Cora:003 |
         | Sobrenome| Bandeira:001, Drummond: 002, Coralina: 003|
         | Salario|12.000:001, 15.000:002, 14.000:003|
-    
+
 ## 6. Quando usar um Data Warehouse?
+
     - Um Data Warehouse é um tipo d e banco de dados projetado especificamente para consultas e análises eficientes de grandes quantidades de dados.
     - Ele é normalmente usado para armazenar e gerenciar dados de várias fontes, como bancos de dados transacionais ou arquivos de log.
     - Data Warehouse é um conceito, logo pode ser criado com SGBD SQL ou NoSQL, no formato colunar ou baseado em linha.
@@ -55,6 +61,7 @@
     Em geral, um DW é uma boa opção se voce tiver grande volume de dados que precisa armazenar e analisar com eficiencia ou se precisar oferecer suporte a sistemas de relatórios e inteligencia de negócios.    
 
 ## 7. Quando usar um Data Lake?
+
     - um DW requer que os mdados sejam limpos e organizadps antes do armazenamento.
     - o Data Lake permite o armazenamento dos dados no seu formato bruto para posterior processamento e organização
 
@@ -82,6 +89,7 @@
     Em geral, um DL é uma boa opção se voce tiver grandes volumes de dados estruturados e não estruturados que precisa armazenar e processar em escala ou se precisar de um repositório centralizado para armazenar e processar dados de várias fontes.
 
 ## 8. Quando usar um Data Lakehouse?
+
     Um Data Lakehouse pode ser definido como uma plataforma de dados moderna construída a partir de uma combinação de um Data Lake e um Data Warehouse.
     Mais especificamente, um Data Lakehouse une o armazenamento flexível de dados não estruturados de um Data Lake e os recursos e ferramnetas de gerenciamento de data Warehouses e os implementa estrategicamnete como um sistema maior.
     Essa integração de duas ferramnetas exclusivas traz o melhor dos dois mundos para os usuários.
@@ -104,8 +112,8 @@
         3 - Desafios Adicionais de Governança de Dados
         4 - Desafios Adicionais de Integração de Dados
 
-
 ## 9, 10 e 11. Quando usar um Data Store?
+
     Um Data Store é um repositório para armazenar e gerenciar dados.
     Tecnicamente podemos dividir os Data Stores em 7 categorias:
         1 - Bancos de Dados Relacionais (SQL - Normalmente usados em DWs)
@@ -182,6 +190,6 @@
 
 ## 30. Demonstração Pratica 1 - Acessando os Dados
 
---> 
+-->
 
-## (31. Quiz)[]
+## [31. Quiz](link)
