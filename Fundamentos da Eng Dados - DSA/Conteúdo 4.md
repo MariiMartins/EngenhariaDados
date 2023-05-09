@@ -10,21 +10,21 @@
     - quanta logica será aplicada por esses sistemas aos dados?
     - como o sistema acessa tecnicamente os dados?
 
-## <details>  3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos?
+<details><summary>  3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? </summary>
 
-    -> Depende dos padrões de acesso;
-    <details>SQL
+    - Depende dos padrões de acesso;
+    
+    SQL
         - O armazenamento SQL é o formato tradicional de armazenamento de dados no formato tabular;
         - É um dos formatos de armazenamento mais antigos e amplamente usados nos dias de hoje
         - Ideal para dados estruturados
         - Usamos SGBDs (Sistemas Gerenciadores de Bancos de Dados) como Oracle, PostgresSQL, SQL Server ou MySQL, entre outros.
-    </details>    
-    <details> NoSQL
+   
+    NoSQL
         - O armazenamento NoSQL nasceu na era do BigData para permitir o armazenamento de dados em diferentes formatos, em especial, dados semi-estruturados como no formato JSON, XML ou colunar
         - São sistemas de armazenamento orientados à performance e facilidade de uso
         - Exemplos de SGBDs NoSQL: MongoDB, Redis, Apache Cassandra, Apache HBase e Amazon DynamoDB.
-    </details>
-
+    
     - BigData é definido por 4 Vs: Volume, Velocidade, Viariedade e Veracidade.
     - E o V de Variedxade é normalmente uma das partes mais complexas. Pode ser necessário trabalhar com dados no fromato de vídeo, áudio, imagens, texto, arquivos pdf ou mesmo ícones. Ou ainda dados em um formato que facilite a pesquisa e reduza o espaço necessário para armazenamento.
     - Bancos de dados SQL ou NoSQL podem nãoser ideais nesses casos, isso sem falar na performance de acesso.
@@ -35,23 +35,28 @@
 
 ## 5. Armazenamento Colunar x Linha
 
-    Armazenamento baseado em Linha
-        | ID | Nome | Sobrenome | Salário |
-        | -- | -- | --- | --- |
-        |1001| Manuel | Bandeira | 12.000|
-        |1002| Carlos | Drummond | 15.000|
-        |1003| Cora | Coralina | 14.000|
-    Armazenamento baseado em Coluna
-        | ID | 1001:001, 1002:002, 1003:003|
-        | Nome| Manuel: 001, Carlos:002, Cora:003 |
-        | Sobrenome| Bandeira:001, Drummond: 002, Coralina: 003|
-        | Salario|12.000:001, 15.000:002, 14.000:003|
+Armazenamento baseado em Linha
+
+| ID | Nome | Sobrenome | Salário |
+| ---- | ---- | ---- | ---- |
+|1001 | Manuel | Bandeira | 12.000 |
+|1002 | Carlos | Drummond | 15.000 |
+|1003 | Cora | Coralina | 14.000 |
+
+Armazenamento baseado em Coluna
+
+| Campo | Valor |
+| --- | --- |
+| ID | 1001:001, 1002:002, 1003:003|
+| Nome| Manuel: 001, Carlos:002, Cora:003 |
+| Sobrenome| Bandeira:001, Drummond: 002, Coralina: 003|
+ Salario |12.000:001, 15.000:002, 14.000:003|
 
 ## 6. Quando usar um Data Warehouse?
 
-    - Um Data Warehouse é um tipo d e banco de dados projetado especificamente para consultas e análises eficientes de grandes quantidades de dados.
+    - Um Data Warehouse é um tipo de banco de dados projetado especificamente para consultas e análises eficientes de grandes quantidades de dados.
     - Ele é normalmente usado para armazenar e gerenciar dados de várias fontes, como bancos de dados transacionais ou arquivos de log.
-    - Data Warehouse é um conceito, logo pode ser criado com SGBD SQL ou NoSQL, no formato colunar ou baseado em linha.
+    - DW é um conceito, logo pode ser criado com SGBD SQL ou NoSQL, no formato colunar ou baseado em linha.
     - Existem varios motivos pelos quais voce pode optar por usar um DW:
         1- Grande volumes de dados: se a empresa possui um grande volume de dados que precisam ser armazenados e analisados, um DW pode ser uma solução eficiente.
         2- Necessidade de desempenho de consulta analítica: Os DW sãp projetados especificamente para desempenho de consultas, o que pode ser importante se voce precisar recuperar e analisar grandes quantidades de dados de maneira rápida.
