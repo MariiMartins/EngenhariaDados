@@ -8,8 +8,7 @@
     - qual o volume de dados que esses sistemas estarão lendo?
     - quanta logica será aplicada por esses sistemas aos dados?
     - como o sistema acessa tecnicamente os dados?
-    
-<details> ## 3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? P1
+## <details>  3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? P1
     -> Depende dos padrões de acesso;
     <details>SQL
         - O armazenamento SQL é o formato tradicional de armazenamento de dados no formato tabular;
@@ -83,7 +82,7 @@
     Em geral, um DL é uma boa opção se voce tiver grandes volumes de dados estruturados e não estruturados que precisa armazenar e processar em escala ou se precisar de um repositório centralizado para armazenar e processar dados de várias fontes.
 
 ## 8. Quando usar um Data Lakehouse?
-    Um Data Lakehouse pode sere definido como uma plataforma de dados moderna construída a partir de uma combinação de um Data Lake e um Data Warehouse.
+    Um Data Lakehouse pode ser definido como uma plataforma de dados moderna construída a partir de uma combinação de um Data Lake e um Data Warehouse.
     Mais especificamente, um Data Lakehouse une o armazenamento flexível de dados não estruturados de um Data Lake e os recursos e ferramnetas de gerenciamento de data Warehouses e os implementa estrategicamnete como um sistema maior.
     Essa integração de duas ferramnetas exclusivas traz o melhor dos dois mundos para os usuários.
     Data Lakehouses implementam estruturas de dados e recursos de gerenciamneto de dados semelhantes aos de um DW diretamente sobre o armazenamento em nuvem de baixo custo em formatos abertos e, normalmente, distribuidos.
@@ -105,8 +104,8 @@
         3 - Desafios Adicionais de Governança de Dados
         4 - Desafios Adicionais de Integração de Dados
 
-<!--
-## 9. Quando usar um Data Store? P1
+
+## 9, 10 e 11. Quando usar um Data Store?
     Um Data Store é um repositório para armazenar e gerenciar dados.
     Tecnicamente podemos dividir os Data Stores em 7 categorias:
         1 - Bancos de Dados Relacionais (SQL - Normalmente usados em DWs)
@@ -117,12 +116,34 @@
         6 - Fila de Mensagens
         7 - In-Memory Data Store
 
-
-
-## 10. Quando usar um Data Store? P2
+    - Sistemas de Arquivos
+        - Podem ser lcoal ou em rede (NTFS, FAT, NAS, SAN)
+        - Podem ser distribuidos (HDFS - Hadoop Distribuited File System, Object Storage)
+        - POdem ser na nuvem (Amazon S3, Azure Blob Storage, Google Storage, Delta Lake)
+        - O objetivo é armazenar dados em qualquer formato de arquivo (CSV, JSON, PARQUET, AVRO, ORC)
+        - Em geral tem baixo custo
     
-## 11. Quando usar um Data Store? P3
+    - Armazenamento Key-Value
+        - Outra maniera de armazenar dados não relacionais é em um armazenamento de cahve-valor (key-value)
+        - Um armazenamento de chave-valor é basicamente um hashmap em escala de produção: um mapa de chaves para valores. Não há esquemas sofisticados ou relacionamentos entre os dados. Nenhuma tabela ou ouyro grupo lógico de dados do mesmo tipo. Apenas chaves e valores, é isso.
+        - Exemplos de armazenamntos de chave-valor: Redis e Memcached
 
+    - Full-Text Search Engine (Mecanismo de Pesquisa de Texto)
+        - Os mecanismos de pesquisa são um tipo especial de armazenamento de dados projetados para um caso de uso muito específico: pesquisar documentos de texto.
+        - Você envia documentos semiestruturados para o mecanismo de pesquisa, mas em vez de armazená-los como estão e usar analisadores XML ou JSON para extrair informações, o mecanismo de pesquisa divide o conteúdo do documento em um novo formato otimizado para pesquisa com base em substrings de campos de texto.
+        - Elasticsearch é o principal representante desta categoria.
+
+    Fila de Mensagens
+        - Um data Store bastante útil é o tipo fila de mensagem, agindo como um middleware.
+        - Você pode se surpreender ao ver as filas de mensagens nesta lista porque elas são consideradas mais uma ferramenta de transferência de dados do que uma ferramenta de armazenamento de dados, mas as filas de mensagens armazenam seus dados com tanta confiabilidade e ainda mais persistência do que algumas das outras ferramentas que listamos anteriormente.
+        - O Apache Kafka é o principal representante desta categoria.
+    
+    In-Memory Data Store
+        - In-Memory Data Store são sistemas que armazenam, leem, gravam e acessam dados na memória de acesso aleatório (RAM) em vez de na memória somente leitura (ROM).
+        - Os In-Memory Data Stores usam RAM para recuperar dados rapidamente, fazendo réplicas constantes atualizadas de registros de dados e são definidos pelo local em que mantêm os dados, não necessariamente pelo tipo de estrutura de dados.
+        - Redis, VoltDB e SAP Hana são os principais representantes desta categoria.
+
+<!--
 ## 12. Formatos de Arquivos frequentemente usados em Engenharia de Dados
 
 ## 13. Formato Parquet
