@@ -1,4 +1,4 @@
-# 4. Armazenamento e Processamento Distribuido
+# 4. Armazenamento e Processamento Distribuído
 
 ## 1. Por que o Armazenamento de Dados é Importante?
 
@@ -216,7 +216,7 @@ Armazenamento baseado em Coluna
         - JSON (JavaScript Object Notation) é um formato de intercâmbio de dados leve que é facil para os humanos lerem e escreverem e fácil para as máquinas analisarem e gerarem. É frequentemente usado para armazenar e trocar dados pela internet. Muito usado em aplicações web.
         - Alternativas são o formato XML e YAML.
 
-## 16. O que é um sistema Distribuido?
+## 16. O que é um sistema Distribuído?
 
     - Considere um único sevidor (computador), essa máquina tem uma quantidade limitada de espaço em disco (1TB, por exemplo) e tem limitação física de capacidade computacional (por exemplo 1 processador Intel Core i& e 16GB de RAM), essas são limitações fisicas do computador e do que ele pode armazenar e processar.
     - E se pudermos usar a capacidade de armazenamento e processamento de diversos computadores simultaneamente? Sim, podemos fazer isso, e assim nasceram os sistemas distribuidos.
@@ -227,7 +227,7 @@ Armazenamento baseado em Coluna
     - Mas se sistemas distribuidos trouxeram uma solução eficiente para armazenamento e processamneto, também trouxeram um novo problema:
         - Como vamos gerenciar as tarefas computacionais em diversos computadores simultaneamente?
 
-## 17. Sistemas de Arquivos Distribuidos e Sistemas de Processamento Distribuido
+## 17. Sistemas de Arquivos Distribuidos e Sistemas de Processamento Distribuído
 
     Mas se sistemas distribuidos trouxeram uma solução eficiente para armazenamento e processamento, também trouxeram um novo problema:
         Como vamos gerenciar as tarefas computacionais em diversos computadores simultaneamente?
@@ -245,7 +245,7 @@ Armazenamento baseado em Coluna
         - Um sistema de arquivos distribuido, capaz de gerenciar o armazenamento de forma distribuida pelo sistema. 
         - Um sistema de processamento distribuido, capaz de ler e gravar dados do sistema de armazenamento distribuido e realizar o processamento usando a capacidade computacional oferecida pelas 3 máquinas.
 
-## 18. Hierarquia de um Sistema Distribuido
+## 18. Hierarquia de um Sistema Distribuído
 
 ## 19. 10 Exemplos de Sistemas de Arquivos Locais
 
@@ -276,8 +276,8 @@ Sistema de Arquivos Distribuidos:
 
 ## 21. 20 Exemplos de Sistemas de Processamento Distribuidos
 
-O Processamento Distribuido pode ser usado sempre que for necessário algum tipo de computação (cálculos, resumos, simulações, organização de dados, etc..) e que o processamneto local não seja suficiente.
-Usamos processamento Distribuido quando é necessário alta capacidade computacional e/ou trabalhar com alto volume de dados.
+O Processamento Distribuído pode ser usado sempre que for necessário algum tipo de computação (cálculos, resumos, simulações, organização de dados, etc..) e que o processamneto local não seja suficiente.
+Usamos processamento Distribuído quando é necessário alta capacidade computacional e/ou trabalhar com alto volume de dados.
 Para realizar o processamento distribuido precisamos de software capaz de funcionar em ambiente distribuido.
 
 Exemplos de Sistemas de Processamento distribuido:
@@ -318,21 +318,32 @@ Existem também algumas desvantagens em usar sistema distribuido:
     - Riscos de Segurança: Os sistemas distribuidos podem ser mais vulneraveis a ameaças de segurança, como ataques a computadores individuais ou à propria rede.
     - Custo: Configurar e manter um sistema distribuido pode ser mais caro do que usar um único computador, seja localmente ou em nuvem
 
-<!--
-## 24. [PDF] Exemplos de Soluções Para Armazenamento e Processamento Distribuido
+## 24. [PDF] Exemplos de Soluções Para Armazenamento e Processamento Distribuído
 
-## 25. [PDF] Compressão de Arquivos para o ArmazenamentoDistribuido
+Existem muitos exemplos de soluções de armazenamento e processamento distribuído, incluindo:
+    • Armazenamento em nuvem: sistemas de armazenamento em nuvem, como Amazon S3  ou  Google  Cloud  Storage,  permitem  que  os  usuários  armazenem  e  recuperem dados de uma rede de servidores em vez de um único computador. Isso permite um armazenamento escalável e altamente disponível que pode ser acessado de qualquer lugar com uma conexão à Internet.
+    • Sistemas de arquivos distribuídos: sistemas de arquivos distribuídos, como o Cloud Storage  do  Google  e  o  HDFS  do  Apache  Hadoop,  permitem   que  os   usuários armazenem e acessem arquivos em vários computadores em um sistema distribuído.
+    • Bancos  de  dados  distribuídos:  bancos  de  dados  distribuídos,  como  MongoDB  e Cassandra,  permitem  que  os  usuários  armazenem  e  acessem  dados  em  vários computadores em um sistema distribuído.
+    • Plataformas  de  computação:distribuída:  plataformas  de  computação  distribuída, como Apache Sparke Apache Airflow, permitem que os usuários processem grandes quantidades de dados em paralelo em um sistema distribuído. Essas plataformas são frequentemente usadas para tarefas de análise de dados e aprendizado de máquina.
+    • Redes de entrega de conteúdo (CDNs): CDNs, como Akamai e Cloudflare, usam uma rede  distribuída  de  servidores  para  entregar  conteúdo  (como  sites  e  vídeos)  para usuários com alta disponibilidade e baixa latência. 
+    • Redes descentralizadas: redes  como  a Blockchain Ethereum,  permitem  que  os usuários   compartilhem   recursos   e   informações   diretamente   entre   si   sem   a necessidade de um servidor central.
 
-## 26. [PDF] Demonstração Pratica 1 - O Funcionamento de um Sistema Distribuido
+## 25. [PDF] Compressão de Arquivos para o Armazenamento Distribuído
+
+A compressão é uma técnica comum usada em sistemas de armazenamento distribuído para  reduzir  a  quantidade  de  espaço  de  armazenamento  necessária  para  um  determinado conjunto de dados. Isso pode ser especialmente útil em sistemas distribuídos de grande escala, onde o volume de dados armazenados pode ser muito grande.Existem  várias  maneiras  de  usar  a  compactação  em  sistemas  de  armazenamento distribuído:
+    - No  nível  do  arquivo:  Arquivos  individuais  podem  ser  compactados  antes  de  serem armazenados  no  sistema  de  armazenamento  distribuído.  Isso  pode  ser  feito  usando vários algoritmos  de  compactação,  como  gzip  ou  bzip2,  que  podem  reduzir  significativamente  o tamanho do arquivo.
+    - No  nível  do  bloco:  Em  alguns  sistemas  de  armazenamento  distribuído,  os  dados  são armazenados em blocos, que normalmente são de tamanho fixo (por exemplo, 128MB). Esses blocos  podem  ser  compactados  antes  de  serem  armazenados,  usando  um  algoritmo  de compactação sem perdas ou com perdas.
+    - Compactação em trânsito: Os dados também podem ser compactados à medida que são transferidos  entre  computadores  no  sistema  distribuído.  Isso  pode  ser  feito  usando  uma variedade de técnicas, como compactação HTTP ou dimensionamento de janela TCP.
+É importante observar que a eficácia da compactação dependerá das características dos dados que estão sendo compactados. Alguns tipos de dados, como texto ou código, podem ser altamente compactáveis, enquanto outros tipos de dados, como imagens ou vídeos, podem ser menos compactáveis.Sendo assim, os dados podem ser armazenados em bancos de dados SQL, em bancos de dados  NoSQL,  em  Data  Lakes  com  diferentes  formatos  de  arquivos  e  ainda  é  possível  aplicar compressão.  A  decisão  da  arquitetura  de  armazenamento  depende  do  volume  de  dados,  do padrão de acesso, tipo de processamento e casos de uso.
+
+## 26. [PDF] Demonstração Pratica 1 - O Funcionamento de um Sistema Distribuído
 
 ## 27. Demonstração Pratica 1 - Definindo o Ambiente
 
 ## 28. Demonstração Pratica 1 - Carga de Dados
 
-## 29. Demonstração Pratica 1 - Comportamento do Sistema Distribuido quando um servidor fica indisponivel
+## 29. Demonstração Pratica 1 - Comportamento do Sistema Distribuído quando um servidor fica indisponivel
 
 ## 30. Demonstração Pratica 1 - Acessando os Dados
-
--->
 
 ## [31. Quiz](link)
