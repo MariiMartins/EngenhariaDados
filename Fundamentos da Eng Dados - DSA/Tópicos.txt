@@ -79,7 +79,7 @@
     19) 10 Exemplos de Sistemas de Arquivos Locais
     20) 10 Exemplos de Sistemas de Arquivos Distribuidos
     21) 20 Exemplos de Sistemas de Processamento Distribuidos
-    22) Vantagens de Distemas Distribuidos
+    22) Vantagens de Sistemas Distribuidos
     23) Desvantagens de Sistemas Distribuidos
     24) [PDF] Exemplos de Soluções Para Armazenamento e Processamento Distribuido
     25) [PDF] Compressão de Arquivos para o ArmazenamentoDistribuido

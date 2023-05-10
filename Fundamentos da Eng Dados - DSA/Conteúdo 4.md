@@ -5,9 +5,9 @@
 ## 2. Os Padrões de Acesso definem o Tipo de Armazenamento
 
     - quantos sistemas precisarão de acesso à camada de armazenamento de dados?
-    - com que frequencia os sistemas acessarão o armazenamento de dados?
+    - com que frequência os sistemas acessarão o armazenamento de dados?
     - qual o volume de dados que esses sistemas estarão lendo?
-    - quanta logica será aplicada por esses sistemas aos dados?
+    - quanta lógica será aplicada por esses sistemas aos dados?
     - como o sistema acessa tecnicamente os dados?
 
 <details><summary>  3 e 4 Armazenamento SQL/NoSQL ou Armazenamento de Arquivos? </summary>
@@ -26,8 +26,8 @@
         - Exemplos de SGBDs NoSQL: MongoDB, Redis, Apache Cassandra, Apache HBase e Amazon DynamoDB.
     
     - BigData é definido por 4 Vs: Volume, Velocidade, Viariedade e Veracidade.
-    - E o V de Variedxade é normalmente uma das partes mais complexas. Pode ser necessário trabalhar com dados no fromato de vídeo, áudio, imagens, texto, arquivos pdf ou mesmo ícones. Ou ainda dados em um formato que facilite a pesquisa e reduza o espaço necessário para armazenamento.
-    - Bancos de dados SQL ou NoSQL podem nãoser ideais nesses casos, isso sem falar na performance de acesso.
+    - E o V de Variedade é normalmente uma das partes mais complexas. Pode ser necessário trabalhar com dados no formato de vídeo, áudio, imagens, texto, arquivos pdf ou mesmo ícones. Ou ainda dados em um formato que facilite a pesquisa e reduza o espaço necessário para armazenamento.
+    - Bancos de dados SQL ou NoSQL podem não ser ideais nesses casos, isso sem falar na performance de acesso.
     - Exatamente aí que precisaremos de alternativas para armazenamento de dados. Precisamos de diferentes formatos e diferentes sistemas.
     - Alternativas incluem: Parquet, Avro, JSON, CSV, ORC, HDF5 e vários outros formatos.
 
@@ -57,17 +57,17 @@ Armazenamento baseado em Coluna
     - Um Data Warehouse é um tipo de banco de dados projetado especificamente para consultas e análises eficientes de grandes quantidades de dados.
     - Ele é normalmente usado para armazenar e gerenciar dados de várias fontes, como bancos de dados transacionais ou arquivos de log.
     - DW é um conceito, logo pode ser criado com SGBD SQL ou NoSQL, no formato colunar ou baseado em linha.
-    - Existem varios motivos pelos quais voce pode optar por usar um DW:
+    - Existem varios motivos pelos quais você pode optar por usar um DW:
         1- Grande volumes de dados: se a empresa possui um grande volume de dados que precisam ser armazenados e analisados, um DW pode ser uma solução eficiente.
-        2- Necessidade de desempenho de consulta analítica: Os DW sãp projetados especificamente para desempenho de consultas, o que pode ser importante se voce precisar recuperar e analisar grandes quantidades de dados de maneira rápida.
-        3 - Necessidade de integrar dados de várias fontes: Se voce tiver dados de varias fontes que precisa integrar e analisar em conjunto, um DW pode ser uma ferramenta útil.
-        4 - necessidade de oferecer suporte à inteligencia de negócios (BI) e relatórios: Os DW costumam ser usados como base para inteligencia de negócios e sistemas de relatórios, pois permitem consultas e análises de dados rápidaws e eficientes.
+        2- Necessidade de desempenho de consulta analítica: Os DW sãp projetados especificamente para desempenho de consultas, o que pode ser importante se você precisar recuperar e analisar grandes quantidades de dados de maneira rápida.
+        3 - Necessidade de integrar dados de várias fontes: Se você tiver dados de varias fontes que precisa integrar e analisar em conjunto, um DW pode ser uma ferramenta útil.
+        4 - necessidade de oferecer suporte à inteligencia de negócios (BI) e relatórios: Os DW costumam ser usados como base para inteligencia de negócios e sistemas de relatórios, pois permitem consultas e análises de dados rápidas e eficientes.
         5 - Necessidade de dados históricos: Os DW são frequentemente usados para armazenar dados históricos, pois permitem consultas e análises de dados ao longo do tempo.
-    Em geral, um DW é uma boa opção se voce tiver grande volume de dados que precisa armazenar e analisar com eficiencia ou se precisar oferecer suporte a sistemas de relatórios e inteligencia de negócios.    
+    Em geral, um DW é uma boa opção se você tiver grande volume de dados que precisa armazenar e analisar com eficiencia ou se precisar oferecer suporte a sistemas de relatórios e inteligencia de negócios.    
 
 ## 7. Quando usar um Data Lake?
 
-    - um DW requer que os mdados sejam limpos e organizadps antes do armazenamento.
+    - um DW requer que os dados sejam limpos e organizados antes do armazenamento.
     - o Data Lake permite o armazenamento dos dados no seu formato bruto para posterior processamento e organização
 
     DW -> Limpa e organiza, depois carrega
@@ -80,18 +80,18 @@ Armazenamento baseado em Coluna
     - Mas por definição um banco de dados SQL não seria o ideal, uma vez que a ideia é carregar primeiro e limpar e organizar os dados depois.
     - Podemos usar bancos de dados NoSQL ou tecnologias de armazenamento distribuido para construir DL, localmente ou na nuvem!
 
-    - Existem vários motivos pelos quais voce pode optar por usar um DL.
+    - Existem vários motivos pelos quais você pode optar por usar um DL.
         1. Necessidade de armazenar e processar dados em sua forma bruta: Os DL permitem que você armazene e processe dados em sua forma bruta e não estruturada, o que pode ser útil se você precisar preservar os dados originais ou se quiser manter a flexibilidade na forma como processa e analisa os dados.
         
-        2. Necessidade de armazenar e processar grandes volumes de dados: Se voce possui um grande volume de dados que precisam ser armazenados e processados, um Data Lake pode ser uma solução eficiente.
+        2. Necessidade de armazenar e processar grandes volumes de dados: Se você possui um grande volume de dados que precisam ser armazenados e processados, um Data Lake pode ser uma solução eficiente.
 
-        3. Necessidade de armazenar e processar dados estruturados e não estruturados: Os DL são adequados para armazenar e processar dados estruturados e não estruturados, tornando-os uma boa escolha se voce tiver uma variedade diversificada de tipos de dados.
+        3. Necessidade de armazenar e processar dados estruturados e não estruturados: Os DL são adequados para armazenar e processar dados estruturados e não estruturados, tornando-os uma boa escolha se você tiver uma variedade diversificada de tipos de dados.
 
-        4. Necessidade de escalabilidade: Os DL são projetados para serem escaláveis, permitindo que voce armazene e processe facilmente grandes quantidades de dados à medida que suas necessidades aumentam.
+        4. Necessidade de escalabilidade: Os DL são projetados para serem escaláveis, permitindo que você armazene e processe facilmente grandes quantidades de dados à medida que suas necessidades aumentam.
 
-        5. Necessidade de um repositório de dados centralizado: Se voce tiver dados de várias fontes que precisa armazenar e processar em um local centralizado, um DL pode ser uma ferramenta útil.
+        5. Necessidade de um repositório de dados centralizado: Se você tiver dados de várias fontes que precisa armazenar e processar em um local centralizado, um DL pode ser uma ferramenta útil.
     
-    Em geral, um DL é uma boa opção se voce tiver grandes volumes de dados estruturados e não estruturados que precisa armazenar e processar em escala ou se precisar de um repositório centralizado para armazenar e processar dados de várias fontes.
+    Em geral, um DL é uma boa opção se você tiver grandes volumes de dados estruturados e não estruturados que precisa armazenar e processar em escala ou se precisar de um repositório centralizado para armazenar e processar dados de várias fontes.
 
 ## 8. Quando usar um Data Lakehouse?
 
@@ -156,31 +156,169 @@ Armazenamento baseado em Coluna
         - Os In-Memory Data Stores usam RAM para recuperar dados rapidamente, fazendo réplicas constantes atualizadas de registros de dados e são definidos pelo local em que mantêm os dados, não necessariamente pelo tipo de estrutura de dados.
         - Redis, VoltDB e SAP Hana são os principais representantes desta categoria.
 
-<!--
 ## 12. Formatos de Arquivos frequentemente usados em Engenharia de Dados
+
+    Uma vez definidos os objetivos, casos de uso e os padrões de acesso, teremos que fazer escolhas quanto ao armazenamento de dados.
+        - Armazenamento estruturado, semi ou não estruturados? Todos são possíveis?
+        - Sistemas de armazenamento como DW, DL, Data Lakehouse ou DS? Todos são possíveis? Integrações?
+        - Armazenamento local ou na nuvem? Ambos?
+        - Qual formato de arquivo usar para o armazenamento temporário durante o pipeline de dados ou armazenamento do resultado?
 
 ## 13. Formato Parquet
 
+    - Parquet é um formato de armazenamento colunar para armazenar grandes quantidades de dados de forma eficiente.
+    - É uma escolha popular para armazenar dados no ecossistema Hadoop (em ambiente distríbuido) porque permite consultas e análises eficientes usando ferramnetas como Apache Spark, Apache Hive e Impala.
+    - Vale a pena notar que o Parquet não é a única opção para armazenar dados de forma eficiente. Outras opções incluem Avro, ORC e Delta Lake.
+
+    -Alguns casos de uso específicos para arquivos no formato Parquet:
+        - Armazenamneto de grandes quantidades de dados estruturados ou semiestruturados.
+        - Consulta de dados usando ferramentas semelhantes a SQL.
+        - Compartilhamento de dados entre sistemas.
+        - Data warehousing.
+    
+    - Principais características de arquivos no formato Parquet:
+        - Ótima compressão dos dados (excelente para armazenamento)
+        - Leitura seletiva (leitura somente do que realmente precisa dentro do arquivo)
+        - Suporote em diversas plataformas (Spark, Pandas, etc..)
+        - Fácil de particionar (excelente para leitura dos dados)
+
 ## 14. Formato Avro
+
+    - Avro é um formato de serialização para armazenar dados.
+    - Esse formato é frequentemente usado no ecossitema Hadoop porque oferece suporte a estruturas de dados complexas e é eficiente para armazenar grandes quantidades de dados em um ambiente distribuido.
+
+    -Alguns casos de uso específicos para arquivos no formato Avro:
+        - Armazenamento de grandes quantidades de dados
+        - armazenamento de dados com estruturas complexas
+        - compartilhamento de dados entre sistemas
+        - Processamento de dados com hadoop
+
+    - Principais características de arquivos no formato Parquet:
+        - Permite mudanças de schema
+        - Orientado a linha
+        - suporte a schema irregular (como JSON)
 
 ## 15. Formato ORC, CSV e JSON
 
+    ORC
+        - ORC (Optimized Row Columnar) é um formato de armazenamento colunar para armazenar grandes quantidades de dados de forma eficiente.
+        - Arquivos ORC são compostos de grupos de linhas.
+        - Arquivos ORC suportam tipos de dados como datetime, decimal e tipos complexos (lists, maps, structs)
+
+    CSV
+        - Arquivos CSV (Comma Separated Values) são simples, fáceis e amplamente usados para armazenar dados.
+        - Nada especial. Sem compressão. Sem cabeçalhos built-in (como parquet ou avro)
+        - são muito fáceis de usar, desde que o volume de dados não seja muito grande.
+        - O delimitador é importante
+
+    JSON
+        - um dos formatos de arquivos mais úteis para armazenar dados semi-estruturados.
+        - JSON (JavaScript Object Notation) é um formato de intercâmbio de dados leve que é facil para os humanos lerem e escreverem e fácil para as máquinas analisarem e gerarem. É frequentemente usado para armazenar e trocar dados pela internet. Muito usado em aplicações web.
+        - Alternativas são o formato XML e YAML.
+
 ## 16. O que é um sistema Distribuido?
 
+    - Considere um único sevidor (computador), essa máquina tem uma quantidade limitada de espaço em disco (1TB, por exemplo) e tem limitação física de capacidade computacional (por exemplo 1 processador Intel Core i& e 16GB de RAM), essas são limitações fisicas do computador e do que ele pode armazenar e processar.
+    - E se pudermos usar a capacidade de armazenamento e processamento de diversos computadores simultaneamente? Sim, podemos fazer isso, e assim nasceram os sistemas distribuidos.
+    - Um sistema distribuido é uma rede de computadores que trabalham juntos como um único sistema, e que pode ser usado para armazenamento, processamento ou ambos.
+    - Esses sistemas são projetados para compartilhar recursos e cargas de trabalho entre vários computadores, permitindo que eles dimensionem e lidem com cargas de trabalho maiores do que um único computador poderia fazer sozinho.
+    - Os sistemas distribuidos são frequentemente usados para fornecer serviços como armazenamento de arquivos, gerenciamento de banco de dados ou computação distribuida e podem ser encontrados em uma variedade de contextos, incluindo aplicações web, computação em nuvem, simulações científicas e, claro, Engenharia de dados.
+    - Existem muitas abordagens diferentes para projetar e implementar sistemas distribuidos, e a arquitetura e o design específicos de um determinado sistema dependerão das necessidades e objetivos do sistema.
+    - Mas se sistemas distribuidos trouxeram uma solução eficiente para armazenamento e processamneto, também trouxeram um novo problema:
+        - Como vamos gerenciar as tarefas computacionais em diversos computadores simultaneamente?
+
 ## 17. Sistemas de Arquivos Distribuidos e Sistemas de Processamento Distribuido
+
+    Mas se sistemas distribuidos trouxeram uma solução eficiente para armazenamento e processamento, também trouxeram um novo problema:
+        Como vamos gerenciar as tarefas computacionais em diversos computadores simultaneamente?
+    Para um computador funcionar, além do hardware, ele precisa (pelo menos) dos seguintes softwares:
+        Sistema Operacional (Windows, Linux ou MacOS, por exemplo)
+        Sistema de Arquivos Local (NTFS, ext4, APFS, por exemplo)
+    Mas um sistema de arquivos local não foi desenvolvido para ambiente distribuido. Ele existe para gerenciar o armazenamento e processamento localmente. Logo, precisamos de uma outra camada de software para um sistema distribuído!
+    - Um sistema distribuido existe sobre a camada local de um computador.
+    
+    - Considere um sistema distribuido de 3 máquinas:
+        - Cada máquina terá seu próprio sistema operacional;
+        - Cada máquina terá seu próprio sistema de arquivos local;
+        - Podemos ter cada máquina do sistema distribuido com SO Linux e cada máquina com sistema de arquivos ext4, por exemplo.
+    Considerando um sistema distribuido de 3 máquinas, para que as 3 máquinas realmente funcionem com um sistema distribuído, precisamos de mais duas camadas de software:
+        - Um sistema de arquivos distribuido, capaz de gerenciar o armazenamento de forma distribuida pelo sistema. 
+        - Um sistema de processamento distribuido, capaz de ler e gravar dados do sistema de armazenamento distribuido e realizar o processamento usando a capacidade computacional oferecida pelas 3 máquinas.
 
 ## 18. Hierarquia de um Sistema Distribuido
 
 ## 19. 10 Exemplos de Sistemas de Arquivos Locais
 
+Sistemas de Arquivos Locais:
+    FAT(FAT16, FAT32)
+    NTFS
+    HFS e HPFS
+    PFS
+    UFS
+    ext2, ext3, ext4
+    XFS
+    Veritas File System
+    VMS
+    ZFS
+    ReiserFS
+
 ## 20. 10 Exemplos de Sistemas de Arquivos Distribuidos
+
+Sistema de Arquivos Distribuidos:
+    Hadoop Distribuited File System (HDFS)
+    Windows Distribuited File System
+    Network File System (NFS)
+    Server Message Block (SMB)
+    Google File System (GFS)
+    Lustre
+    GlusterFS
+    Amazon S#, Google Cloud Storage, Microsoft Block Storage.
 
 ## 21. 20 Exemplos de Sistemas de Processamento Distribuidos
 
-## 22. Vantagens de Distemas Distribuidos
+O Processamento Distribuido pode ser usado sempre que for necessário algum tipo de computação (cálculos, resumos, simulações, organização de dados, etc..) e que o processamneto local não seja suficiente.
+Usamos processamento Distribuido quando é necessário alta capacidade computacional e/ou trabalhar com alto volume de dados.
+Para realizar o processamento distribuido precisamos de software capaz de funcionar em ambiente distribuido.
+
+Exemplos de Sistemas de Processamento distribuido:
+    Apache Spark
+    Apache Storm
+    Apache Flink
+    Apache Flume
+    Apache Kafka
+    Apache Hadoop MapReduce
+    Apache Beam
+    Elasticsearch
+    Dremio
+    Presto
+    Snowflake
+    Fivetran
+    Apache Airflow
+    Airbyte
+    DBT
+    Google BigQuery
+    AWS Glue
+    AWs Athena
+    Amazon EMR (Elastic MapReduce)
+    Microsoft Azure Synapse
+
+## 22. Vantagens de Sistemas Distribuidos
+
+Existem várias vantagens em usar um sistema distribuido:
+    - Escalabilidade: Um sistema distribuido pode ser dimensionado facilmente para lidar com cargas de trabalho crescente adicionando mais computadores ao sistema.
+    - Confiabilidade: Se um computador falhar, os outros computadores do sistema podem continuar funcionando.
+    - Desempenho: Os sistemas distribuidos geralmente terão um desempenho melhor do que um único computador porque as tarefas podem ser divididas entre vários computadores, permitindo que sejam concluídas em paralelo.
+    - Flexibilidade: os sistemas distribuidos podem ser projetados para serem felxíveis e adaptáveis, permitindo que sejam usados em uma variedade de contextos diferentes e para uma ampla gama de aplicações.
 
 ## 23. Desvantagens de Sistemas Distribuidos
 
+Existem também algumas desvantagens em usar sistema distribuido:
+    - complexidade: Os sistemas distribuidos podem ser complexos de projetar e manter, exigindo conhecimento especializado.
+    - Sobrecarga de Comunicação: Em um sistema distribuido, os computadores precisam se comunicar uns com os outros para coordenar suas ações e compartilhar informações. Isso pode introduzir sobrecarga e latência adicionais.
+    - Riscos de Segurança: Os sistemas distribuidos podem ser mais vulneraveis a ameaças de segurança, como ataques a computadores individuais ou à propria rede.
+    - Custo: Configurar e manter um sistema distribuido pode ser mais caro do que usar um único computador, seja localmente ou em nuvem
+
+<!--
 ## 24. [PDF] Exemplos de Soluções Para Armazenamento e Processamento Distribuido
 
 ## 25. [PDF] Compressão de Arquivos para o ArmazenamentoDistribuido
