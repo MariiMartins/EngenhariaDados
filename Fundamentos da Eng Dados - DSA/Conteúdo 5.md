@@ -15,13 +15,58 @@ Existem várias etapas para implementar um DW. Aqui estão elas:
     - Usar Data Marts: Os Data Marts são DWs departamentais, em geral com volume de dados menor. O uso de Data Marts pode evitar problemas de performance e segurança de acesso aos dados.
     - Manutenção do Modelo de Dados: Revisar periodicamente o modelo e fazer alterações conforme mudanças no cenário de negócios.
 
-## 3. Como Implementar um Data Lake - P1
-
-## 4. Como Implementar um Data Lake - P2
+## 3 e 4. Como Implementar um Data Lake
+    Exitem várias etapas para implementar um Data Lake. Aqui estão elas:
+        1 - Identificar os Requisitos: Reunir os requisitos de negócios e dados para determinar o que será incluído no DL.
+        2 - Escolher uma Plataforma: Podemos usar o HDFS para uma implemetação local ou uma plataforma em nuvem, como o Amazon S3, Microsoft Azure Data Lake Storage ou Google Cloud Storage.
+        3 - Integração: Ao invés de usar o ETL (Extração, Transformação, Carga) como no caso do DW, com Data Lakes usamos ELT (Extração, Carga,Transformação).
+        4 - Armazenamento: A próxima etapa é armazenar os dados  integrados no Data Lake, geralmente em formato bruto ou semi-estruturado.
+        5 - Agendamentos: Configurar as atualizações automáticas para que os dados sejam carregados regularmente.
+        6 - Acesso: Fornecer acesso aos dados do DL através de ferramentas de análise, como o Apache Hive ou o Apache Spark.
+        7 - Governança de Dados: Garantir a qualidade e a confiabilidade dos dados armazenados no DL, usando ferramentas de governança de dados.
+        8 - Monitoramento: Monitorar a performance do DL e realizar manutenção regular para garanit que ele esteja funcionando corretamnete e atendendo às necessidades dos usuários.
 
 ## 5. Como Implementar um Data Lakehouse
-
+Um Data Lakehouse é uma combinação de um Data Lake e um Data Warehouse, que combina a flexibilidade e escalabilidade de um Data Lake com a governança e performance de um Data Warehouse.
+A implementação de um Data Lakehouse envolve algumas etapas semelhantes às de um Data Lake e um Data Warehouse. As etapas gerais incluem:
+    1 - Identificar os Requisitos: Reunir os requisitos de negócios e dados para determinar o que será incluído no Data Lakehouse.
+    2 - Escolher uma Plataforma: O Data Lakehouse já nasceu no ambiente em nuvem e plataformas como o Azure Synapse Analytics, Googel BigQuery, Dremio, Databricks ou Snowflake são opções.
+    3 - Integrações: Integrar os dados de várias fontes diferentes usando ferramnetas de ETL ou de integração de dados, para atender a diferentes formatos e estruturas.
+    4 - Armazenamento: Armazenar os dados integrados no Data Lakehouse, geralmente em formato bruto, semi-estruturado ou estruturado e com a capacidade de lidar com grande volume de dados.
+    5 - Governança de Dados, Atualizações e Monitoramento: Assim como o DW e Data Lake.
+    
 ## 6. Vantagens e Desvantagens
+Data Warehouse - Vantagens:
+    - Dados estruturados e limpos, o que facilita a análise e geração de relatórios.
+    - Performance de consultas e relatórios é geralmente melhor devido a otimização dos dados.
+    - Governança de dados mais robusta, garantindo a qualidade e confiabilidade dos dados.
+    - Maior capacidade de suportar demandas de negócios e análise avançada.
+Data Warehouse - Desvantagens:
+    - Pode ser caro e complexo de implementar e manter.
+    - Exige um processo de limpeza e modelagem de dadosw rigoroso antes da carga de dados.
+    - Restringe a capacidade de armazenar grandes volumes de dados não estruturados.
+    - Pode ser limitado em lidar com dados em tempo real ou com fontes dinâmicas e não estruturadas.
+
+Data Lake - Vantagens:
+    - Capaz de armazenar grandes volumes de dados não estruturados e semi-estruturados.
+    - Flexível para lidar com diferentes formatos de dados e fontes.
+    - Escalável para lidar com grandes volumes de dados.
+    - Permite análise avançada e aplicações de Bigdata, Machine Learning e IA.
+Data Lake - Desvantagens: 
+    - Governança de dados menos robusta comparando a um DW, o que pode levar a problemas de qualidade e confiabilidade dos dados.
+    - Performance de consultas e relatórios pode ser menor devido à falta de otimização dos dados.
+    - Pode ser caro e complexo de implementar e manter.
+    - Depende de ferramnetas adicionais para limpeza e modelagem de dos antes da análise.
+
+Data Lakehouse - Vantagens:
+    - Combina as vantagens de Data Warehouse e Data Lakes, fornecendo a capacidade de armazenar grandes volumes de dados não estruturados e semi-estruturados, além de garantir uma boa governança e performance em consultas e relatórios.
+    - Flexibilidade para lidar com diferentes formatos de dados e fontes.
+    - Escalável para lidar com grandes volumes de dados.
+    - Permite análise avançada e aplicações de BigData, Machine Learning e IA.
+Data Lakehouse - Desvantagens:
+    - Pode ser caro e complexo de implementar e manter, devido à necessidade de conhecimento especializado e uma equipe multidisciplinar.
+    - Depende de ferramentas adiconais para limpeza e modelagem de dados antes da análise.
+    - Ainda é um conceito recente no mercado e necessita de evolução e maturidade.
 
 ## 7. Enterprise Data Hub
 
