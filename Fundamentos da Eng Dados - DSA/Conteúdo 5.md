@@ -88,4 +88,4 @@ Com Data Mesh a responsabilidade pelos dados usados nas análises é transferida
 
 ## 13. Demonstração Pratica 2 - Trabalhando com o Data Lakehouse
 
-## [14. Quiz]()
+## [14. Quiz](link)
