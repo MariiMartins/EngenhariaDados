@@ -41,8 +41,20 @@ A atualidade é a medida de quão recentes sao os dados. É importante garantie 
  Dados demograficos após o ano de 2010 fazem mais sentido do que dados demográficos da decada de 1950?
 
 9) O Valor da qualidade dos Dados
+Avaliar o valor da qualidade dos dados é importante para garantir que os dados sejam precisos e úteis para a realização de analises. Existem várias tecnicas para determinar o valor da qualidade dos dados, como:
+ Avaliacao da qualidade dos dados oir erris potenciais. Esta abordagem envolve a verificação de ddos em busca de erros, como erros de digitação, dados ausentes ou incorretos, erros de formatação, etc.
+ Análise estatistica e de mineração de dados. Esta tecnica envolve a analise estatistica dos dados e o uso de técnicas de analise de dados para identificar padrões e anomalias.
+ Teste de qualidade. testar a qualidade dos dados é uma das melhores maneiras de avaliar a qualidade dos dados. O teste de qualidade permite verificar se os dados estão corretos e se a conformidade dos dados ás especificações é adequada.
+ Avaliação de dominio. Esta tecnica envolve a verificação dos dados em relação ao dominio dos dados. Por exemplo, se estivermos analisando dados de um banco de dados de vendas, seria necessário verificar se os preços das vendas estão dentro dos limites esperados.
 
 10) Correções Típicas nos Dados
+Algumas correções tipicas nos dados apra garantir a qualidade incluem:
+    - Limpeza: remover dados duplicados, incompletos, inconsistentes ou irrelevantes.
+    - Padronização: converter dados para um formato comum, como a padronização de datas, endereços, nomes e códigos ou colocar os dados na mesma escala.
+    - Tratar Valores ausentes: usar tecnicas de interpolação para preencher valores ausentes ou eliminar registros com valores ausentes em uma ou mais colunas.
+    - Correção de Erros: verificar e corrigir erros de digitação, remover caracteres especiais ou espaços desnecessários, corrigir erros de sobreposição de colunas, etc..
+    - Normalização: transformar dados para um formato normalizado, como por exemplo transformar uma variável para reduzir assimetria.
+    - Validação: validar os dados com regras de negócios ou restrições para garantir a precisçao e integridade dos dados.
 
 11) O que é Linhagem de Dados (Data Lineage)?
 
