@@ -57,12 +57,43 @@ Algumas correções tipicas nos dados apra garantir a qualidade incluem:
     - Validação: validar os dados com regras de negócios ou restrições para garantir a precisçao e integridade dos dados.
 
 11) O que é Linhagem de Dados (Data Lineage)?
+Linhagem dos Dados é a trajetoria de dados ao longo do tempo, incluindo suas origens, transformações, aplicações e destinos finais.
+É uma representação visual ou lógica da evolução dos dados em um sistema, o que permite entender a integridade e a qualidade dos dados.
+A Linhagem dos Dados é importante para várias aplicações, como auditoria de dados, gerenciamento de governança de dados e análise de impacto.
+Linhagem de dados é o processo de rastreamento e documentação do fluxo de dados ao longo do tempo, desde a origem até o destino final, incluindo todas as transformações e operações realizadas nos dados.
+Este conceito é importante para garantir a qualidade dos dados e fornecer uma visão clara de como os dados foram gerados e utilizados em diferentes sistemas e processos.
 
 12) A importância da Linhagem de Dados (Data Lineage)
+A Linhagem de Dados é importante porque:
+ - Ajuda a garantir a qualidade dos dados: rastreando o fluxo de dados, é possivel identificar e corrigir erros ou inconsistencias em diferentes pontos do processo.
+ - Fornece trasnparencia e confiança nos dados: a linhagem de dados permite aos usuários compreender a origem e evolução dos dados, o que aumenta a confiança nos resultados e decisões baseadas neles.
+ - Facilita a auditoria e conformidade regulatória: a linhagem de dados fornece uma visão completa e documentada dos processos de dados, o que é importante para atender a regulamentos e exigencias de auditoria.
+ - Melhora a eficiência de negócios: ao entender o fluxo de dados, é possível identificar oportunidades de otimização e automação de processos de negócios.
 
 13) Definindo o Conceito de Observabilidade dos Dados (Data Observability)
+A Qualidade dos Dados está relacionada com os dados em si, enquanto a Observalidade dos Dados está relacionada com o sistema que fornece esses dados.
+
+**Observabilidade dos Dados > Linham dos Dados > Qualidade dos Dados**
+
+Observabilidade dos Dados é a capacidade de visualizar e entender o estado e o comportamneto dos dados a fim de identificar problemas, corrigir erros e tomar decisçoes informadas.
+A Observabilidade dos Dados inclui a capacidade de monitorar, rastrear e auditar o fluxo de dados, bem como a disponibilidade de matadados e informações sobre as transformações e operações realizadas nos dados.
+Um aspecto fundamental da Observabilidade dos Dados é a capacidade de acessar e analisar dados de todas as partes do sistema.
+Isso inclui dados de aplicações, da infraestrutura e dos usuários do sistema.
+Para utilizar efetivamente a Observabilidade de Dados, é importante ter as ferramentas e os processos corretos em vigor.
+Isso inclui coleta de dados e infraestrutura de armazenamento, bem como ferramentas de análise e visualização.
+Também é importante ter uma compreensão clara das métricas que são mais importantes para rastrear e a maneira apropriada de analisar os dados.
+Outro aspecto importante da Observabilidade de Dados é a capacidade de identificar e solucionar problemas em tempo real.
+Ao monitorar constantemente os dados, é possivel detectar e resolver problemas antes que eles se tornem críticos. 
+Isso pode ser especialmente importante em sistemas com requisitos de alta disponibilidaed, pois o tempo de inatividade pode ter consequencias significativas.
 
 14) Os 5 pilares da Observabilidade dos Dados (Data Observability)
+A Observabilidade dos Dados se baseia no conceito de Qualidade dos Dados para abranger a integridade geral dos sistemas de dados de uma organização.
+Com a Observabilidade dos Dados, uma organização pode identificar melhor seus conjuntos de dados mais críticos, usuários desses dados e problemas decorrentes desses dados.
+ - Freshness: Descreve se os dados são atualis e com que frequencia os dados são atualizados.
+ - Distribution: Descreve se os d=valores dos dados estão dentro de um intervalo aceitável. Os dados fora desse intervalo podem não ser confiaveis.
+ - Volume: Mede se os dados estão completos. Volume de dados inconsistente indica problemas com fontes de dados.
+ - Schema: Rastreia mudanças na organização, quem faz quais mudanças nos dados e quando.
+ - Lineage: Restringe e documenta todo o fluxo de dados desde as fontes iniciais até o consumo final.
 
 15) [PDF] Exemplos de Ferramentas de Observabilidade dos Dados (Data Observability)
 
