@@ -1,4 +1,4 @@
-# 7. Data Quality, Data Lineage e Data Observability
+# 7. Data Quality, Data Lineage e Data Observability.
 <!--
 1) O que é qualidade dos Dados (Data Quality)?
 Data Quality é a medida da qualidade dos dados, ou seja, de quanto os dados são confiáveis.
