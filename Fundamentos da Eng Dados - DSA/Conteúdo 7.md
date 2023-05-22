@@ -89,7 +89,7 @@ A Linhagem de Dados é importante porque:
 
 A Qualidade dos Dados está relacionada com os dados em si, enquanto a Observalidade dos Dados está relacionada com o sistema que fornece esses dados.
 
-**Observabilidade dos Dados > Linham dos Dados > Qualidade dos Dados**
+**Observabilidade dos Dados > Linhagem dos Dados > Qualidade dos Dados**
 
 Observabilidade dos Dados é a capacidade de visualizar e entender o estado e o comportamento dos dados a fim de identificar problemas, corrigir erros e tomar decisões informadas.
 A Observabilidade dos Dados inclui a capacidade de monitorar, rastrear e auditar o fluxo de dados, bem como a disponibilidade de metadados e informações sobre as transformações e operações realizadas nos dados.
