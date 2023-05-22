@@ -35,4 +35,16 @@ This repository serves to document the lessons of the course.
     7 - Integração com APIs e Banco de Dados
 </details>
 
-<!--<details><summary> Fundamentos da Eng Dados - DSA</summary></details>
+<!--<details><summary> Fundamentos da Eng Dados - DSA</summary>
+
+    1. Introdução
+    2. Pipeline de Dados e o Processo de Engenharia de Dados
+    3. Arquitetura e Pipelines de Dados
+    4. Armazenamento e Processamento Distribuido
+    5. Data Warehouse, Data Lake e Data Lakehouse
+    6. Introdução à Modelagem de Dados
+    7. Data Quality, Data Lineage e Data Observability
+    8. DevOps para Engenheiros de Dados
+    9. Engenharia de Dados com Linguagem Python
+    10. Avaliação e Certificado de Conclusão
+</details>
