@@ -1,12 +1,13 @@
 # 6. Introdução à Modelagem de Dados
 
+<!--
 ## 1. Definição de Dados
 
 Dados são valores, observações ou resultados de medição armazenados em um sistema ou base de dados.
 Eles podem ser estruturados, como os dados armazenados em tabelas de banco de dados relacional, ou não estruturados, como texto não formatado, imagens ou áudio.
 Quando transformados ou processados os dados se tornam informações que suportam a tomada de decisões.
 Dados podem representar qualquer tipo de informação, como texto, números, imagens, som, vídeo, entre outros.
-Dados são usados para descrever eventos, tendencias, relações e outras características de interesse.
+Dados são usados para descrever eventos, tendências, relações e outras características de interesse.
 Eles são coletados, armazenados e processados para fornecer informações úteis para a tomada de decisão, a pesquisa e outros fins.
 Esses dados precisam ser modelados para que possamos armazená-los e processá-los de forma eficiente.
 
@@ -22,7 +23,7 @@ A modelagem de dados é uma etapa importante na construção de sistemas de info
      Isso envolve a criação de tabelas que representam entidades, como clientes ou pedidos, e definição de relações entre essas tabelas, como "um cliente pode fazer vários pedidos".
      A modelagem relacional é amplamente utilizada em sistemas de gerenciamento de banco de dados relacional (SGBDs. e é uma abordagem estruturada e estável para armazenar e gerenciar dados em sistemas transacionais.
 
-    - Modelagem Dimensional é uma técnica de modelagem de dados utilizada proncipalmente em sistemas de Business Intelligence (BI. e Data Warehousing(DW.. Ela consiste em modelar os dados de forma a facilitar a análise de dados multidimensionais.
+    - Modelagem Dimensional é uma técnica de modelagem de dados utilizada principalmente em sistemas de Business Intelligence (BI. e Data Warehousing(DW.. Ela consiste em modelar os dados de forma a facilitar a análise de dados multidimensionais.
      Os modelos dimensionais são construídos a partir de fatos (tabelas de medidas. e dimensões (tabelas de contexto., onde os fatos são medidas quantitativas, como vendas, e as dimensões são os contextos dessas medidas, como data, local, produto, entre outros. Essas dimensões são divididas em hierarquias, o que permite uma análise detalhada dos dados.
      A modelagem dimensional é muito utilizada em sistemas de BI e DW pois permite uma fácil agregação e análise dos dados, além de ser escalável e performático.
      Além disso, ela permite a criação de dashboards e relatórios para acompanhamento de indicadores de desempenho, e facilita a análise de dos históricos e a previsão de tendências futuras.
@@ -36,7 +37,7 @@ A modelagem de dados é uma etapa importante na construção de sistemas de info
 ## 4. O que é Esquema em Modelagem de Dados?
 
 O esquema de dados é a estrutura lógica que descreve como os dados estão organizados e relacionados em um banco de dados.
-Ele define as tabelas, campos e relacionamentos estre as tabelas, além de outras restrições e propriedades dos dados.
+Ele define as tabelas, campos e relacionamentos entre as tabelas, além de outras restrições e propriedades dos dados.
 Em um banco transacional ou em um DW, o esquema é mandatório e deve ser definido antes da carga de dados.
 Um mesmo SGBD pode ter diversos bancos de dados e cada banco de dados pode ter diversos esquemas (schemas).
 No Data Lake normalmente não temos esquema pré-definido, mas alguma organização será requerida para o armazenamento.
@@ -65,7 +66,7 @@ O Modelo Lógico permite identificar eventuais problemas que poderão ocorrer na
 
 O Modelo Físico é a última camada de modelagem de dados. Ela é a representação física dos dados, incluindo a estrutura de armazenamento e as configurações de banco de dados específicas.
 Ele descreve como os dados serão armazenados e como eles serão acessados em um sistema de gerenciamento de banco de dados específico.
-O Modelo Físico deve conter todas as definições de constraints, índices e perticionamento dos dados.
+O Modelo Físico deve conter todas as definições de constraints, índices e particionamento dos dados.
 O Modelo Físico inclui detalhes como o nome das tabelas e campos, tipo de dados, tamanho, índices, chaves estrangeiras e outras configurações de banco de dados específicas.
 Esse modelo normalmente é uma extensão do modelo lógico contendo os detalhes de implementação em um SGBD específico. Diversas ferramentas de modelagem permitem converter um modelo lógico para um modelo físico de acordo com o SGBD escolhido.
 Ele é a etapa final da modelagem de dados e é importante para garantir a eficiência, desempenho e escalabilidade do banco de dados.
@@ -74,7 +75,7 @@ Ele é a etapa final da modelagem de dados e é importante para garantir a efici
 
     Granularidade é o nível de detalhe ou precisão com que os dados são representados em um modelo de dados.
     A  granularidade  dos  dados  pode  ser  alta,  quando  os  dados  são  divididos  em  muitas entidades e atributos pequenos, ou baixa, quando os dados são agregados em poucas entidades e atributos maiores.A granularidade é uma característica importante a ser considerada na modelagem de dados, pois afeta a capacidade de armazenar, recuperar e analisar dados.
-    Uma granularidade alta permite uma maior flexibilidade e precisão na análise dos dados, mas pode exigir mais armazenamento e processamento. Por outro lado, uma granularidade baixa pode resultar em dados agregados e menos precisos, mas pode ser mais fácil de armazenar e processar. Portanto, é importante equilibrar a granularidade dos dados com as necessidades de negócioe técnicas para garantir uma boa modelagem de dados.
+    Uma granularidade alta permite uma maior flexibilidade e precisão na análise dos dados, mas pode exigir mais armazenamento e processamento. Por outro lado, uma granularidade baixa pode resultar em dados agregados e menos precisos, mas pode ser mais fácil de armazenar e processar. Portanto, é importante equilibrar a granularidade dos dados com as necessidades de negócio e técnicas para garantir uma boa modelagem de dados.
     Por exemplo: Considerando um DW, os relatórios devem permitir análise de vendas por dia ou por hora? A resposta a essa pergunta ajuda a definir o nível de granularidade necessário na modelagem.
 
 ## 10. [PDF] O que são Formas Normais?
@@ -100,7 +101,7 @@ Para  definir  o  projeto  de  índices,  é recomendado seguir as seguintes eta
     - Criar índices  somente  em  tabelas  grandes,  pois  tabelas  pequenas  podem  ser facilmente lidas sem um índice.
     - Escolher a ordem das colunas no índice com base na frequência de uso. As colunas mais frequentemente usadas devem vir primeiro.
     - Avaliar a necessidade de índices compostos, que podem ser usados para melhorar o desempenho de consultas que usam várias colunas de busca.
-    - Monitorar e otimizaro desempenho dos índices e otimizá-los regularmente. Isso inclui verificar a fragmentação do índice e reconstruí-lo se necessário.
+    - Monitorar e otimizar o desempenho dos índices e otimizá-los regularmente. Isso inclui verificar a fragmentação do índice e reconstruí-lo se necessário.
     - Considerar o uso de índices não convencionais pois alguns bancos de dados oferecem tipos de índices não convencionais, como índices espaciais, índices full-text, entre outros. Esses tipos de índice podem ser úteis dependendo do tipo de dados e da natureza das consultas.
 Lembre-se de que, embora os índices possam melhorar significativamente o desempenho das  consultas,  eles  também  podem  afetar  negativamente  o  desempenho  das  operações  de inserção,  atualização  e  exclusão,  portanto,  é  importante  equilibrar  as  necessidades  de desempenho de consulta e operação do banco de dados
 
