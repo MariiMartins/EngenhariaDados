@@ -2,6 +2,8 @@
 
 This repository serves to document the lessons of the course.
 
+ **A PASTA DE FUNDAMENTOS DA ENG DADOS ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**
+
 <details><summary> Udemy </summary>
 
     1- Introdução
@@ -32,3 +34,5 @@ This repository serves to document the lessons of the course.
     6 - Orientacao a Objetos
     7 - Integração com APIs e Banco de Dados
 </details>
+
+<!--<details><summary> Fundamentos da Eng Dados - DSA</summary></details>
