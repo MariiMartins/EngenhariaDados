@@ -288,4 +288,106 @@ Abaixo estão três técnicas que podem ser usadas para reduzir o Underfitting:
 Por exemplo, em uma rede neural, você pode adicionar mais neurônios ocultos ou em uma floresta aleatória, pode adicionar mais árvores.
 
 Esse processo injetará mais complexidade no modelo, gerando melhores resultados de treinamento.
+
+## 4.2 - [Ebook] Por que IA e Deep Learning estão mudando nossas vidas - P1
+
+Você percebeu ao longo dos últimos anos o incrível salto de qualidade em diversas tecnologias que usamos em nosso dia a dia? Se você possui um smartphone com reconhecimento de voz, provavelmente percebeu. Essa funcionalidade em nossos smartphones está melhor do que nunca. Com um simples comando de voz, fazemos ligações, acessamos a internet, fazemos busca e abrimos aplicativos. Nunca foi tão fácil.
+
+Estamos conversando com nosso computador mais do que nunca. Assistiu o filme Her (http://www.imdb.com/title/tt1798709/)? Não estamos muito longe disso! Softwares como o Cortana da Microsoft, Siri da Apple, Alexa da Amazon, ChatGPT e recursos de reconhecimento de voz do Google, nos permitem interagir com o computador de forma simples. Um simples comando de voz e o computador faz o que pedimos.
+
+Mas não é apenas no reconhecimento de voz que podemos ver o avanço. Em um mundo onde tiramos fotos o tempo todo, o reconhecimento de imagens tem mostrado avanços consideráveis. Podemos agora buscar e organizar coleções de fotos, mesmo que elas não tenham uma tag de identificação. E isso é feito em apenas alguns segundos.
+
+Vamos pensar sobre isso. Para ser capaz de identificar imagens de cães, uma app precisa ser capaz de identificar qualquer tipo de cão, desde um Chihuahua até um Pastor Alemão e não pode se equivocar com imagens invertidas ou parcialmente obscuras, sob neblina ou neve, no sol ou na sombra. A app deve ainda ser capaz de excluir lobos e gatos. A app precisa identificar um cachorro usando apenas os pixels de uma imagem. Como isso pode ser possível?
+
+Mas o avanço do reconhecimento de imagens não é algo apenas para reconhecer imagens dos doces cachorrinhos. Startups ligadas a área médica já trabalham em projetos que usam computadores para a leitura de raios-X de forma mais rápida e precisa que um radiologista faria, para diagnosticar câncer o quanto antes e de forma menos invasiva e assim acelerar a busca por uma cura. O reconhecimento de imagens está levando ainda a melhorias significativas em robótica, drones autônomos capazes de fazer entregas e carros self-driving, aqueles que o Uber começou a testar recentemente e que podem andar por aí sem a necessidade de um motorista. Ford, Tesla, Uber, Baidu e Google estão trabalhando em protótipos de carros self-driving que já estão circulando em vias públicas.
+
+Mas o que muitas pessoas não percebem é que toda essa evolução utiliza na sua essência a mesma tecnologia. Tudo isso tem sido possível graças a uma técnica de Inteligência Artificial chamada de Deep Learning (aprendizagem profunda), ou como alguns preferem chamar Deep Neural Networks.
+
+O que mais chama atenção sobre as redes neurais é que não foi necessário que um ser humano programasse explicitamente o computador para realizar tudo que você leu nos parágrafos anteriores. De fato, nenhum ser humano poderia. Computadores foram alimentados com algoritmos (pequenas peças de código), que foram expostos a Terabytes de dados (milhares de imagens ou gravações de voz) e então treinados. Após esse treinamento o algoritmo aprendeu a reconhecer os padrões e quando expostos a novos dados, os algoritmos são capazes de identificar por si próprios imagens, objetos, frases ou palavras. Não é incrível? Como disse o CEO da Nvidia: “Os computadores já podem ensinar a si mesmos. Nós temos software escrevendo software”.
+
+Mas redes neurais não são novas. O conceito é da década de 50 e muitos dos algoritmos de redes neurais foram escritos entre as décadas de 80 e 90. Mas 2 fatores fizeram as redes neurais voltarem ao centro das atenções: primeiro, o maior poder de processamento dos computadores e segundo, algo que você já deve ter ouvido falar: Big Data. Sim, ele de novo. Essa imensidão de dados não estruturados vindos de imagens, vídeos, áudio, arquivos de texto, mídias sociais ou mesmo da sua geladeira. Capacidade de processamento e Big Data são essenciais para que as redes neurais funcionem adequadamente. Agora pense comigo: ainda estamos na infância do Big Data e a capacidade de processamento tende a dobrar a cada 2 anos. O que ainda vem pela frente??
+
+A prova de que isso tem chamado atenção foi a explosão de Startups de Inteligência Artificial e o total de dinheiro investido pelos fundos de investimentos nessas empresas: mais de 1 bilhão de dólares.
+
+Recentemente as líderes do segmento de Inteligência Artificial: IBM, Microsoft, Amazon, Facebook e Google se uniram para formar uma organização sem fins lucrativos chamada Partnership on AI, voltada para o estudo e desenvolvimento da Inteligência Artificial, pesquisas e discussão sobre ética e boas práticas.
+
+Se algumas das empresas mais valiosas e mais inovadoras do mundo se uniram em torno deste assunto é bem provável que este seja o caminho a ser seguido. Concorda?
+
+## 4.3 - [Ebook] Por que IA e Deep Learning estão mudando nossas vidas - P2
+
+Em 2012, o Google tinha 2 projetos de Deep Learning em progresso. Sabe quantos são atualmente? Mais de 1000. Vou repetir: mais de 1.000. Esses projetos envolvem Gmail, Youtube, Android, Google Maps, Google Translation e carros self-driving. A IBM também está ativa e o IBM Watson a plataforma de Inteligência Artificial da IBM, possui agora mais de 30 componentes baseados em Deep Learning.
+
+Outro sinal de como Deep Learning está mudando nossas vidas. Investidores que alguns anos atrás não sabiam do que se tratava este assunto, agora só discutem investimento se a Startup tiver alguma solução envolvendo Inteligência Artificial. Processamento de Linguagem Natural e reconhecimento de voz estão se tornando padrão. Em um futuro próximo, as pessoas não estarão mais “teclando” em seus computadores ou smartphones, nem se perdendo no meio de menus infinitos. As pessoas vão querer apenas pedir e o computador vai executar a ação, seja ela qual for. Assistiu o filme Her? Pois bem, assista. Este é o mundo no qual estamos prestes a mergulhar.
+
+Algumas empresas já integraram Deep Learning em suas operações. Na Microsoft, a equipe de vendas está usando redes neurais para prospectar clientes e gerar sistemas de recomendação.
+
+E essa revolução passa pela evolução do hardware. Até a Lei de Moore foi superada. As Unidades de Processamento Gráfico (GPU – Graphical Processing Units) fabricadas pela Nvidia, que inicialmente foram desenvolvidas para tornar a experiência de jogar vídeo game cada vez melhor, agora são usadas para processamento de Deep Learning. As GPU’s são de 20 a 50 vezes mais velozes no processamento de Deep Learning que as CPU’s, por conta da capacidade de processamento paralelo das GPU’s. A Nvidia tem apostado alto em Deep Learning e segundo dados recentes, a empresa dobrou seu faturamento neste segmento e boa parte disso graças ao Deep Learning. Percebeu? Estamos no meio de uma nova revolução tecnológica.
+
+O ChatGPT um robô de inteligência artificial que está revolucionando a forma de resposta à perguntas tecnológicas, utiliza o GPT (Transformador pré-treinado generativo) da OpenAI que é um modelo de aprendizado profundo baseado na arquitetura Transformer.
+
+No caso do GPT, ele usa redes neurais profundas para gerar texto, prevendo a próxima palavra em uma sequência com base na entrada fornecida a ele. O modelo é treinado em um grande corpus de dados de texto, o que permite aprender padrões de linguagem e gerar um texto coerente semelhante aos dados de treinamento.
+
+## 4.5 - [Ebook] O que é Aprendizagem profunda?
+
+Hoje a teoria e a prática do aprendizado de máquina estão passando por uma "revolução profunda", causada pela implementação bem-sucedida dos métodos de aprendizagem profundos, representando as redes neurais de terceira geração.
+
+Ao contrário das redes clássicas de segunda geração utilizadas nos anos 80-90 do século passado, os novos paradigmas de aprendizagem resolveram uma série de problemas que limitavam a expansão e a implementação bem-sucedida das redes neurais tradicionais.
+
+Redes treinadas com algoritmos de aprendizagem profundos não se destacam apenas pelos melhores métodos alternativos em precisão, mas em alguns casos revelaram rudimentos sobre a compreensão dos sentidos da informação de entrada.
+
+O reconhecimento de imagem e análise de informações de texto são os exemplos mais brilhantes.
+
+Hoje, os métodos industriais mais avançados da visão computacional e de reconhecimento de voz são baseados em redes profundas.
+
+Gigantes da indústria de TI como Apple, Google, OpenAI estão empregando pesquisadores em desenvolvimento de redes neurais profundas.
+
+## 4.6 - [Ebook] Como surgiu a Aprendizagem profunda?
+
+Uma equipe de estudantes de pós-graduação da Universidade de Toronto, no Canadá, liderada pelo professor Geoffrey E. Hinton ganhou o primeiro prêmio em um concurso patrocinado pela Merck. Usando um conjunto limitado de dados, que descreve a estrutura química de 15 moléculas, o grupo de G. Hinton conseguiu criar e aplicar um sistema especial que define quais dessas moléculas tinha mais chance de ser um medicamento eficaz.
+
+A peculiaridade desse trabalho foi que os desenvolvedores usaram uma rede neural artificial baseada na aprendizagem profunda. Como resultado, esse sistema conseguiu realizar cálculos e pesquisas com base em um conjunto muito limitado de dados de origem, considerando que o treinamento de uma rede neural normalmente requer uma quantidade significativa de informações colocadas no sistema.
+
+O resultado da equipe de Hinton foi particularmente impressionante porque a equipe decidiu entrar no concurso no último minuto. Acrescentando isto, o sistema de aprendizagem profunda foi desenvolvido sem o conhecimento específico sobre como as moléculas se ligam aos seus objetivos. A implementação bem-sucedida de uma aprendizagem mais profunda foi mais uma conquista no desenvolvimento da inteligência artificial no ano de 2012.
+
+Então, no verão de 2012, Jeff Dean e Andrew Y. Ng da Google apresentaram um novo sistema de reconhecimento de imagem com taxa de precisão de 15,8%, onde para treinar um sistema de cluster de 16.000 nós eles usaram a rede IMAGEnet contendo uma biblioteca de 14 milhões de fotos de 20.000 objetos diferentes.
+
+Recentemente, um programa criado por cientistas suíços superou um ser humano no reconhecimento de imagens de sinais de trânsito. O programa vencedor identificou com precisão 99.46% das imagens em um conjunto de 50.000; a pontuação máxima em um grupo de 32 participantes humanos foi de 99.22% e a média para os seres humanos era de 98.84%.
+
+Em outubro de 2012, Richard F. Rashid, um coordenador de programas científicos da Microsoft apresentou em uma conferência em Tianjin, China uma tecnologia de tradução simultânea do Inglês para Mandarim acompanhado por uma simulação de sua própria voz.
+
+Todas estas tecnologias que demonstram um avanço no domínio da inteligência artificial são baseadas no método de aprendizagem profunda. A principal contribuição para a teoria da aprendizagem profunda está sendo feita pelo professor Hinton, o tataraneto de George Boole, um cientista Inglês, fundador dos computadores contemporâneos subjacentes a álgebra de Boole.
+
+Os métodos comuns da teoria de aprendizagem profunda da aprendizagem de máquina, são os algoritmos especiais para a análise de informações de entrada a vários níveis de apresentação. A peculiaridade da nova abordagem é que o aprendizado profundo estuda o assunto até que ele encontre suficientes níveis de cunho informativo para dar conta de todos os fatores que podem influenciar os parâmetros do objeto em questão.
+
+Desta forma, uma rede neural com base em tal abordagem requer menos informações de entrada para a aprendizagem e uma rede treinada é capaz de analisar as informações com um maior nível de precisão do que as redes neurais habituais. O professor Hinton e seus colegas afirmam que sua tecnologia é especialmente boa para a busca de peculiaridades em matrizes de informações multidimensionais bem estruturadas.
+
+As tecnologias de inteligência artificial (IA), em particular o aprendizado profundo, são amplamente utilizados em diferentes sistemas, incluindo o assistente pessoal inteligente da Apple, Siri, com base nas tecnologias da Nuance Communications e no reconhecimento de endereços no Google Street View. No entanto, os cientistas estão estimando o sucesso nesta esfera com muito cuidado já que a história da criação de uma inteligência artificial está cheia de promessas otimistas e decepções.
+
+Na década de 1960, os cientistas acreditavam que seriam necessários apenas 10 anos para criar uma inteligência artificial inteiramente caracterizada. Então, na década de 1980, houve uma onda de jovens empresas oferecendo uma "inteligência artificial pronta", seguido pela "era do gelo" nesta esfera, que durou até recentemente. Hoje amplas capacidades computacionais disponíveis em serviços de nuvem fornecem um novo nível de implementação da poderosa rede neural, usando uma nova base teórica e algorítmica.
+
+Deve-se notar que as redes neurais, mesmo as de terceira geração, como as redes neurais convolucionais, auto-associadores, máquinas de Boltzmann, nada têm em comum com os neurônios biológicos, exceto o nome.
+
+Visite o site de Geoffrey Hinton aqui: <http://www.cs.toronto.edu/~hinton/>
 -->
+<!--
+## 4.8 - [Ebook] Redes Neurais Origem e Evolução - P1
+
+## 4.9 - [Ebook] Redes Neurais Origem e Evolução - P2
+
+## 4.10 - [Ebook] Redes Neurais Origem e Evolução - P3
+
+## 4.12 - [Ebook] O neurônio Biológico
+
+## 4.13 - [Ebook] Comunicação entre Neurônios
+
+## 4.## 4 - [Ebook] Principais tipos de redes neurais Profundas
+
+## 4.15 - [Ebook] Autoencoder
+
+## 4.16 - [Ebook] GAN - Redes Adversárias Generativas
+
+## 4.17 - [Ebook] CNN - Redes Neurais Convolucionais
+
+## 4.18 - [Ebook] RNN - Redes Neurais Recorrentes
+
+## 4.19 - [Ebook] Arquitetura de Redes Neurais Profundas

@@ -1,5 +1,4 @@
 # Fundamentos de Inteligência Artificial
-
 <!--
 1. Introdução
     1.1 - O que é Inteligência Artificial?
@@ -73,7 +72,7 @@
     4.19 - [Ebook] Arquitetura de Redes Neurais Profundas
     4.20 - Quiz
 
-5.Processamento de Linguagem Natural
+5. Processamento de Linguagem Natural
     5.1 - O que é Processamento de Linguagem Natural?
     5.2 - Onde podemos aplicar processamento de Linguagem Natural?
     5.3 - Processo de mineração de texto
@@ -86,7 +85,7 @@
     5.10 - [Ebook] Avaliação e refinamento dos sistemas de recuperação de informação
     5.11 - Reconhecimento de Voz
     5.12 - [Ebook] Reconhecimento de voz - Uma das principais aplicações de IA
-    5.13 - [Ebook] Modelo ac´stico e modelo de linguagem 
+    5.13 - [Ebook] Modelo ac´stico e modelo de linguagem
     5.14 - Quiz
 
 6. Visão Computacional
@@ -117,7 +116,7 @@
     7.7 - Como a Inteligência Artificial pode ajudar a reduzir riscos cibernéticos? P2
     7.8 - [Ebook] Mitigando Riscos cibernéticos utilizando Inteligência Artificial
     7.9 - [Ebook] Como a IA pode afetar as funções dos atores no ecossistema de segurança cibernética?
-    7.10 - [Ebook] Riscos cibernéticos e a Lei 
+    7.10 - [Ebook] Riscos cibernéticos e a Lei
     7.11 - [Ebook] como proteger sistema de aprendizado de Máquina
     7.12 - [Ebook] Dados x Riscos Cibernéticos x Inteligência Artificial
     7.13 - [Ebook] Estrategias para detectar e analisar anomalías usando aprendizado de Máquina
@@ -137,7 +136,7 @@
     8.9 - [Ebook] Estudo de Caso 6 - Santander - Previsão de risco de crédito baseado em IA
     8.10 - Detecção de Anomalias em transações financeiras - P1
     8.11 - Detecção de Anomalias em transações financeiras - P2
-    8.12 - [Ebook] Estudo de Caso 7 - American Express - detecção de transação fraudulenta em tempo real 
+    8.12 - [Ebook] Estudo de Caso 7 - American Express - detecção de transação fraudulenta em tempo real
     8.13 - Quiz
 
 9. Capacitação para Trabalhar com Inteligência Artificial
