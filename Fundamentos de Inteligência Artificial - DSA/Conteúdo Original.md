@@ -126,3 +126,166 @@ Em geral, o processo de aprendizagem de IA inclui as seguintes etapas:
     - Avaliação do modelo com dados de teste.
     - Ajuste do modelo e retreinamento, se necessário.
     - Uso do modelo para fazer previsões sobre novos dados.
+
+## 3.4 - [Ebook] O que é um Modelo de Machine Learning?
+
+**O Que é Um Modelo de Machine Learning/Aprendizado de Máquina?**
+Um modelo de aprendizado de máquina é uma expressão de um algoritmo que vasculha montanhas de dados para encontrar padrões ou fazer previsões. Alimentados por dados, os modelos de machine learning / aprendizado de máquina são os motores matemáticos da inteligência artificial.
+Por exemplo, um modelo de aprendizado de máquina para visão computacional pode identificar carros e pedestres em um vídeo em tempo real. Já um modelo de aprendizado de máquina para processamento de linguagem natural pode traduzir palavras e frases.
+Um modelo de aprendizado de máquina é uma representação matemática de objetos e suas relações entre si. Os objetos podem ser qualquer coisa, desde "curtidas" em uma postagem de rede social até moléculas em um experimento de laboratório.
+Portanto, não há limite para o uso da Inteligência, as combinações são infinitas.
+Os Cientistas de Dados e Engenheiros de IA criam inúmeros modelos de aprendizado de máquina para diferentes usos.
+
+    A tecnologia não para de evoluir.
+
+## 3.5 - [Ebook] Processo de Aprendizagem em Machine Learning
+
+P**rocesso de Aprendizagem em Machine Learning**
+
+O processo de aprendizagem em machine learning ocorre quando um modelo é exposto a um conjunto de dados de treinamento e aprende a fazer previsões precisas sobre novos dados.
+
+Isso é realizado por meio de ajuste dos parâmetros do modelo usando algoritmos de otimização, com base na avaliação da acurácia das previsões feitas sobre o conjunto de dados de treinamento.
+
+O ajuste dos parâmetros do modelo usando algoritmos de otimização é realizado através de uma combinação de dois passos:
+
+Definir uma função de perda (ou erro): essa função mede a diferença entre as previsões feitas pelo modelo e os valores reais para cada exemplo no conjunto de treinamento.
+
+Otimizar a função de perda: isso envolve encontrar os valores dos parâmetros que minimizam a função de perda. Isso pode ser feito usando vários algoritmos de otimização, como gradiente descente, conjunto quasi-Newton, entre outros.
+
+Durante a otimização, o algoritmo faz iterações sobre os parâmetros, atualizando-as com base na derivada da função de perda em relação a cada parâmetro. A otimização termina quando a função de perda atinge um mínimo ou quando o número máximo de iterações é atingido. Ao final do processo, os parâmetros do modelo são ajustados para minimizar a perda ou erro sobre o conjunto de treinamento.
+
+O objetivo é encontrar a combinação de parâmetros que minimiza a perda ou erro entre as previsões e os valores reais. Depois de treinado, o modelo pode ser usado para fazer previsões sobre novos dados.
+
+## 3.6 - [Ebook] O que é Treinamento em Inteligência Artificial?
+
+Treinamento, validação e teste são etapas fundamentais no desenvolvimento de modelos de inteligência artificial.
+
+Treinamento é o processo de aprender os parâmetros do modelo a partir de um conjunto de dados de treinamento. O modelo é "ajustado" para que possa fazer previsões precisas com base nos dados de treinamento.
+
+Os dados de treinamento são um conjunto de exemplos que são usados para "ensinar" ao modelo como fazer previsões precisas. Esses dados são usados para ajustar os parâmetros do modelo, de modo que ele possa fazer previsões precisas com base nesses dados.
+
+Os dados de treinamento geralmente incluem entradas (também chamadas de recursos ou atributos) e saídas (também chamadas de rótulos ou alvos). As entradas são as características dos exemplos que o modelo usa para fazer previsões, enquanto as saídas são os valores que o modelo deve prever.
+
+Os dados de treinamento também são conhecidos como datasets. Eles são essenciais para todos os modelos de aprendizado de máquina e os ajudam a fazer previsões mais assertivas para executar tarefas desejadas.
+
+Assim, os dados de treinamento criam o modelo de aprendizado de máquina. O modelo analisa o conjunto de dados repetidamente para entender profundamente suas características e vai se ajustando para um melhor desempenho.
+
+Por exemplo, se você estiver treinando um modelo para prever se uma pessoa tem diabetes, os dados de treinamento poderiam incluir entradas como idade, peso, pressão arterial e níveis de açúcar no sangue, e a saída seria uma previsão de se a pessoa tem ou não diabetes.
+
+Os dados de treinamento podem ser classificados em duas categorias: dados rotulados e dados não rotulados.
+
+Dados de treinamento rotulados são usados no aprendizado supervisionado. Ele permite que os modelos de Machine Learning aprendam as características associadas aos rótulos específicos, que podem ser usados para classificar pontos de dados mais recentes. Por exemplo, as imagens de frutas podem ser identificadas como: bananas, maçãs ou laranjas, isso indica que um modelo pode usar dados de imagem rotulados para entender as características de cada frutas específica e usar essas informações para agrupar novas imagens.
+
+A rotulagem é um processo demorado, pois é necessário marcar ou rotular os pontos de dados. A coleta de dados rotulados é desafiadora e cara.
+
+Já os dados não rotulados, são aqueles dados brutos ou dados que não são marcados com nenhum rótulo para identificar suas classificações, características ou propriedades. Dados não rotulados são usados em aprendizado de máquina não supervisionado, e os modelos de Machine Learning precisam encontrar padrões ou semelhanças nos dados para chegar as conclusões.
+
+Com base no exemplo anterior de bananas, maçãs e laranjas, em dados de treinamento não rotulados, as imagens dessas frutas não serão rotuladas. O modelo terá que avaliar cada imagem observando suas características, como a cor e a forma.
+
+Depois de analisar um número considerável de imagens, o modelo será capaz de diferenciar novas imagens, baseado nos tipos de frutas como bananas, maçãs ou laranjas. Nesse caso, o modelo não saberá que a fruta em particular se chama maçã, banana ou laranja, em vez disso, ele conhecerá as características necessárias para identificar cada fruta.
+
+## 3.7 - [Ebook] O que é Validação em Inteligência Artificial?
+
+Validação é o processo de avaliar como o modelo se sai com novos dados, que não foram usados durante o treinamento. Esse processo ajuda a identificar overfitting, que é quando o modelo "memoriza" os dados de treinamento, mas não é capaz de generalizar para novos casos.
+
+Os dados de validação geralmente incluem entradas e saídas semelhantes aos dados de treinamento. A diferença é que esses dados nunca foram usados durante o treinamento, então eles fornecem uma medida da capacidade do modelo de generalizar para novos casos.
+
+Os dados de validação são usados para ajudar a escolher os melhores hiperparâmetros do modelo, e para identificar overfitting.
+
+Se você tiver uma quantidade limitada de dados, uma técnica chamada validação cruzada pode ser usada para estimar o desempenho do modelo. Este método envolve particionar aleatoriamente os dados de treinamento em vários subconjuntos e reservar um para avaliação.
+
+É muito comum as pessoas usarem os termos "dados de teste" e "dados de validação" de forma intercambiável. A principal diferença entre os dois é que os dados de validação são usados para validar o modelo durante o treinamento, enquanto o conjunto de dados de teste é usado para testar o modelo após a conclusão do treinamento.
+
+O conjunto de dados de validação dá ao modelo a primeira amostra de dados não vistos. No entanto, nem todos os cientistas de dados realizam uma verificação inicial usando dados de validação. Alguns costumam pular esta etapa e ir diretamente para os dados de teste. Mas isso não é aconselhável.
+
+Em geral, os dados de validação são usados para ajudar a escolher a melhor configuração para o modelo antes de usar os dados de teste para avaliar a performance final do modelo.
+
+## 3.8 - [Ebook] O que é Teste em Inteligência Artificial?
+
+Teste é o processo de avaliar como o modelo se sai com um conjunto de dados ainda não visto, com o objetivo de medir a performance final do modelo. Isso é importante para verificar se o modelo é capaz de generalizar para dados desconhecidos.
+
+Os dados de teste geralmente incluem entradas e saídas semelhantes aos dados de treinamento e validação. A diferença é que esses dados nunca foram usados durante o treinamento ou validação, então eles fornecem uma medida precisa da performance final do modelo.
+
+Os dados de teste são usados para avaliar a precisão do modelo, a capacidade de generalizar para novos casos, e também para comparar a performance do modelo com outros modelos.
+
+Os dados de teste precisam representar o conjunto de dados real e ser grande o suficiente para gerar previsões significativas.
+
+Em ciência de dados, é comum dividir os dados em 80% para treinamento e 20% para teste.
+
+Essa é a última etapa antes de colocar o modelo em produção, e é importante ter um conjunto de dados de teste que seja representativo do conjunto de dados que será usado para tomar decisões.
+
+## 3.11 - [Ebook] O que é Overfitting?
+
+Overfitting é um conceito em ciência de dados, que ocorre quando um modelo estatístico se ajusta exatamente aos seus dados de treinamento. Quando isso acontece, o algoritmo infelizmente não pode funcionar com precisão em dados não vistos, anulando seu propósito.
+
+A generalização de um modelo para novos dados é o que nos permite usar algoritmos de aprendizado de máquina todos os dias para fazer previsões e classificar dados.
+
+Quando os algoritmos de aprendizado de máquina são construídos, eles aproveitam um conjunto de dados de amostra para treinar o modelo.
+
+No entanto, quando o modelo treina por muito tempo em dados de amostra ou quando o modelo é muito complexo, ele pode começar a aprender o “ruído” ou informações irrelevantes dentro do conjunto de dados.
+
+Quando o modelo memoriza o ruído e se ajusta muito próximo ao conjunto de treinamento, o modelo se torna “superajustado” e é incapaz de generalizar bem para novos dados.
+
+Se um modelo não puder generalizar bem para novos dados, ele não será capaz de realizar as tarefas de classificação ou previsão para as quais foi planejado.
+
+Baixas taxas de erro e alta variância são bons indicadores de overfitting. Para evitar esse tipo de comportamento, parte do conjunto de dados de treinamento é normalmente reservada como o “conjunto de teste” para verificar o overfitting.
+
+Se os dados de treinamento tiverem uma taxa de erro baixa e os dados de teste tiverem uma taxa de erro alta, isso indica overfitting.
+
+## 3.12 - [Ebook] Como detectar e evitar Overfitting?
+
+Para entender a precisão dos modelos de aprendizado de máquina, é importante testar a adequação do modelo. A validação cruzada K-fold é uma das técnicas mais populares para avaliar a precisão do modelo.
+
+Na validação cruzada de k-fold, (fold = dobras), os dados são divididos em k subconjuntos de tamanhos iguais, também chamados de "dobras". Uma das dobras k atuará como o conjunto de teste, também conhecido como conjunto de validação ou conjunto de validação, e as dobras restantes treinarão o modelo.
+
+Esse processo se repete até que cada uma das dobras tenha agido como uma dobra de retenção. Após cada avaliação, uma pontuação é retida e, quando todas as iterações são concluídas, é calculada a média das pontuações para avaliar o desempenho do modelo geral.
+
+Embora o uso de um modelo linear nos ajude a evitar Overfitting, muitos problemas do mundo real são não lineares. Além de entender como detectar o overfitting, é importante entender como evitar o overfitting completamente. Abaixo estão algumas técnicas que você pode usar para evitar o overfitting:
+
+Fazer Parada Antecipada: como mencionamos anteriormente, esse método busca pausar o treinamento antes que o modelo comece a aprender o ruído dentro do modelo. Essa abordagem corre o risco de interromper o processo de treinamento muito cedo, levando ao problema oposto de subajuste. Encontrar o “ponto ideal” entre underfitting e overfitting é o objetivo final aqui.
+
+Treinar Com Mais Dados: Expandir o conjunto de treinamento para incluir mais dados pode aumentar a precisão do modelo, fornecendo mais oportunidades para analisar a relação dominante entre as variáveis de entrada e saída. Dito isso, esse é um método mais eficaz quando dados limpos e relevantes são injetados no modelo. Caso contrário, você poderia simplesmente continuar a adicionar mais complexidade ao modelo, fazendo com que ele superajustasse.
+
+Aumentar os Dados: embora seja melhor injetar dados limpos e relevantes em seus dados de treinamento, às vezes dados ruidosos são adicionados para tornar um modelo mais estável. No entanto, esse método deve ser feito com moderação.
+
+Fazer a Seleção de Recursos: ao construir um modelo, você terá vários parâmetros ou recursos que são usados para prever um determinado resultado, mas muitas vezes esses recursos podem ser redundantes. A seleção de recursos é o processo de identificar os recursos mais importantes nos dados de treinamento e, em seguida, eliminar os irrelevantes ou redundantes. Isso é comumente confundido com redução de dimensionalidade, mas é diferente. No entanto, ambos os métodos ajudam a simplificar seu modelo para estabelecer a tendência dominante nos dados.
+
+Realizar a Regularização: Se o overfitting ocorre quando um modelo é muito complexo, faz sentido reduzirmos o número de recursos. Mas e se não soubermos quais entradas eliminar durante o processo de seleção de recursos? Se não soubermos quais recursos remover de nosso modelo, os métodos de regularização podem ser particularmente úteis. A regularização aplica uma “penalidade” aos parâmetros de entrada com coeficientes maiores, o que subsequentemente limita a quantidade de variação no modelo. Embora existam vários métodos de regularização, como regularização L1, regularização Lasso e dropout, todos procuram identificar e reduzir o ruído nos dados.
+
+Utilizar Métodos Ensemble: Os métodos de aprendizado ensemble são compostos por um conjunto de classificadores, por exemplo, árvores de decisão,  e suas previsões são agregadas para identificar o resultado mais popular. Os métodos de ensemble mais conhecidos são bagging e boosting. No bagging, uma amostra aleatória de dados em um conjunto de treinamento é selecionada com substituição, o que significa que os pontos de dados individuais podem ser escolhidos mais de uma vez. Depois que várias amostras de dados são geradas, esses modelos são treinados independentemente e dependendo do tipo de tarefa, ou seja, regressão ou classificação,  a média ou a maioria dessas previsões produz uma estimativa mais precisa. Isso é comumente usado para reduzir a variação dentro de um conjunto de dados ruidoso.
+
+## 3.13 - [Ebook] O que é Underfitting?
+
+Underfitting é um cenário em ciência de dados em que um modelo de dados é incapaz de capturar a relação entre as variáveis de entrada e saída com precisão, gerando uma alta taxa de erro tanto no conjunto de treinamento quanto nos dados não vistos.
+
+Isso geralmente ocorre quando um modelo é muito simples, o que pode ser resultado de um modelo que precisa de mais tempo de treinamento, mais recursos de entrada ou menos regularização. Assim como o overfitting, quando um modelo é subajustado, ele não consegue estabelecer a tendência dominante nos dados, resultando em erros de treinamento e baixo desempenho do modelo.
+
+Se um modelo não puder generalizar bem para novos dados, ele não poderá ser aproveitado para tarefas de classificação ou previsão. A generalização de um modelo para novos dados é o que nos permite usar algoritmos de aprendizado de máquina todos os dias para fazer previsões e classificar dados.
+
+Viés alto e variância baixa são bons indicadores de underfitting. Como esse comportamento pode ser visto ao usar o conjunto de dados de treinamento, os modelos subajustados geralmente são mais fáceis de identificar do que os superajustados.
+
+Underfitting ocorre quando um modelo de aprendizado de máquina não é complexo o suficiente para capturar a relação entre os dados de treinamento. Isso pode acontecer quando o modelo é muito simples ou se os recursos de entrada não são relevantes para a saída desejada. Como resultado, o modelo tem uma precisão baixa tanto nos dados de treinamento quanto nos dados de teste. 
+
+Underfitting é um problema oposto ao overfitting, e pode ser resolvido tornando o modelo mais complexo ou adicionando mais recursos relevantes ao modelo.
+
+## 3.14 - [Ebook] Como evitar Underfitting?
+
+Como podemos detectar o underfitting com base no conjunto de treinamento, podemos ajudar a estabelecer a relação dominante entre as variáveis de entrada e saída no início. Ao manter a complexidade adequada do modelo, podemos evitar o subajuste e fazer previsões mais precisas.
+
+Abaixo estão três técnicas que podem ser usadas para reduzir o Underfitting:
+
+    1. Diminuir Regularização:
+    A regularização é normalmente usada para reduzir a variância com um modelo aplicando uma penalidade aos parâmetros de entrada com coeficientes maiores. Existem vários métodos diferentes, como regularização L1, regularização Lasso, dropout, etc., que ajudam a reduzir o ruído e os outliers dentro de um modelo. No entanto, se as características dos dados se tornarem muito uniformes, o modelo será incapaz de identificar a tendência dominante, levando ao underfitting. Ao diminuir a quantidade de regularização, mais complexidade e variação são introduzidas no modelo, permitindo um treinamento bem-sucedido do modelo.
+
+    2. Aumentar a Duração do Treinamento:
+    Como mencionado anteriormente, interromper o treinamento muito cedo também pode resultar em um modelo de underfitting. 
+    Portanto, ao estender a duração do treinamento, isso pode ser evitado. No entanto, é importante estar ciente do overtraining e, subsequentemente, do overfitting. Encontrar o equilíbrio entre os dois cenários será fundamental.
+
+    3. Fazer Seleção de Recursos:
+    Com qualquer modelo, recursos específicos são usados para estabelecer um determinado resultado.
+    Se não houver recursos preditivos suficientes, devem ser introduzidos mais recursos ou recursos com maior importância.
+
+Por exemplo, em uma rede neural, você pode adicionar mais neurônios ocultos ou em uma floresta aleatória, pode adicionar mais árvores.
+
+Esse processo injetará mais complexidade no modelo, gerando melhores resultados de treinamento.
+-->
