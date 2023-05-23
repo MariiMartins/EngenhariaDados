@@ -368,14 +368,48 @@ Na década de 1960, os cientistas acreditavam que seriam necessários apenas 10 
 Deve-se notar que as redes neurais, mesmo as de terceira geração, como as redes neurais convolucionais, auto-associadores, máquinas de Boltzmann, nada têm em comum com os neurônios biológicos, exceto o nome.
 
 Visite o site de Geoffrey Hinton aqui: <http://www.cs.toronto.edu/~hinton/>
--->
-<!--
+
 ## 4.8 - [Ebook] Redes Neurais Origem e Evolução - P1
+
+Os primeiros estudos e propostas de modelos sobre as Redes Neurais Artificiais surgiram nos anos 40. Os primeiros modelos evoluíram bastante, onde alguns deles se destacaram e tornaram-se famosos, mesmo assim até hoje continuam sendo propostos novos modelos de redes neurais. O estudo dos primeiros modelos e de sua evolução, nos ajuda a entender melhor as redes neurais, e seu estágio atual de evolução.
+
+O começo do estudo das redes neurais artificiais pode ser atribuído à criação do Psychon em 1943 por Warren McCulloch e Walter Pitts, sendo que alguns anos mais tarde, em 1949 o pesquisador D. O. Hebb publicava uma importante obra, o livro “The Organization of Behaviour” que influenciou vários modelos de RNAs de destaque na atualidade.
+
+Em 1959, Frank Rosenblatt criou o Perceptron que tem até hoje uma grande influência sobre os estudos das redes neurais, mostrando que apesar desta área de estudos ter crescido muito na atualidade, suas bases foram estruturadas juntamente com a criação dos fundamentos da ciência da computação. Alguns outros modelos similares ao Perceptron foram também desenvolvidos nesta época, como é o caso do Adaline (Adaptive Linear Element), criado por Bernard Widrow em 1962. Os modelos do tipo Perceptron, incluindo o Adaline, são baseados no aprendizado supervisionado por correção de erros, uma classe muito importante de redes neurais artificiais, que possui uma larga aplicação na atualidade.
+
+Em 1969 os modelos baseados no Perceptron receberam uma dura crítica feita por Minsky e Papert através de sua obra “Perceptrons: An Introduction to Computational Geometry”. Através deste livro, Minsky e Papert provaram matematicamente que os modelos de redes neurais baseados no Perceptron (redes de um só nível, o que na época era o tipo de rede de Perceptrons utilizado), não eram capazes de aprender uma simples função lógica do tipo “ou-exclusivo” (XOR = Exclusive Or). A função XOR possui um padrão de valores de entrada e de saída cuja associação não podia ser aprendida pelos modelos de redes baseados em Perceptron disponíveis naquela época. O impacto da publicação deste livro abalou profundamente as pesquisas realizadas nesta área de estudos.
+
+O Madaline (Many Adaline), também criado por Widrow, podia de certa forma resolver o problema, mas o aprendizado não podia ser realizado de uma forma muito “natural” e automatizada, pois requeria a intervenção humana na construção da rede. Devido as críticas feitas e a falta de uma solução para os problemas apresentados, as redes neurais ficaram “esquecidas” por um certo tempo.
 
 ## 4.9 - [Ebook] Redes Neurais Origem e Evolução - P2
 
+Somente na década de 80, surgiram novos modelos que deram um novo impulso as redes neurais. Em 1982 surgia um modelo importante de rede criado por J. Hopfield, que começou a dar um novo impulso as redes neurais.
+
+O modelo que Hopfield criou era baseado em um tipo de rede diferente dos modelos baseados no Perceptron, sendo uma rede com conexões recorrentes e com um comportamento baseado na competição entre os neurônios, onde o aprendizado era não supervisionado.
+
+Outros modelos similares ao modelo de Hopfield surgiram pouco depois, onde podemos citar alguns como por exemplo: a máquina de Boltzmann e o BAM (Binary Associative Memory).
+
+A década de 80 também ficou profundamente marcada pelo reaparecimento das redes baseadas em Perceptrons. Isto deveu-se ao desenvolvimento dos computadores, que eram mais velozes e permitiam realizar melhores simulações das redes neurais, bem como o desenvolvimento de modelos matemáticos que permitiram a solução do problema apontado por Minsky e Papert. Também podemos associar em parte este renascimento das redes neurais ao suposto desencanto com a I.A. clássica.
+
+O modelo que permitiu o ressurgimento das redes baseadas em Perceptrons foi o das redes multi-nível, onde o novo algoritmo de aprendizado chamado Back-Propagation resolveu em grande parte os problemas de aprendizado existentes até então.
+
+Este modelo foi desenvolvido por diferentes pequisadores quase ao mesmo tempo, como D. Parker e D. Rumelhart, mas foi Rumelhart e Hinton que o tornaram este algoritmo famoso com a sua obra “Parallel Distributed Processing - PDP”. Este algoritmo, o Back-Propagation permitia realizar o aprendizado por correção de erros em uma rede com múltiplas camadas (níveis) e consequentemente resolveria o problema do XOR.
+
+Além dos modelos de Hopfield e do modelo de redes multi-nível com Back-Propagation (chamado de Multi-Layer Perceptron – MLP), outro modelo importante que surgiu nesta década foi o modelo de Teuvo Kohonen.
+
+O modelo de Kohonen é muito interessante pois permite o aprendizado competitivo com uma auto-organização da rede neural, criando os chamados “mapas de atributos auto-organizáveis
+
 ## 4.10 - [Ebook] Redes Neurais Origem e Evolução - P3
 
+Por fim, o último modelo de destaque neste período, foi o modelo ART (Adaptive Ressonance Theroy) criado por Gail Carpenter e Stephen Grossberg. Este modelo possui um aprendizado do tipo não supervisionado, criando protótipos (clusters) dos padrões aprendidos.
+
+O modelo ART teve diversas versões posteriores, entre elas versões do tipo semi-supervisionado e com uso de conceitos da lógica nebulosa (Fuzzy-ART). Nesta mesma época, era lançado o algoritmo SVM, Support Vector Machines.
+
+Os estudos sobre as redes neurais sofreram uma grande revolução a partir dos anos 80 e esta área de estudos tem se destacado, seja pelas promissoras características apresentadas pelos modelos de redes neurais propostos, ou pelas condições tecnológicas atuais de implementação que permitem desenvolver arrojadas implementações de arquiteturas neurais paralelas em hardwares dedicados, obtendo assim ótimas performances destes sistemas (bastante superiores aos sistemas convencionais). 
+
+A evolução natural das redes neurais, são as redes neurais profundas (ou Deep Learning).
+-->
+<!--
 ## 4.12 - [Ebook] O neurônio Biológico
 
 ## 4.13 - [Ebook] Comunicação entre Neurônios

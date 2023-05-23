@@ -30,6 +30,11 @@
 
 ## 4.11 - Por que desenvolver Redes Neurais Artificiais?
 
+- Capacidade de Aprendizado Automático
+- Flexibilidade
+- Desempenho
+- Adaptabilidade
+
 ## 4.12 - [Ebook] O neurônio Biológico
 
 ## 4.13 - [Ebook] Comunicação entre Neurônios
