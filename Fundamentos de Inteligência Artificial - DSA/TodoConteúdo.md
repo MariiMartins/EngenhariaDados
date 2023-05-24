@@ -1,2 +1,0 @@
-<!--
-# TODO O CONTEÚDO DO CURSO
