@@ -39,7 +39,7 @@
 
 ## 4.13 - [Ebook] Comunicação entre Neurônios
 
-## 4.## 4 - [Ebook] Principais tipos de redes neurais Profundas
+## 4.14 - [Ebook] Principais tipos de redes neurais Profundas
 
 ## 4.15 - [Ebook] Autoencoder
 

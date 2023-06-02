@@ -408,15 +408,162 @@ O modelo ART teve diversas versões posteriores, entre elas versões do tipo sem
 Os estudos sobre as redes neurais sofreram uma grande revolução a partir dos anos 80 e esta área de estudos tem se destacado, seja pelas promissoras características apresentadas pelos modelos de redes neurais propostos, ou pelas condições tecnológicas atuais de implementação que permitem desenvolver arrojadas implementações de arquiteturas neurais paralelas em hardwares dedicados, obtendo assim ótimas performances destes sistemas (bastante superiores aos sistemas convencionais). 
 
 A evolução natural das redes neurais, são as redes neurais profundas (ou Deep Learning).
--->
-<!--
+
 ## 4.12 - [Ebook] O neurônio Biológico
+Para compreender a lógica de funcionamento das redes neurais, alguns conceitos básicos referentes ao funcionamento do cérebro humano e seus componentes, os neurônios, são de fundamental importância.
+
+A formação das conexões entre as células e algumas considerações sobre como se concebe teoricamente o funcionamento matemático, é a base para entender o processo de aprendizagem de máquina baseado em redes neurais. Vejamos como funciona o neurônio biológico deixando Deep Learning de lado por um instante!
+
+O neurônio é a unidade básica do cérebro humano. Uma célula especializada na transmissão de informações, pois nelas estão introduzidas propriedades de excitabilidade e condução de mensagens nervosas.
+
+O neurônio é constituído por 3 partes principais: a soma ou corpo celular, do qual emanam algumas ramificações denominadas de dendritos, e por uma outra ramificação descendente da soma, porém mais extensa, chamada de axônio. Nas extremidades dos axônios estão os nervos terminais, pelos quais é realizada a transmissão das informações para outros neurônios. Esta transmissão é conhecida como sinapse.
+
+Observe que o corpo celular e os dendritos formam a superfície de entrada do neurônio e o axônio a superfície de saída do fluxo de informação.
+
+A informação transmitida pelos neurônios na realidade são impulsos elétricos. O impulso elétrico é a mensagem que os neurônios transmitem uns aos outros, ou seja, e a propagação de um estímulo ao longo dos neurônios que pode ser qualquer sinal captado pelos receptores nervosos.
+
+O estímulo resulta na capacidade dos neurônios se excitarem através da ação de um estímulo.
+
+O neurônio biológico é, portanto, uma célula, que pode ser dividida em três seções: o corpo da célula, os dendritos e o axônio, cada uma com funções específicas, porém complementares.
+
+Os dendritos têm como função, receber informações, ou impulsos nervosos, oriundas de outros neurônios e conduzi-las até o corpo celular. Ali, a informação é processada e novos impulsos são gerados. Estes impulsos são transmitidos a outros neurônios, passando pelo axônio e atingindo os dendritos dos neurônios seguintes.
+
+O Corpo do neurônio, também chamado de soma, é responsável por coletar e combinar informações vindas de outros neurônios; O corpo do neurônio mede apenas alguns milésimos de milímetros e os dendritos apresentam poucos milímetros de comprimento. O axônio é o componente mais longo.
+
+O Axônio é constituído de uma fibra tubular que pode alcançar até alguns centímetros e é responsável por transmitir os estímulos para outras células;
+
+O ponto de contato entre a terminação axônica de um neurônio e o dendrito de outro é chamado sinapse. É pelas sinapses que os neurônios se unem funcionalmente, formando as redes neurais.
+
+As sinapses funcionam como válvulas, sendo capazes de controlar a transmissão de impulsos, isto é, o fluxo da informação entre os neurônios na rede neural. O efeito das sinapses é variável e é esta variação que dá ao neurônio capacidade de adaptação.
 
 ## 4.13 - [Ebook] Comunicação entre Neurônios
 
+Sinais elétricos gerados nos sensores (retina ocular, papilas gustativas etc.) caminham pelos axônios. Se esses sinais forem superiores a aproximadamente 50mV (limiar do disparo), seguem pelo axônio. Caso contrário, são bloqueados e não prosseguem (são considerados irrelevantes).
+
+O sistema é, pois, essencialmente não linear. Estes sinais, na forma de pulsos, caminham pelo axônio a uma velocidade média de 25 m/s. Não é uma corrente eletrônica, mas uma corrente de ions de sódio e potássio. Um axônio pode ter vários centímetros de comprimento e são sempre duplicados em paralelo para aumentar a confiabilidade do sistema nervoso.
+
+Um nervo tem milhares de axônios. Cada axônio tem uma capa isolante de proteína como se fosse um fio elétrico.
+
+Antes do sinal elétrico entrar no próximo neurônio, deve passar por uma sinapse, que é o processo de entrar no próximo neurônio, ou seja, a ligação entre o axônio e o dendrito. A passagem não é elétrica, mas química (através da substância serotonina). Se o sinal for superior a certo limite (threshold), vai em frente; caso contrário é bloqueado e não segue.
+
+Um neurônio recebe sinais através de inúmeros dendritos, os quais são ponderados e enviados para o axônio, podendo ou não seguir adiante (threshold).
+
+Na passagem por um neurônio, um sinal pode ser amplificado ou atenuado, dependendo do dendrito de origem, pois a cada condutor, está associado um peso pelo qual o sinal é multiplicado. A memória é composta pelos pesos.
+
+Cada região do cérebro é especializada em uma dada função, como processamento de sinais auditivos, sonoros, elaboração de pensamentos, desejos etc.
+
+Esse processamento se dá através de redes particulares interligadas entre si, realizando processamento paralelo.
+
+Cada região do cérebro possui uma arquitetura de rede diferente: varia o número de neurônios, de sinapses por neurônio, valor dos thresholds e dos pesos etc.
+
+Os valores dos pesos são estabelecidos por meio de treinamento recebido pelo cérebro durante a vida útil, isso é memorização.
+
 ## 4.14 - [Ebook] Principais tipos de redes neurais Profundas
 
-## 4.15 - [Ebook] Autoencoder
+O aprendizado profundo continua em franca evolução em muitos domínios e em muitos problemas principais de aprendizagem de máquina. Aqui estão apenas alguns dos registros de referência que o aprendizado profundo alcançou nos últimos anos:
+
+- Text-to-speech synthesis (Fan et al., Microsoft, Interspeech 2014)
+- Language identification (Gonzalez-Dominguez et al., Google, Interspeech 2014)
+- Large vocabulary speech recognition (Sak et al., Google, Interspeech 2014)
+- Prosody contour prediction (Fernandez et al., IBM, Interspeech 2014)
+- Medium vocabulary speech recognition (Geiger et al., Interspeech 2014)
+- English-to-French translation (Sutskever et al., Google, NIPS 2014)
+- Audio onset detection (Marchi et al., ICASSP 2014)
+- Social signal classification (Brueckner & Schulter, ICASSP 2014)
+- Arabic handwriting recognition (Bluche et al., DAS 2014)
+- TIMIT phoneme recognition (Graves et al., ICASSP 2013)
+- Optical character recognition (Breuel et al., ICDAR 2013)
+- Image caption generation (Vinyals et al., Google, 2014)
+- Video-to-textual description (Donahue et al., 2014)
+- Syntactic parsing for natural language processing (Vinyals et al., Google, 2014)
+- Photo-real talking heads (Soong and Wang, Microsoft, 2014)
+
+Percebeu algo em comum nestas aplicações de Deep Learning? Sim, são todas bem recentes, a partir de 2013.
+
+Com base nessas realizações, podemos facilmente projetar que o aprendizado profundo vai afetar muitas aplicações na próxima década. Algumas das demonstrações mais impressionantes de aprendizagem profunda aplicada incluem o seguinte:
+
+- Automated image sharpening
+- Automating image upscaling
+- WaveNet: generating human speech that can imitate anyone’s voice
+- WaveNet: generating believable classical music
+- Speech reconstruction from silent video
+- Generating fonts
+- Image autofill for missing regions
+- Automated image captioning
+- Turning hand-drawn doodles into stylized artwork
+
+Nós provavelmente não perceberemos todas as principais aplicações comerciais até que estejam na nossa frente. Compreender os avanços na arquitetura redes neurais profundas é importante para entender as ideias das aplicações no futuro, principalmente em Inteligência Artificial.
+
+À medida que a pesquisa pressionava o estado da arte a partir de redes feed forward multicamadas, para arquiteturas mais recentes como CNNs e Redes Neurais Recorrentes, a disciplina viu mudanças na forma como as camadas foram configuradas, como os neurônios foram construídos e como conectamos as camadas.
+
+Arquiteturas de rede evoluíram para tirar proveito de tipos específicos de dados de entrada.
+
+- Avanços em Tipos de Camada
+
+As camadas se tornaram mais variadas com os diferentes tipos de arquiteturas. Deep Belief Networks (DBNs) demonstraram sucesso com o uso de Boltzmann Machines (RBMs) como camadas em pré-treinamento para criar recursos.
+
+As CNNs usaram novos e diferentes tipos de funções de ativação em camadas e mudaram a forma como as camadas são conectadas (de totalmente conectado a patches conectados localmente).
+
+As Redes Neurais Recorrentes exploraram o uso de conexões que modelaram melhor o domínio do tempo em dados de série temporal.
+
+- Avanços nos Tipos de Neurônios
+
+As Redes Neurais Recorrentes criaram, especificamente, avanços nos tipos de neurônios (ou unidades) aplicados no trabalho em torno das redes LSTM. 
+
+Eles introduziram novas unidades específicas para redes neurais recorrentes, como a célula de memória LSTM e as unidades recorrentes (GRUs).
+
+- Arquiteturas híbridas
+
+Também vimos arquiteturas híbridas surgirem para tipos de dados que tenham tanto tempo quanto dados de imagem envolvidos. Por exemplo, a classificação de objetos em vídeo foi demonstrada com sucesso pela combinação de camadas de CNNs e Redes Neurais Recorrentes em uma única rede híbrida.
+
+As arquiteturas de redes neurais híbridas podem nos permitir aproveitar o melhor dos dois mundos em alguns casos.
+
+Podemos listar quatro grandes arquiteturas de redes neurais profundas:
+
+- Unsupervised Pretrained Networks (UPNs)
+- Convolutional Neural Networks (CNNs)
+- Recurrent Neural Networks
+- Recursive Neural Networks
+
+Duas dessas arquiteturas você encontra com frequência na solução de problemas complexos: Convolutional Neural Networks para modelagem de imagem e Recurrent Neural Networks para sequência modelagem. Mas as arquiteturas vêm evoluindo ou novas alternativas híbridas permitem resolver problemas até então impossíveis!
+
+No grupo de redes pré-treinadas não supervisionadas, encontramos três arquiteturas específicas:
+
+- Autoencoders
+- Deep Belief Networks (DBNs)
+- Generative Adversarial Networks (GANs)
+
+## 4.15 - [Ebook]Autoencoder
+
+Usamos Autoencoders para aprender representações compactadas de conjuntos de dados. Normalmente, nós os usamos para reduzir a dimensionalidade de um conjunto de dados. A saída da rede de Autoencoder é uma reconstrução dos dados de entrada da forma mais eficiente.
+
+O Autoencoder é um auto-associador. A finalidade de um auto-associador (АА) é receber na saída a imagem mais precisa da entrada quanto possível. Existem dois tipos de АА - geradoras e sintetizadoras. Uma Máquina de Boltzmann restrita pertence ao primeiro tipo e um Autoencoder representa o segundo tipo.
+
+Os Autoencoders compartilham uma forte semelhança com redes neurais Multilayer Perceptron em que eles têm uma camada de entrada, camadas ocultas de neurônios e, em seguida, uma camada de saída. A principal diferença a notar entre um diagrama de rede Multilayer Perceptron e um diagrama de Autoencoder é a camada de saída em um Autoencoder, que tem o mesmo número de unidades que a camada de entrada.
+
+Um Autoencoder é uma rede neural com uma camada aberta. Usando o algoritmo de aprendizado não supervisionado e a retropropagação, ele define um valor objetivo igual ao vetor de entrada, ou seja, y = x.
+
+Na imagem acima, o Autoencoder está tentando construir a função h(x) = x. Em outras palavras, ele tenta encontrar uma aproximação de uma função, assegurando que um feedback da rede neural é aproximadamente igual aos valores dos parâmetros de entrada. Para a solução do problema ser não-trivial, o número de neurônios na camada aberta deve ser menor do que a dimensão dos dados de entrada (como na imagem).
+
+Ele permite a compressão de dados, quando o sinal de entrada é passado para a saída da rede. Por exemplo, se o vetor de entrada é um conjunto de níveis de brilho de uma imagem de 10х10 pixels de tamanho (100 características), o número de neurônios da camada oculta é de 50, a rede é forçada a aprender a comprimir a imagem.
+
+O requisito h(x) = x significa que, com base nos níveis de ativação dos cinquenta neurônios da camada oculta, a camada de saída é para restaurar 100 pixels da imagem inicial. Essa compressão é possível se existirem interconexões ocultas, correlação característica ou qualquer estrutura.
+
+Desta forma, uma operação Autoencoder lembra o método de Análise de Componentes Principais (PCA) no sentido de que os dados de entrada ficam reduzidos.
+
+Uma variação do Autoencoder, é o Autoencoder Esparso, que tem um número de neurônios escondidos significativamente maior do que a dimensão de entrada, mas que têm uma ativação esparsa. A ativação esparsa ocorre quando número de neurônios inativos na camada oculta é significativamente maior do que o número de ativos.
+
+Se nós descrevermos a espacialidade informalmente, então, um neurônio pode ser considerado ativo se o valor da sua função é próximo de 1. Se uma função sigmóide está em uso, então, o valor do neurônio inativo deve ser próximo de 0 (para a função da tangente hiperbólica o valor deve ser perto de -1).
+
+Existe uma outra variação de um Autoencoder chamado de Denoising Autoencoder (Vincent et al., 2008). Este é o mesmo Autoencoder, mas o seu treinamento tem algumas peculiaridades. Ao treinar esta rede, os dados "corrompidos" de entrada são substituídos por 0. Ao mesmo tempo, há dados "corretos" para comparar com os dados de saída. Desta forma, um Autoencoder pode restaurar os dados danificados.
+
+Os Autoencoders dependem de backpropagation para atualizar seus pesos. A principal diferença entre RBMs e a classe mais geral de Autoencoders é a forma como eles calculam os gradientes.
+
+Um tipo mais recente de modelo de Autoencoder é o Variational Autoencoder (VAE) introduzido por Kingma e Welling21 (figura abaixo).
+
+O VAE é semelhante aos Autoencoders de compressão e desativação, na medida em que são todos treinados de forma não supervisionada para reconstruir entradas.
+
+No entanto, os mecanismos que os VAEs usam para realizar treinamento são bastante diferentes. Em um Autoencoder de compressão / desativação, as ativações são mapeadas para ativações em todas as camadas, como em uma rede neural padrão; comparativamente, um VAE usa uma abordagem probabilística para o passe para a frente.
 
 ## 4.16 - [Ebook] GAN - Redes Adversárias Generativas
 
@@ -425,3 +572,7 @@ A evolução natural das redes neurais, são as redes neurais profundas (ou Deep
 ## 4.18 - [Ebook] RNN - Redes Neurais Recorrentes
 
 ## 4.19 - [Ebook] Arquitetura de Redes Neurais Profundas
+
+-->
+<!-- 
+-->
