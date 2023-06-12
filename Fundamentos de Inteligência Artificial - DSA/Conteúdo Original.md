@@ -533,7 +533,7 @@ No grupo de redes pré-treinadas não supervisionadas, encontramos três arquite
 - Deep Belief Networks (DBNs)
 - Generative Adversarial Networks (GANs)
 
-## 4.15 - [Ebook]Autoencoder
+## 4.15 - [Ebook] Autoencoder
 
 Usamos Autoencoders para aprender representações compactadas de conjuntos de dados. Normalmente, nós os usamos para reduzir a dimensionalidade de um conjunto de dados. A saída da rede de Autoencoder é uma reconstrução dos dados de entrada da forma mais eficiente.
 
