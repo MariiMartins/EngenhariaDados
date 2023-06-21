@@ -1,11 +1,11 @@
 <!-- Como iniciamos um projeto de
 pipeline de dados?
 opção (a) iniciamos pelas ferramentas Pois existe uma curva de aprendizado e quanto antes começar
-melhor 
+melhor
 opção (b) iniciamos pelos dados já
 que eles são novo petróleo o novo ouro
 um ativo corporativo e devem ser
-prioridade 
+prioridade
 opção (C) iniciamos pela compreensão dos requisitos de negócio e o que se espera do uso de dados no dia a
 dia.
 
@@ -16,12 +16,11 @@ trabalhar com dados.
 O profissional que quer trabalhar
 com tecnologia tem que estar disposto a
 aprender e reaprender o tempo inteiro.
-Engenheiro de dados Qual é o seu trabalho? 
- seu trabalho é ajudar na empresa alcançar os requisitos de negócio na que a empresa possa se manter no mercado de maneira competitiva aumentando lucro reduzindo custo.
+Engenheiro de dados Qual é o seu trabalho?
+ Seu trabalho é ajudar a empresa a alcançar os requisitos de negócio na que a empresa possa se manter no mercado de maneira competitiva aumentando lucro reduzindo custo.
 -->
 
 # 3. Arquitetura e Pipelines de Dados
-<!--
 
 ## 3.1 A importância da Arquitetura de Pipelines de Dados  
 
@@ -59,7 +58,7 @@ Logo cada pipeline de dados deve ter um propósito e deve fazer parte de uma arq
 - Qual será o destino do pipeline?
 - Como será monitorado?
 - Usaremos diversos pipelines encadeados?
-- Vamos criar os pipelines locais, na nuvem ou ambos?
+- Vamos criar pipelines locais, na nuvem ou ambos?
 
 ## 3.6 [PDF] Estudo de Caso 1 - Design de Arquitetura Moderna de Pipeline de Dados para empresa da área de Manufatura
 
@@ -68,13 +67,13 @@ Logo cada pipeline de dados deve ter um propósito e deve fazer parte de uma arq
 ## 3.8 Estudo de Caso 1 - Compreensão dos Requisitos de Negócio
 
 - Compreender o problema
-        - empresa de manufatura
-        - médio porte
-        - fabrica utensílios domésticos
-        - adquiriu novas máquinas que conectam a rede
+  - empresa de manufatura
+  - médio porte
+  - fabrica utensílios domésticos
+  - adquiriu novas máquinas que conectam a rede
 - Compreender o que deve ser entregue
 - Pesquisar as fontes de dados
-        - máquinas em formato TXT
+  - máquinas em formato TXT
 - Identificar a infraestrutura atual e o que será necessário
 - Desenhar o esboço da solução
 
@@ -103,7 +102,8 @@ Logo cada pipeline de dados deve ter um propósito e deve fazer parte de uma arq
 - Podemos usar o Kafka (Apache Kafka) para extrair os dados e enviá-los para o ambiente em nuvem.
 - Na nuvem o Spark (Apache Spark) poderia fazer o processamento, assim evitaremos a necessidade de um armazenamento intermediário.
 - Ou seja, ao invés de armazenar dados em um data lake para processá-los depois, já processamos os dados no momento em que são extraídos, aplicando as transformações necessárias e reduzindo o espaço total de armazenamento dos dados.
- Então o resultado do processamento seria gravado em um DataLake para então ser usado em Machine Learning.
+
+Então o resultado do processamento seria gravado em um DataLake para então ser usado em Machine Learning.
  E enviaremos as atualizações necessárias para o sistema de estoque da empresa, atendendo assim os 2 requisitos de entrega do pipeline, com o menor custo possível e com todo o processamento sendo feito na nuvem.
 
 ## 3.14 Estudo de Caso 1 - Containers e Orquestração de Containers como Parte da solução  
@@ -124,4 +124,4 @@ Logo cada pipeline de dados deve ter um propósito e deve fazer parte de uma arq
 
 ## 3.17 Estudo de Caso 1 - Arquitetura Final do Pipeline e Considerações Finais
 
-## [3.18 Quiz]()
+## [3.18 Quiz](https://github.com/MariiMartins/EngenhariaDados/blob/e0586d7a13df852874632d8b74c1b79e9a748b39/Fundamentos%20da%20Eng%20Dados%20-%20DSA/QUIZ/3.18%20-%20Quiz.md)

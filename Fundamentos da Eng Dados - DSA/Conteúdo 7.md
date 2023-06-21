@@ -1,5 +1,4 @@
 # 7. Data Quality, Data Lineage e Data Observability
-<!--
 
 ## 1. O que é qualidade dos Dados (Data Quality)?
 
@@ -7,55 +6,64 @@ Data Quality é a medida da qualidade dos dados, ou seja, de quanto os dados sã
 É importante para garantir que os dados sejam precisos, consistentes e úteis para suportar as decisões de negócios.
 Qualidade dos Dados é a medida da condição dos dados com base em fatores como precisão, integridade, consistência, confiabilidade e se estão atualizados.
 
-## 2. Como medir qualidade dos Dados (Data Quality)?
+## 2. Como medir a qualidade dos Dados (Data Quality)?
 
 A medida da qualidade de dados pode ser feita usando uma combinação de técnicas estatísticas e metodologias de avaliação. Alguns dos indicadores comuns incluem a precisão, a completude, a consistência, a integridade e a atualização dos dados.
 Também pode ser necessário avaliar a relevância dos dados para o negócio e a facilidade de uso dos dados para os destinatários.
+
 Existem vários fatores e métricas que podem ser usados para medir a qualidade dos dados. Os mais comuns são:
-    - precisão
-    - exatidão
-    - consistência
-    - relevância
-    - cobertura
-    - atualidade
+
+- precisão
+- exatidão
+- consistência
+- relevância
+- cobertura
+- atualidade
 
 ## 3. Principais medidas de qualidade dos Dados - Precisão
 
 A precisão mede o quanto os dados são confiáveis, ou seja, a confiabilidade dos dados. O objetivo é garantir que os dados e informações contidos nos sistemas são completos, corretos, consistentes e seguros. Por exemplo:
- A idade dos clientes cadastrados é confiável?
+
+    - A idade dos clientes cadastrados é confiável?
 
 ## 4. Principais medidas de qualidade dos Dados - Exatidão
 
 A exatidão é a medida de quão bem os dados correspondem à realidade. É necessário assegurar que os dados estão exatos e refletem a realidade da melhor forma possível. Por exemplo:
- totais de vendas apresentam exatidão?
+
+    - totais de vendas apresentam exatidão?
 
 ## 5 Principais medidas de qualidade dos Dados - Consistência
 
 A consistência é um indicador de como os dados são uniformes. É importante garantir que os dados sejam consistentes e que não estejam sujeitos a mudanças muito fortes ou erros. A consistência também reflete a integridade dos dados. Por exemplo:
- Os dados apresentam problemas de valores ausentes?
+
+    - Os dados apresentam problemas de valores ausentes?
 
 ## 6. Principais medidas de qualidade dos Dados - Relevância
 
 A relevância mede a quantidade de informações relevantes que se tem sobre um determinado assunto. É importante assegurar que os dados sejam relevantes e úteis ao se fazer análises. Por exemplo:
- Dados da cor dos olhos dos clientes cadastrados é relevante para análise?
+
+    - Dados da cor dos olhos dos clientes cadastrados é relevante para análise?
 
 ## 7. Principais medidas de qualidade dos Dados - Cobertura
 
 A cobertura mede a quantidade de dados disponíveis para serem usados. É importante ter uma base de dados completa e fornecer informações suficientes para obter resultados confiáveis. Por exemplo:
- Dados sobre vendas estão disponíveis em todos os pontos de venda?
+
+    - Dados sobre vendas estão disponíveis em todos os pontos de venda?
 
 ## 8. Principais medidas de qualidade dos Dados - Atualidade
 
 A atualidade é a medida de quão recentes são os dados. É importante garantir que os dados sejam atualizados e que reflitam o comportamento do evento que está sendo analisado. Por exemplo:
- Dados demográficos após o ano de 2010 fazem mais sentido do que dados demográficos da década de 1950?
+
+    - Dados demográficos após o ano de 2010 fazem mais sentido do que dados demográficos da década de 1950?
 
 ## 9. O Valor da qualidade dos Dados
 
 Avaliar o valor da qualidade dos dados é importante para garantir que os dados sejam precisos e úteis para a realização de análises. Existem várias técnicas para determinar o valor da qualidade dos dados, como:
- Avaliação da qualidade dos dados por erros potenciais. Esta abordagem envolve a verificação de dados em busca de erros, como erros de digitação, dados ausentes ou incorretos, erros de formatação, etc.
- Análise estatística e de mineração de dados. Esta técnica envolve a análise estatística dos dados e o uso de técnicas de análise de dados para identificar padrões e anomalias.
- Teste de qualidade: testar a qualidade dos dados é uma das melhores maneiras de avaliar a qualidade dos dados. O teste de qualidade permite verificar se os dados estão corretos e se a conformidade dos dados às especificações é adequada.
- Avaliação de domínio. Esta técnica envolve a verificação dos dados em relação ao domínio dos dados. Por exemplo, se estivermos analisando dados de um banco de dados de vendas, seria necessário verificar se os preços das vendas estão dentro dos limites esperados.
+
+- Avaliação da qualidade dos dados por erros potenciais. Esta abordagem envolve a verificação de dados em busca de erros, como erros de digitação, dados ausentes ou incorretos, erros de formatação, etc.
+- Análise estatística e de mineração de dados. Esta técnica envolve a análise estatística dos dados e o uso de técnicas de análise de dados para identificar padrões e anomalias.
+- Teste de qualidade: testar a qualidade dos dados é uma das melhores maneiras de avaliar a qualidade dos dados. O teste de qualidade permite verificar se os dados estão corretos e se a conformidade dos dados às especificações é adequada.
+- Avaliação de domínio. Esta técnica envolve a verificação dos dados em relação ao domínio dos dados. Por exemplo, se estivermos analisando dados de um banco de dados de vendas, seria necessário verificar se os preços das vendas estão dentro dos limites esperados.
 
 ## 10. Correções Típicas nos Dados
 
@@ -72,8 +80,10 @@ Algumas correções típicas nos dados para garantir a qualidade incluem:
 
 Linhagem dos Dados é a trajetória de dados ao longo do tempo, incluindo suas origens, transformações, aplicações e destinos finais.
 É uma representação visual ou lógica da evolução dos dados em um sistema, o que permite entender a integridade e a qualidade dos dados.
+
 A Linhagem dos Dados é importante para várias aplicações, como auditoria de dados, gerenciamento de governança de dados e análise de impacto.
 Linhagem de dados é o processo de rastreamento e documentação do fluxo de dados ao longo do tempo, desde a origem até o destino final, incluindo todas as transformações e operações realizadas nos dados.
+
 Este conceito é importante para garantir a qualidade dos dados e fornecer uma visão clara de como os dados foram gerados e utilizados em diferentes sistemas e processos.
 
 ## 12. A importância da Linhagem de Dados (Data Lineage)
@@ -92,13 +102,18 @@ A Qualidade dos Dados está relacionada com os dados em si, enquanto a Observali
 **Observabilidade dos Dados > Linhagem dos Dados > Qualidade dos Dados**
 
 Observabilidade dos Dados é a capacidade de visualizar e entender o estado e o comportamento dos dados a fim de identificar problemas, corrigir erros e tomar decisões informadas.
+
 A Observabilidade dos Dados inclui a capacidade de monitorar, rastrear e auditar o fluxo de dados, bem como a disponibilidade de metadados e informações sobre as transformações e operações realizadas nos dados.
+
 Um aspecto fundamental da Observabilidade dos Dados é a capacidade de acessar e analisar dados de todas as partes do sistema.
 Isso inclui dados de aplicações, da infraestrutura e dos usuários do sistema.
+
 Para utilizar efetivamente a Observabilidade de Dados, é importante ter as ferramentas e os processos corretos em vigor.
 Isso inclui coleta de dados e infraestrutura de armazenamento, bem como ferramentas de análise e visualização.
+
 Também é importante ter uma compreensão clara das métricas que são mais importantes para rastrear e a maneira apropriada de analisar os dados.
 Outro aspecto importante da Observabilidade de Dados é a capacidade de identificar e solucionar problemas em tempo real.
+
 Ao monitorar constantemente os dados, é possível detectar e resolver problemas antes que eles se tornem críticos.
 Isso pode ser especialmente importante em sistemas com requisitos de alta disponibilidade, pois o tempo de inatividade pode ter consequências significativas.
 
@@ -124,10 +139,13 @@ Com a Observabilidade dos Dados, uma organização pode identificar melhor seus 
 
 ## 16. [PDF] Tendências em Engenharia de Dados - Contrato de Dados
 
- O  Contrato  de  Dados  em  engenharia  de  dados  é  um  acordo  formal  que  estabelece  as expectativas,  responsabilidades  e  obrigações  entre  as  partes  envolvidas  na  gestão  e  uso  de dados.
- Ele define como  os dados serão  coletados, armazenados, protegidos e  compartilhados, bem  como  quais  são  as  restrições  e  condições  de  uso  dos  dados.  O  objetivo  é  garantir  a privacidade,  a  segurança  e  a  integridade  dos  dados,  além  de  assegurar  o  cumprimento  de regulamentos e leis relacionados à proteção de dados.
- O Contrato de Dados é um acordo entre produtores e consumidores dos dados e é uma tendência na área de Engenharia de Dados.O Contrato de Dados estabelece regras claras para garantir que os dados sejam usados de maneira ética e correta, incluindo quais dados podem ser coletados, como podem ser usados e por quanto tempo, e como os dados serão protegidos e excluídos quando não mais necessários. O Contrato de Dados é importante para garantir a  confiança e a transparência nas práticas de Engenharia de Dados.
- O Contrato de Dados ainda é uma ideia relativamente nova. Eles são uma tentativa inicial de melhorar a manutenção dos pipelines de dados e os problemas decorrentes da quebra de um monólito,  portanto,  provavelmente  veremos  mais  iterações  e  outras  abordagens  surgindo  no futuro
+O  Contrato  de  Dados  em  engenharia  de  dados  é  um  acordo  formal  que  estabelece  as expectativas,  responsabilidades  e  obrigações  entre  as  partes  envolvidas  na  gestão  e  uso  de dados.
+
+Ele define como  os dados serão  coletados, armazenados, protegidos e  compartilhados, bem  como  quais  são  as  restrições  e  condições  de  uso  dos  dados.  O  objetivo  é  garantir  a privacidade,  a  segurança  e  a  integridade  dos  dados,  além  de  assegurar  o  cumprimento  de regulamentos e leis relacionados à proteção de dados.
+
+O Contrato de Dados é um acordo entre produtores e consumidores dos dados e é uma tendência na área de Engenharia de Dados.O Contrato de Dados estabelece regras claras para garantir que os dados sejam usados de maneira ética e correta, incluindo quais dados podem ser coletados, como podem ser usados e por quanto tempo, e como os dados serão protegidos e excluídos quando não mais necessários. O Contrato de Dados é importante para garantir a  confiança e a transparência nas práticas de Engenharia de Dados.
+
+O Contrato de Dados ainda é uma ideia relativamente nova. Eles são uma tentativa inicial de melhorar a manutenção dos pipelines de dados e os problemas decorrentes da quebra de um monólito,  portanto,  provavelmente  veremos  mais  iterações  e  outras  abordagens  surgindo  no futuro
 
 ## 17. Demonstração Prática 3 - Visão Geral
 
@@ -135,7 +153,7 @@ Com a Observabilidade dos Dados, uma organização pode identificar melhor seus 
 
 ## 20. O que é um DataOps?
 
- DataOps é uma abordagem para a gestão de pipelines de dados, baseada em práticas de DevOps, que se concentra na agilidade, qualidade e confiabilidade na entrega de dados.
+ - DataOps é uma abordagem para a gestão de pipelines de dados, baseada em práticas de DevOps, que se concentra na agilidade, qualidade e confiabilidade na entrega de dados.
 
 É uma forma de otimizar os fluxos de trabalho dos pipelines de dados, do desenvolvimento à entrega, com o objetivo de torná-los mais rápidos, confiáveis e escaláveis. Isso é alcançado através da automação de tarefas repetitivas, monitoramento contínuo e colaboração estreita entre equipes de desenvolvimento de software e de dados.
 
@@ -143,29 +161,25 @@ DataOps é o resultado da aplicação dos princípios do DevOps ao ciclo de vida
 
 DataOps se concentra em três processos:
 
-1- Redução de Erros, o que melhora a confiança nos dados.
-2- Ciclo de Vida de Desenvolvimento, que envolve a rapidez com que você pode obter novos modelos, novos conjuntos de dados e novas visualizações, da concepção do problema até a produção. Este aspecto envolve tanto velocidade quanto risco.
-3- Aumento da Produtividade da Equipe, com redução do número de reuniões e aumento da colaboração.
+1. Redução de Erros, o que melhora a confiança nos dados.
+2. Ciclo de Vida de Desenvolvimento, que envolve a rapidez com que você pode obter novos modelos, novos conjuntos de dados e novas visualizações, da concepção do problema até a produção. Este aspecto envolve tanto velocidade quanto risco.
+3. Aumento da Produtividade da Equipe, com redução do número de reuniões e aumento da colaboração.
 
 Todos os processos definidos anteriormente são mensuráveis. Por exemplo, você deve analisar métricas que respondam às seguintes perguntas:
 
-Quanto trabalho sua equipe está fazendo?
-Com que frequência as coisas estão “quebrando”?
-Quão rápido você está colocando coisas novas em produção?
-Como Implementar DataOps
+- Quanto trabalho sua equipe está fazendo?
+- Com que frequência as coisas estão “quebrando”?
+- Quão rápido você está colocando coisas novas em produção?
+
+**Como Implementar DataOps**
 A implementação de DataOps envolve vários passos, incluindo:
 
-Definição de Processos: Defina os processos e fluxos de trabalho para os pipelines de dados, incluindo a integração, validação, teste e implantação.
-
-Automatização: Automatize tarefas repetitivas para melhorar a eficiência e a precisão. Isso inclui a automação de testes, implantações e atualizações.
-
-Colaboração: Crie uma equipe cross-funcional de desenvolvimento de software e de dados para trabalhar juntos na criação, manutenção e monitoramento dos pipelines de dados.
-
-Monitoramento: Monitore o desempenho de cada pipeline de dados para identificar problemas e oportunidades de melhoria.
-
-Feedback: Implemente um sistema de feedback para permitir que as equipes de desenvolvimento de software e de dados possam compartilhar informações e soluções em tempo real.
-
-Cultura: Fomente uma cultura de experimentação, inovação e melhoria contínua para garantir que todos estejam sempre procurando formas de tornar cada pipeline de dados mais eficiente e eficaz.
+- Definição de Processos: Defina os processos e fluxos de trabalho para os pipelines de dados, incluindo a integração, validação, teste e implantação.
+- Automatização: Automatize tarefas repetitivas para melhorar a eficiência e a precisão. Isso inclui a automação de testes, implantações e atualizações.
+- Colaboração: Crie uma equipe cross-funcional de desenvolvimento de software e de dados para trabalhar juntos na criação, manutenção e monitoramento dos pipelines de dados.
+- Monitoramento: Monitore o desempenho de cada pipeline de dados para identificar problemas e oportunidades de melhoria.
+- Feedback: Implemente um sistema de feedback para permitir que as equipes de desenvolvimento de software e de dados possam compartilhar informações e soluções em tempo real.
+- Cultura: Fomente uma cultura de experimentação, inovação e melhoria contínua para garantir que todos estejam sempre procurando formas de tornar cada pipeline de dados mais eficiente e eficaz.
 
 A implementação de DataOps é um processo contínuo e pode levar algum tempo. No entanto, a implementação correta pode melhorar significativamente a qualidade, confiabilidade e agilidade na entrega de dados.
 
@@ -210,4 +224,4 @@ Trata-se de construir uma cultura em que os profissionais de dados trabalhem em 
 
 ## 21, 22, 23, 24 e 25. Demonstração Prática 3 - Linhagem de Dados de Data Warehouse
 
-## [26. Quiz](link)
+## [26. Quiz](https://github.com/MariiMartins/EngenhariaDados/blob/e0586d7a13df852874632d8b74c1b79e9a748b39/Fundamentos%20da%20Eng%20Dados%20-%20DSA/QUIZ/7.26%20-%20Quiz.md)

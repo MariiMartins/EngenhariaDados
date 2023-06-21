@@ -1,6 +1,5 @@
 # 9. Engenharia de Dados com Linguagem Python
 
-<!--
 ## 1. [PDF] Demonstração Prática 4 - Criação de Pipeline de Extração, Limpeza, Transformação e Enriquecimento de Dados
 
 ## 2. Visão Geral da Demonstração Prática 4

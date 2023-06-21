@@ -1,9 +1,8 @@
 # 2. Pipeline de Dados e o Processo de Engenharia de Dados
 
-<!--
- ## 2.4 Pipeline de Dados x Pipeline ETL
+## 2.4 Pipeline de Dados x Pipeline ETL
 
-    - Os sistemas de ETL são um tipo de pipeline de dados, pois movem dados de uma origem, transformam os dados e, em seguida carregam os dados em um destino.
+    - Os sistemas de ETL são um tipo de pipeline de dados, pois movem dados de uma origem, transformam os dados e, em seguida, carregam os dados em um destino.
     Mas ETL geralmente é apenas um subprocesso de um pipeline de dados.
     - O termo ETL foi criado em uma época onde normalmente o único destino era um Data Warehouse e o processo era bem menos complexo. Hoje, o ETL faz parte de um processo maior de pipeline de dados.
     - Mas o processo é cada vez mais complexo e hoje podemos ter inúmeros tipos de processamento e inúmeros destinos. Por isso o termo pipeline de dados vem sendo cada vez mais usado.
@@ -14,13 +13,15 @@
 
 ## 2.5 Característica de Pipelines Modernos
 
-    Pipelines de dados robustos podem equipar uma empresa adequadamente para obter, coletar, gerenciar, analisar e usar dados com eficiência e então usar os dados para gerar novas oportunidades de mercado e fornecer processos de negócios mais eficientes e econômicos.Os pipelines de dados modernos tornam a extração de informações dos dados coletados rápida e eficiente.
-    As principais características ao considerar um pipeline de dados incluem:
-        - Processamento de dados contínuo e extensível.
-        - A elasticidade e agilidade da nuvem.
-        - Recursos isolados e independentes para processamento de dados.
-        - Acesso democratizado a dados e gerenciamento de autoatendimento.
-        - Alta disponibilidade e recuperação de desastres.
+Pipelines de dados robustos podem equipar uma empresa adequadamente para obter, coletar, gerenciar, analisar e usar dados com eficiência e então usar os dados para gerar novas oportunidades de mercado e fornecer processos de negócios mais eficientes e econômicos.Os pipelines de dados modernos tornam a extração de informações dos dados coletados rápida e eficiente.
+
+As principais características ao considerar um pipeline de dados incluem:
+
+- Processamento de dados contínuo e extensível.
+- A elasticidade e agilidade da nuvem.
+- Recursos isolados e independentes para processamento de dados.
+- Acesso democratizado a dados e gerenciamento de autoatendimento.
+- Alta disponibilidade e recuperação de desastres.
 
 ## 2.6 e 2.7 Principais Ferramentas para Construir Pipelines de Dados - Transformação de Dados
 
@@ -38,7 +39,7 @@
 - [AWS Glue](https://aws.amazon.com/pt/glue/)
 - [Amazon Athena](https://aws.amazon.com/pt/athena/)
 
- ## 2.8 Principais Ferramentas para Construir Pipelines de Dados - Armazenamento e Cloud Computing
+## 2.8 Principais Ferramentas para Construir Pipelines de Dados - Armazenamento e Cloud Computing
 
 - [Databricks](https://www.databricks.com/)
 - [Delta Lake](https://delta.io/)
@@ -50,7 +51,6 @@
 - [Amazon Redshift](https://aws.amazon.com/pt/redshift/)
 - [Segment](https://segment.com/)
 - [Azure Data Factory](https://azure.microsoft.com/pt-br/products/data-factory/)
-
 
 ## 2.9 Principais Ferramentas para Construir Pipelines de Dados - RealTime Analytics
 
@@ -89,11 +89,16 @@ Fontes de Dados (Batch e Streaming) -> | Ingestão de Dados | Transformação e 
 Arquitetura de Dados, Gestão de Dados e Metadados, Orquestração, Segurança, CI/CD, DataOps
 
 ## 2.12 Ciclo de Vida da Engenharia de Dados - Ingestão de Dados
-    Uma vez que a empresa tem  definido as fontes de dados, ela então passa para o próximo componente que é a ingestão de dados. A ingestão de dados visa você tirar os dados da fonte (da origem) e fazer a ingestão na sua plataforma de dados.
-    Essa plataforma de dados pode ser no ambiente local com Apache Hadoop, eventualmente um data Lake, pode ser no ambiente em nuvem com Snowflake, com Amazon Redshift ou mesmo Amazon S3.  
-    Ou seja eu vou precisar de uma ferramenta que vai extrair os dados e fazer a ingestão no meu ambiente de dados da minha plataforma de dados, para que eu possa seguir em frente no meu processo criando os pipelines por exemplo para transformação, enriquecimento, uso de dados e assim por diante dependendo do tipo de fonte também fica fácil compreender que a ingestão de dados vai requerer os conectores, se eu tiver mais de uma fonte simultânea vou precisar extrair os dados de maneira simultânea, e depois realizar algum tipo de merge ou seja vou ter combinar os dados para então seguir adiante no processo.
-    Uma ferramenta como airbyte por exemplo vai buscar esses dados, faz a ingestão no sistema de armazenamento, já aplica a transformação e já leva adiante.
-    Então a ingestão de dados visa tirar os dados da fonte e levar esses dados para sua plataforma de dados, que é onde a "brincadeira" vai acontecer.
+
+Uma vez que a empresa tem  definido as fontes de dados, ela então passa para o próximo componente que é a ingestão de dados. A ingestão de dados visa você tirar os dados da fonte (da origem) e fazer a ingestão na sua plataforma de dados.
+
+Essa plataforma de dados pode ser no ambiente local com Apache Hadoop, eventualmente um data Lake, pode ser no ambiente em nuvem com Snowflake, com Amazon Redshift ou mesmo Amazon S3.  
+
+Ou seja eu vou precisar de uma ferramenta que vai extrair os dados e fazer a ingestão no meu ambiente de dados da minha plataforma de dados, para que eu possa seguir em frente no meu processo criando os pipelines por exemplo para transformação, enriquecimento, uso de dados e assim por diante dependendo do tipo de fonte também fica fácil compreender que a ingestão de dados vai requerer os conectores, se eu tiver mais de uma fonte simultânea vou precisar extrair os dados de maneira simultânea, e depois realizar algum tipo de merge ou seja vou ter combinar os dados para então seguir adiante no processo.
+
+Uma ferramenta como airbyte por exemplo vai buscar esses dados, faz a ingestão no sistema de armazenamento, já aplica a transformação e já leva adiante.
+
+Então a ingestão de dados visa tirar os dados da fonte e levar esses dados para sua plataforma de dados, que é onde a "brincadeira" vai acontecer.
 
 ## 2.15 Ciclo de Vida da Engenharia de Dados - Armazenamento
 
@@ -110,15 +115,17 @@ Eventualmente a empresa pode extrair os dados, e já aplicar alguma transformaç
 
 Se os dados são gerados em tempo real você pode extrair os dados no momento que eles são gerados, você já aplica a limpeza, transformação isso pode ficar até na memória do computador se o volume de dados não é tão grande você usa um cluster para um ambiente distribuído, isso fica na memória do ambiente distribuído no cluster, também é possível então você extraiu, jogou na memória do cluster, aplicou a transformação, já alimentou um dashboard lá com o sistema qualquer de analíticos, já entregou o resultado mas isso tem também outro lado é uma infraestrutura mais complexa para você manter, vai precisar de profissionais ainda mais capacitados, vai funcionar muito bem para um propósito, você não pode extrair todos os dados manter tudo no cluster de maneira simultânea o tempo inteiro dependendo do volume.
 
-Talvez isso não seja algo factível veja que temos sempre que canalizar cada cenário a necessidade da empresa como a empresa vai usar os dados no dia a dia.
+Talvez isso não seja algo factível, visto que temos sempre que canalizar cada cenário a necessidade da empresa como a empresa vai usar os dados no dia a dia.
 
 ## 2.21 [PDF] O que é CI/CD (Integração Contínua/ Entrega Contínua)
 
 CI/CD (integração contínua e entrega contínua) é uma abordagem de desenvolvimento de  software  em  que  todos  os  desenvolvedores  trabalham  juntos  em  um  repositório compartilhado de códigos, à medida que as alterações são feitas, há um processo de build automatizado  para  detectar  problemas  de  código.  O  resultado  é  um  ciclo  de  vida  de desenvolvimento mais rápido e uma taxa de erro menor.
 
 Um pipeline de CI/CD automatiza os dois processos a seguir para um processo de entrega de software de ponta a ponta:
-    - Integração contínua para criação e teste de código automatizado.
-    - Entrega contínua (ou implantação contínua) para lançamentos de código
+
+- Integração contínua para criação e teste de código automatizado.
+- Entrega contínua (ou implantação contínua) para lançamentos de código
+
 Um pipeline de CI/CD combina criação, teste e implantação de código em um processo contínuo,  garantindo  que  todas  as  alterações  no  código  do repositório principal  possam  ser liberadas para produção. Um pipeline automatizado de CI/CD evita erros manuais e permite iterações rápidas de software. O conceito de CI/CD está cada vez mais sendo aplicado em Engenharia de Dados criando o que hoje chamamos de DataOps, com a operação contínua da plataforma de dados.
 
 ## 2.22 Ciclo de Vida da Engenharia de Dados - CI/CD
@@ -129,7 +136,7 @@ Um pipeline de CI/CD combina criação, teste e implantação de código em um p
 
 Conceito de DataOps vem ganhando conceito no mercado, a partir do momento em que empresas vêm investindo em Dados.
 
-## [2.25 - Quiz]()
+## [2.25 - Quiz](https://github.com/MariiMartins/EngenhariaDados/blob/e0586d7a13df852874632d8b74c1b79e9a748b39/Fundamentos%20da%20Eng%20Dados%20-%20DSA/QUIZ/2.25%20-%20Quiz.md)
 
 <!--
 [Diagramas com MD](https://support.typora.io/Draw-Diagrams-With-Markdown/)

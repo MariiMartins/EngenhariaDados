@@ -1,6 +1,5 @@
 # 8. DevOps para Engenheiros de Dados
 
-<!--
 ## 1. [PDF] O que é DevOps?
 
 DevOps é uma cultura e conjunto de práticas que tem como objetivo integrar as equipes de  desenvolvimento  de  software  e  operações  de  TI  (tecnologia  da  informação)  para  criar  e entregar software de forma mais eficiente e com maior qualidade.
@@ -16,18 +15,20 @@ O objetivo final de DevOps é criar uma cultura e um processo de entrega de soft
 As práticas de DevOps na Engenharia de Dados têm como objetivo criar um processo eficiente  e  automatizado  de  coleta,  armazenamento,  processamento  e  análise  de  dados.
 Algumas práticas comuns de DevOps na Engenharia de Dados incluem:
 
-- **Automação de infraestrutura:** a infraestrutura de dados podeser gerenciada por código, permitindo  a  criação  de  ambientes  de  desenvolvimento,  teste  e  produção  de  maneira consistente e previsível.
-- **Controle de versão:** todo o código e artefatos de dados podem ser armazenados em um sistema de controle de versão, permitindo o controle de mudanças e a colaboração entre as equipes de desenvolvimento e operações.
-- **Integração contínua:** o código pode ser integrado e testado continuamente, permitindo a identificação precoce de erros e problemas de compatibilidade.
-- **Entrega  contínua:**  as  mudanças  no  código  e  na  infraestrutura podem ser  entregues rapidamente e com segurança para a produção, usando pipelines automatizados de deploy.
-- **Monitoramento:**  os dados  e  os  sistemas  de  infraestrutura podem ser  monitorados constantemente para garantir a qualidade, a estabilidade e a performance. A análise de métricas e logs pode ser usada para identificar problemas e oportunidades de melhoria.
-- **Automação  de  processamento  de  dados:**  o  processamento  de  dados pode ser automatizado, permitindo que novos dados sejam processados assim que estiverem disponíveis, minimizando o tempo de latência.
-- **Testes automatizados:** testes automatizados podem ser usados para garantir a qualidade dos dados e do código, permitindo a identificação precoce de erros e problemas.
+- **Automação de infraestrutura:** A infraestrutura de dados pode ser gerenciada por código, permitindo  a  criação  de  ambientes  de  desenvolvimento,  teste  e  produção  de  maneira consistente e previsível.
+- **Controle de versão:** Todo o código e artefatos de dados podem ser armazenados em um sistema de controle de versão, permitindo o controle de mudanças e a colaboração entre as equipes de desenvolvimento e operações.
+- **Integração contínua:** O código pode ser integrado e testado continuamente, permitindo a identificação precoce de erros e problemas de compatibilidade.
+- **Entrega  contínua:**  As mudanças  no  código  e  na  infraestrutura podem ser  entregues rapidamente e com segurança para a produção, usando pipelines automatizados de deploy.
+- **Monitoramento:**  Os dados  e  os  sistemas  de  infraestrutura podem ser  monitorados constantemente para garantir a qualidade, a estabilidade e a performance. A análise de métricas e logs pode ser usada para identificar problemas e oportunidades de melhoria.
+- **Automação  de  processamento  de  dados:**  O processamento  de  dados pode ser automatizado, permitindo que novos dados sejam processados assim que estiverem disponíveis, minimizando o tempo de latência.
+- **Testes automatizados:** Testes automatizados podem ser usados para garantir a qualidade dos dados e do código, permitindo a identificação precoce de erros e problemas.
 Essas práticas de DevOps na Engenharia de Dados podem ajudar as equipes a trabalharem de  forma  mais  eficiente  e  colaborativa,  permitindo  a  entrega  de  soluções  de  dados  mais confiáveis e escaláveis
 
 ## 3. [PDF] O que é IaC (Infraestrutura como código)?
 
-Infraestrutura como código (IaC) é uma prática de DevOps que consiste em gerenciar a infraestrutura de TI usando código. Em  vez  de  configurar  manualmente  servidores,  redes,  bancos  de  dados,  e  outros componentes de infraestrutura, a IaC permite que esses recursos sejam criados, configurados e gerenciados automaticamente através de código.A  IaC  é  geralmente  implementada  usando  linguagens  de  programação  ou  ferramentas específicas que permitem descrever a infraestrutura como código. Esses códigos podem então ser   armazenados   em   sistemas   de   controle   de   versão,   permitindo   que   as   alterações   na infraestrutura sejam gerenciadas como mudanças no código.
+Infraestrutura como código (IaC) é uma prática de DevOps que consiste em gerenciar a infraestrutura de TI usando código. Em  vez  de  configurar  manualmente  servidores,  redes,  bancos  de  dados,  e  outros componentes de infraestrutura, a IaC permite que esses recursos sejam criados, configurados e gerenciados automaticamente através de código.A  IaC  é  geralmente  implementada  usando  linguagens  de  programação  ou  ferramentas específicas que permitem descrever a infraestrutura como código.
+
+Esses códigos podem então ser   armazenados   em   sistemas   de   controle   de   versão,   permitindo   que   as   alterações   na infraestrutura sejam gerenciadas como mudanças no código.
 
 Algumas das principais vantagens da IaC incluem:
 
@@ -45,7 +46,7 @@ Algumas das maneiras como a IaC é usada na Engenharia de Dados incluem:
 
 - **Criação de ambientes de infraestrutura:** A IaC pode ser usada para criar ambientes de infraestrutura  de  dados,  incluindo  clusters  de  processamento  distribuído,  bancos  de  dados, armazenamento em nuvem, entre outros. Esses ambientes podem ser criados rapidamente e de forma consistente, garantindo que todos os ambientes estejam configurados de maneira idêntica e evitando problemas de configuração manual.
 - **Configuração  de  serviços  de  processamento  de  dados:**  A  IaC  pode  ser  usada  para configurar  serviços  de  processamento  de  dados,  como  o  Apache  Spark  ou  Apache  Flink.  As configurações  desses  serviços  podem  ser  mantidas  em  código  e  versionadas,  permitindo  a colaboração e a rastreabilidade.
-- **Gerenciamento de fluxos de dados:** A IaCpode ser usada para configurar e gerenciar fluxos de dados que movem dados de um ambiente para outro. Os códigos de infraestrutura podem ser usados para automatizar a criação e configuração de pipelines de dados, bem como para atualizar e modificar esses pipelines à medida que as necessidades de dados mudam.
+- **Gerenciamento de fluxos de dados:** A IaC pode ser usada para configurar e gerenciar fluxos de dados que movem dados de um ambiente para outro. Os códigos de infraestrutura podem ser usados para automatizar a criação e configuração de pipelines de dados, bem como para atualizar e modificar esses pipelines à medida que as necessidades de dados mudam.
 - **Configuração  de  monitoramento  e  alertas:**  A  IaC  pode  ser  usada  para  configurar  o monitoramento de métricas de dados e infraestrutura, como uso de CPU, uso de disco, latência de rede, entre outros. Os alertas podem ser configurados para notificar automaticamente as equipes de operações quando as métricas se desviam dos valores desejados.
 A IaC está se tornando uma prática essencial na Engenharia de Dados, pois permite que a infraestrutura de dados seja gerenciada como código, reduzindo o tempo e o esforço necessários para configurar e gerenciar infraestrutura complexa e permitindo que as equipes se concentrem na análise e processamento de dados em si
 
@@ -96,7 +97,7 @@ Os containers são uma tecnologia de virtualização que pode ser usada em Engen
 - **Implantação  de  soluções  de  dados:**  Os  containers  podem  ser  usados  para  implantar soluções de dados em ambientes de produção. Os containers permitem que as soluções de dados sejam empacotadas e implantadas de forma consistente em diferentes ambientes, incluindo ambientes de nuvem e on-premises(local).
 - **Orquestração  de  clusters  de  bancos  de  dados:** Os containers podem ser usados para orquestrar  clusters  de  bancos  de  dados,  permitindo  que  os  bancos  de  dados  sejam dimensionados rapidamente e gerenciados de maneira eficiente. Ferramentas de orquestração de containers, como o Kubernetes, podem ser usadas para gerenciar clusters de bancos de dados e permitir que eles sejam dimensionados horizontalmente em resposta a aumentos de demanda.
 - **Processamento  de  dados  distribuídos:**  Os  containers  podem  ser  usados  para  criar ambientes de processamento de dados distribuídos. Isso pode incluir a implantação de clusters Apache  Hadoop  ou  Apache  Spark  em  containers.  Isso  permite  que  os  processos  de processamento  de  dados  sejam  escalados  horizontalmente  e  gerenciados  de  maneira mais eficiente.
-- **Automação de processos de dados:** Os containers podem ser usados para automatizar processos de dados. Isso pode incluir a criação de pipelines de dados em containers, permitindo que  os  dados  sejam  processados  de  maneira  eficiente  e  consistente.
+- **Automação de processos de dados:** Os containers podem ser usados para automatizar processos de dados. Isso pode incluir a criação de pipelines de dados em contêineres, permitindo que  os  dados  sejam  processados  de  maneira  eficiente  e  consistente.
 
 ## 9. [PDF] Cloud Computing x Solução Local para Engenharia de Dados
 
@@ -122,11 +123,11 @@ A decisão  de  usar  Cloud  Computing  ou  uma  solução  local  de Engenharia
 
 Existem várias soluções de IaC (Infraestrutura como Código) disponíveis no mercado. Aqui estão algumas das principais soluções de IaC:
 
-- **Terraform:**  Terraform  é  uma  ferramenta  de  IaC  de  código  aberto  desenvolvida  pela HashiCorp. Ele permite que os usuários definam, gerenciem e provisionem a infraestrutura em vários provedores de nuvem, incluindo AWS, Microsoft Azure e Google Cloud Platform, além de provedores on-premises.
+- **Terraform:**  Terraform  é  uma  ferramenta  de  IaC  de  código  aberto  desenvolvida  pela HashiCorp. Ele permite que os usuários definam, gerenciem e provisionam a infraestrutura em vários provedores de nuvem, incluindo AWS, Microsoft Azure e Google Cloud Platform, além de provedores on-premises.
 - **Ansible:** Ansible é uma plataforma de automação de TI que inclui recursos de IaC. Ele permite que os usuários gerenciem a configuração de servidores e outras máquinas remotas de forma automatizada, usando arquivos YAML que descrevem o estado desejado da infraestrutura.
 - **Puppet:** Puppet é uma plataforma de gerenciamento de configuração que permite que os usuários gerenciem a configuração de servidores e outras máquinas remotas. Ele permite que os usuários definam a configuração da infraestrutura usando uma linguagem de programação de código aberto.
 - **Chef:** Chef é uma plataforma de gerenciamento de configuração que permite que os usuários  gerenciem  a  configuração  de  servidores  e  outras  máquinas  remotas.  Ele  usa  uma linguagem de programação própria para definir a configuração da infraestrutura.
-- **CloudFormation:** CloudFormation é uma solução de IaC da Amazon Web Services (AWS) que permite que os usuários definam e provisionem recursos da AWS em um arquivo de modelo. Ele usa um formato JSON ou YAML para definir a infraestrutura e os recursos necessários para executar os aplicativos em uma nuvem da AWS.
+- **CloudFormation:** CloudFormation é uma solução de IaC da Amazon Web Services (AWS) que permite que os usuários definam e provisionam recursos da AWS em um arquivo de modelo. Ele usa um formato JSON ou YAML para definir a infraestrutura e os recursos necessários para executar os aplicativos em uma nuvem da AWS.
 
 Essas  são  apenas  algumas  das  principais  soluções  de  IaC  disponíveis  atualmente.  A escolha  da  solução  certa  dependerá  das  necessidades  específicas  de  cada  empresa,  dos provedores de nuvem em uso e da equipe de TI disponível para gerenciar a infraestrutura.É importante avaliar as soluções de IaC disponíveis no mercado e escolher aquela que melhor atende às necessidades de cada projeto.
 
@@ -161,4 +162,4 @@ O Modern Data Stack combina diferentes tecnologias e ferramentas, incluindo:
 
 Ao  combinar  essas  tecnologias  e  ferramentas,  o  Modern  Data  Stack  permite  que  as empresas gerenciem seus dados de forma mais eficiente e eficaz. A abordagem MDS também permite  que  as  empresas  aproveitem  as  vantagens  da  nuvem,  incluindo  escalabilidade, flexibilidade e redução de custos
 
-## [13. Quiz]()
+## [13. Quiz](https://github.com/MariiMartins/EngenhariaDados/blob/e0586d7a13df852874632d8b74c1b79e9a748b39/Fundamentos%20da%20Eng%20Dados%20-%20DSA/QUIZ/8.13%20-%20Quiz.md)
