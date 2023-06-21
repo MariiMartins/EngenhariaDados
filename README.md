@@ -2,7 +2,7 @@
 
 This repository serves to document the lessons of the course.
 
- **A PASTA DE FUNDAMENTOS DA ENG DADOS ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**
+ **A PASTA DE FUNDAMENTOS DE IA ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**
 
 <details><summary> Udemy </summary>
 
@@ -35,7 +35,7 @@ This repository serves to document the lessons of the course.
     7 - Integração com APIs e Banco de Dados
 </details>
 
-<!--<details><summary> Fundamentos da Eng Dados - DSA</summary>
+<details><summary> Fundamentos da Eng Dados - DSA</summary>
 
     1. Introdução
     2. Pipeline de Dados e o Processo de Engenharia de Dados
@@ -48,3 +48,16 @@ This repository serves to document the lessons of the course.
     9. Engenharia de Dados com Linguagem Python
     10. Avaliação e Certificado de Conclusão
 </details>
+
+<!-- <details><summary> Fundamentos de Inteligência Artificial - DSA </summary>
+    1. Introdução
+    2. Fundamentos de Inteligência Artificial (IA)
+    3. Fundamentos de Machine Learning
+    4. Fundamentos de Deep Learning
+    5. Processamento de Linguagem Natural
+    6. Visão Computacional
+    7. Inteligência Artificial em Cyber Security
+    8. Inteligência Artificial nos Negócios e nas Finanças
+    9. Capacitação para Trabalhar com Inteligência Artificial
+    10. Avaliação e Certificado de Conclusão
+<\details>
