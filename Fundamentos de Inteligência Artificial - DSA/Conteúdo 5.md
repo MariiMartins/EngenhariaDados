@@ -1,4 +1,3 @@
-<!--
 # 5. Processamento de Linguagem Natural
 
 ## 5.1 - O que é Processamento de Linguagem Natural?
@@ -15,10 +14,10 @@ O processamento de linguagem natural é uma área da Computação que se dedica 
 PLN é utilizada em várias aplicações e domínios, vamos apresentar alguns deles para você:
 
 - **assistência virtual**  Muitos sistemas de assistência virtual com assistentes de voz tais como o Google Assistem, o Amazon Alexa e a Siri da Apple, usam o PLN para compreender e responder a perguntas e comandos do usuário em linguagem natural.
-- **pesquisa na web** os mecanismos de Pesquisas como Google, Bing, Yahoo, chatGPT  dentre outros usam o PLN para compreender as consultas dos usuários e fornecer resultados relevantes.
-- **processamento de dados** o processamento de linguagem natural é amplamente utilizado na análise de dados como na extração de informações de textos não estruturados como relatórios artigos e postagens em redes sociais.
-- **tradução automática** o processamento de linguagem natural é usado em sistemas de tradução automática para traduzir textos de uma língua para outra.
-- **chatbots** o chatbots são programas que simulam conversas humanas e são usados para atender a clientes em sites de comércio eletrônico por exemplo eles usam o PLN para compreender as perguntas e comentários dos usuários e fornecer respostas adequadas.
+- **pesquisa na web** Os mecanismos de Pesquisas como Google, Bing, Yahoo, chat GPT  dentre outros usam o PLN para compreender as consultas dos usuários e fornecer resultados relevantes.
+- **processamento de dados** O processamento de linguagem natural é amplamente utilizado na análise de dados como na extração de informações de textos não estruturados como relatórios, artigos e postagens em redes sociais.
+- **tradução automática** O processamento de linguagem natural é usado em sistemas de tradução automática para traduzir textos de uma língua para outra.
+- **chatbots** Os chatbots são programas que simulam conversas humanas e são usados para atender a clientes em sites de comércio eletrônico, por exemplo eles usam o PLN para compreender as perguntas e comentários dos usuários e fornecer respostas adequadas.
 - **sistema de fala** O processamento de linguagem natural é usado em Sistemas de reconhecimento de fala para permitir que os usuários interajam com os dispositivos de voz como telefones e assistentes de voz através de comandos de voz.
 Esses são apenas alguns exemplos de onde o PLN é amplamente utilizado. Existem muitas outras aplicações onde o PLN é usado para facilitar a interação entre humanos e máquinas e tornar os processos mais eficientes e a cada dia estão ficando mais sofisticados.
 
@@ -54,10 +53,12 @@ existem diversos modelos de linguagem utilizados no processamento de linguagem n
 - modelos híbridos que combinam vários desses tipos de modelos
 
 Vamos apresentar cada um deles para você:
-**modelos de linguagem estatísticos** esses modelos são baseados em estatística e probabilidade e utilizam técnicas de machine learning para treinar o modelo a partir de um grande conjunto de dados de linguagem natural, eles são geralmente muito eficientes e capazes de realizar tarefas de processamento de linguagem natural de forma muito precisa mas, esses modelos podem ser limitados pelo tamanho do conjunto de dados de treinamento e pelo fato de que eles não têm uma compreensão explícita da estrutura da linguagem
-**modelos de linguagem baseados em regras**  esses modelos de linguagens são baseados em gramáticas formais que descrevem a estrutura da linguagem eles são capazes de processar a linguagem de maneira muito precisa e confiável mas são geralmente mais limitados em termos de capacidade de adaptação a novos tipos de linguagem e podem ser complexos de se construir
-**modelos de linguagem baseados em aprendizado profundo** nesse tipo de modelo as redes neurais são treinadas para realizar tarefas de processamento de linguagem natural eles são capazes de aprender a processar a linguagem a partir de grandes conjuntos de dados de exemplo Mas podem ser difíceis de interpretar e podem ter dificuldades em adaptar-se a novos tipos de linguagem
-**modelos de linguagem híbridos** Esses modelos combinam vários tipos de modelos de linguagem como modelos estatísticos e baseados em regras para obter os benefícios de ambos, eles podem ser muito eficientes e adaptáveis mas também podem ser complexos de construir e exigir muitos recursos computacionais para treinar.
+
+- **modelos de linguagem estatísticos** esses modelos são baseados em estatística e probabilidade e utilizam técnicas de machine learning para treinar o modelo a partir de um grande conjunto de dados de linguagem natural, eles são geralmente muito eficientes e capazes de realizar tarefas de processamento de linguagem natural de forma muito precisa mas, esses modelos podem ser limitados pelo tamanho do conjunto de dados de treinamento e pelo fato de que eles não têm uma compreensão explícita da estrutura da linguagem
+- **modelos de linguagem baseados em regras**  esses modelos de linguagens são baseados em gramáticas formais que descrevem a estrutura da linguagem eles são capazes de processar a linguagem de maneira muito precisa e confiável mas são geralmente mais limitados em termos de capacidade de adaptação a novos tipos de linguagem e podem ser complexos de se construir
+- **modelos de linguagem baseados em aprendizado profundo** nesse tipo de modelo as redes neurais são treinadas para realizar tarefas de processamento de linguagem natural eles são capazes de aprender a processar a linguagem a partir de grandes conjuntos de dados de exemplo Mas podem ser difíceis de interpretar e podem ter dificuldades em adaptar-se a novos tipos de linguagem
+- **modelos de linguagem híbridos** Esses modelos combinam vários tipos de modelos de linguagem como modelos estatísticos e baseados em regras para obter os benefícios de ambos, eles podem ser muito eficientes e adaptáveis mas também podem ser complexos de construir e exigir muitos recursos computacionais para treinar.
+
 Veja quantas tarefas estão relacionadas ao uso de modelos de linguagem esses modelos estão sendo utilizados amplamente em aplicações de Inteligência Artificial e não param de crescer então para você que deseja aplicar o processamento de linguagem natural com as mais modernas técnicas de inteligência artificial para resolver diferentes problemas nas áreas de direito, atendimento ao cliente, reconhecimento de voz análise de sentimento, classificação de texto e detecção de fake News.
 
 ## 5.11 - Reconhecimento de Voz
@@ -71,3 +72,9 @@ O reconhecimento de voz envolve a utilização de técnicas de processamento de 
 Existem vários tipos de sistemas de reconhecimento de voz, desde aqueles utilizados para transcrição de áudio simples até aqueles utilizados em assistentes pessoais inteligentes, como a SIRI da Apple, Alexa da Amazon e o Google Assistem.
 
 Como mencionamos em vídeos anteriores esse sistemas permitem que os usuários controlem seus dispositivos e realizem tarefas simples como fazer uma chamada telefônica, enviar uma mensagem de texto ou pesquisar informações na internet apenas falando com o dispositivo eletrônico. O reconhecimento de voz também é usado em aplicações de segurança, controle de qualidade, transcrição de documentos entre outras áreas.
+
+## 5.12 - [Ebook] Reconhecimento de voz - Uma das principais aplicações de IA
+
+## 5.13 - [Ebook] Modelo ac´stico e modelo de linguagem
+
+## 5.14 - Quiz

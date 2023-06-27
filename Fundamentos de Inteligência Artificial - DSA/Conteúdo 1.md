@@ -1,70 +1,51 @@
-<!--
 # 1. Introdução
 
 ## 1.1 - O que é Inteligência Artificial?
 
-Inteligencia Artificial é a capacidade de um sistema computacional ou mecanismo para realizar tarefas que normalmente exigem inteligência humana, como raciocinio, aprendizado e adaptação a novas situações.
+Inteligência Artificial é a capacidade que um computador possui, um sistema computacional ou até mesmo um mecanismo eletrônico de realizar tarefas que normalmente são realizadas por inteligência humana.
+Como por exemplo o raciocínio, o aprendizado e adaptação a novas situações; ou seja um conceito bem simples: um computador pensar e realizar tarefas como um ser humano, a inteligência artificial pode ser classificada em dois tipos:
+    - o primeiro tipo a **inteligência artificial fraca** é aquela que é limitada a realizar tarefas específicas.
+    - e o segundo tipo a **inteligência artificial forte** é aquela que é capaz de realizar qualquer tarefa intelectual semelhante a que um ser humano possa realizar.
 
-Classificação da IA
- - IA Fraca: é limitada a realizar tarefas específicas.
- - IA Forte: É capaz de realizar qualquer tarefa intelectual que um ser humano possa realizar.
+A inteligência artificial pode ser utilizada em uma ampla variedade de aplicações como reconhecimento de voz, tradução de idiomas, condução autônoma de veículos, análise de dados, diagnóstico, dentre outras possibilidades.
 
-IA pode ser usada em:
-- Reconhecimetno de Voz
-- Tradução de Idiomas
-- Condução autonoma de veículos
-- Análise de dados
-- Diagnostico medico
-
-IA pode realizar tarefas mais repetitivas ou perigosas. E seres humano tarefas mais complexas ou criativas.
+A inteligência artificial também pode ser usada para realizar tarefas repetitivas ou perigosas permitindo que os seres humanos se concentrem em tarefas mais complexas ou criativas.
+Enquanto a inteligência artificial tem o potencial de trazer muitos benefícios, também a preocupações sobre sua utilização como possíveis impactos na economia e nos empregos, bem como questões ética e de privacidade; por essas razões a inteligência artificial é um assunto de discussão crescente e controverso na sociedade.
 
 ## 1.2 - [Ebook] A IA não está eliminando Empregos. Está transformando Modelos de Negócios
 
-~texto reescrito~
-A Inteligência Artificial (IA) tem o potencial de influenciar o mercado de trabalho, dependendo de sua utilização. Em certos casos, a IA pode automatizar tarefas previamente desempenhadas por seres humanos, o que pode resultar na substituição de trabalhadores por sistemas computacionais.
-
-No entanto, a IA também gera oportunidades de emprego, como a necessidade de profissionais capazes de projetar, implementar e manter sistemas de IA. Além disso, a IA pode ser utilizada para aumentar a eficiência e produtividade em diversas atividades, permitindo que os trabalhadores se concentrem em tarefas mais complexas e criativas.
-
-É importante ressaltar que a IA não é uma força autônoma que elimina empregos independentemente. Em vez disso, a IA consiste em um conjunto de ferramentas e tecnologias utilizadas por seres humanos para realizar tarefas de forma mais eficiente e eficaz.
-
-O impacto da IA no emprego depende das decisões tomadas pelos seres humanos em relação à sua utilização, bem como da adaptação das políticas públicas e dos mercados de trabalho às mudanças causadas pela IA.
-
-A IA pode ter um impacto significativo em vários modelos de negócios, mas isso não significa necessariamente a eliminação desses modelos. Ao contrário, a IA pode ser empregada para aprimorar e otimizar esses modelos de negócios, auxiliando as empresas a serem mais eficientes e a tomar melhores decisões.
-
-Por exemplo, a IA pode automatizar tarefas repetitivas, liberando tempo para que os funcionários se dediquem a atividades de maior valor agregado. Além disso, ela pode analisar grandes volumes de dados e fornecer insights valiosos para a tomada de decisões empresariais.
-
-No entanto, é importante lembrar que a IA também pode ter um impacto negativo em alguns modelos de negócios, como a substituição de trabalhadores humanos por robôs ou outras tecnologias de automação. Nesses casos, é fundamental que as empresas desenvolvam estratégias para garantir que os trabalhadores afetados sejam capacitados e realocados em novas posições, além de adotar medidas para mitigar quaisquer impactos negativos na economia e no mercado de trabalho.
-
 ## 1.3 - Como a IA está impactando os Modelos de Negócios?
 
-A IA pode ser usada em:
-    - Automatização de Tarefas
-    - Análise de Dados
-    - Personalização
-    - Inovação
+Você leu no item de aprendizagem anterior que a inteligência artificial não está eliminando empregos e sim a inteligência artificial está eliminando modelos de negócios Estamos vendo que a inteligência artificial está empatando significativamente muitos modelos de negócios isso permite que as empresas sejam mais eficientes aumentem a produtividade ofereçam novos produtos e serviços vejamos a seguir alguns exemplos de como a inteligência artificial está impactando os modelos de negócios exemplo:
 
-Desafios da IA:
-    - Necessidade de investimento em Tecnologia e Treinamentos
-    - Preocupaçoes éticas
-    - Privacidade
+- **automatização de tarefas** a inteligência artificial pode ser usada para automatizar tarefas repetitivas como processamento de dados atendimento ao cliente e operações de produção isso pode levar a economias de custos e aumento da eficiência.
+- **análise de dados** a inteligência artificial pode ajudar as empresas analisar grandes quantidades de dados fornecendo em sites valiosos sobre tendências padrões e o comportamento do cliente
+- **personalização** a inteligência artificial pode ser usada para personalizar produtos e experiências do cliente de acordo com suas preferências e comportamentos o que pode aumentar a satisfação do cliente e consequentemente a receita dos produtores e fabricantes
+- **inovação**  A inteligência artificial pode ser usada para criar novos produtos e serviços como sistemas de recomendação personalizados, assistentes virtuais e serviços de entrega autônoma, enquanto a inteligência artificial pode ter muitos benefícios para os negócios ela também pode trazer enormes desafios como a necessidade de investimento em tecnologia e treinamento bem como preocupações éticas e de privacidade.
 
-A IA pode criar novas formas de concorrencia entre empresas e indústrias, causando grandes impactos nos negócios.
+Além disso, a inteligência artificial pode criar novas formas de concorrência e mudar o equilíbrio de poder entre empresas e indústrias, isso realmente pode causar grandes impactos nos negócios.
 
 ## 1.4 - Quem é o engenheiro de Inteligência Artificial?
 
-O engenheiro de Inteligencia Artificial é uma pessoa que trabalha com tecnologias de IA para projetar, desenvolver e implementar sistemas de IA.
-Geralmente possuem uma formação sólida em ciência da computação e matemática.
-Os engenheiros de IA também podem ser responsáveis por gerenciar equipes de desenvolvimento de IA
+Você sabe quem é o engenheiro de Inteligência Artificial?  Não sabe, então eu vou te explicar
+O engenheiro de inteligência artificial é uma pessoa que trabalha com tecnologias de inteligência artificial para projetar, desenvolver e implementar sistemas de Inteligência Artificial. Eles podem trabalhar em uma ampla variedade de setores tais como: tecnologia da informação, financeiro, saúde, indústria e governo.
 
-## 1.5 - O que é o ChatGPT?
+Os engenheiros de Inteligência Artificial geralmente possuem uma formação sólida em ciência da computação
+e matemática, e também podem ter experiência em outras áreas como aprendizado de máquina processamento de linguagem natural e visão computacional eles são responsáveis por desenvolver
+algoritmos de Inteligência Artificial, treinar e testar modelos de aprendizado de máquina integrar sistemas de
+inteligência artificial em aplicativos e plataformas; os engenheiros de Inteligência Artificial também podem ser responsáveis por gerenciar equipes de desenvolvimento de Inteligência Artificial, coordenar projetos de inteligência artificial com outras equipes técnicas e de negócios, trabalhar com stakeholders para entender suas necessidades e desenvolver soluções de inteligência artificial para atender a essas necessidades.
 
-O ChatGPT é um sistema autogerativo de chatbot de IA criado pela Open AI para atendimento ao cliente online. É um chat generativo pré-treinado, que faz uso de Processamento de Linguagem Natural.
+Além disso, eles podem ser responsáveis por manter e atualizar sistemas de Inteligência Artificial existentes, além de garantir que eles estejam funcionando de forma eficiente e eficaz.
 
-## 1.6 - [PDF] Criando sua conta no ChatGPT
+## 1.5 - O que é o Chat GPT?
 
-## 1.7 - Dorothy Conversando com o ChatGPT
+O Chat GPT é um sistema autogerativo de chatbot de IA criado pela Open AÍ para atendimento ao cliente online. É um chat generativo pré-treinado, que faz uso de Processamento de Linguagem Natural.
 
-## 1.8 - Perguntas da Dorothy para o ChatGPT
+## 1.6 - [PDF] Criando sua conta no Chat GPT
+
+## 1.7 - Dorothy Conversando com o Chat GPT
+
+## 1.8 - Perguntas da Dorothy para o Chat GPT
 
 ## 1.9 - [LINK] Trilha de Aprendizagem da Formação Engenheiro de IA
 
