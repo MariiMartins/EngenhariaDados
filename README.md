@@ -49,7 +49,7 @@ This repository serves to document the lessons of the course.
     10. Avaliação e Certificado de Conclusão
 </details>
 
-<!-- <details><summary> Fundamentos de Inteligência Artificial - DSA </summary>
+<details><summary> Fundamentos de Inteligência Artificial - DSA </summary>
     1. Introdução
     2. Fundamentos de Inteligência Artificial (IA)
     3. Fundamentos de Machine Learning
