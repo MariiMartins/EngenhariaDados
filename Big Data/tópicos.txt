@@ -1,0 +1,208 @@
+Introdução
+00:48
+Fatos Sobre o Big Data
+05:01
+O Que é Big Data?
+06:37
+Os 4 V's do Big Data
+06:09
+Alguns Números do Big Data
+07:01
+Big Data x Ciência de Dados
+02:28
+Exemplos de Aplicação do Big Data Analytics - Parte 1/2
+04:51
+Exemplos de Aplicação do Big Data Analytics - Parte 2/2
+03:22
+Qual o Volume de Armazenamento do Facebook e Google?
+00:28
+Quiz Módulo 2
+5 questões
+Bibliografia, Referências e Links Úteis
+0 Páginas
+03
+Sistemas de Armazenamento de Dados
+livre
+Introdução
+00:54
+O "V" de Volume em Big Data
+05:56
+Como Armazenamos Big Data?
+03:58
+Bancos de Dados Relacionais x Bancos de Dados NoSQL - Parte 1/2
+04:30
+Bancos de Dados Relacionais x Bancos de Dados NoSQL - Parte 2/2
+05:26
+Definindo Data Warehouses - Parte 1/2
+07:30
+Definindo Data Warehouses - Parte 2/2
+06:19
+Benefícios do DW
+07:18
+Definindo Data Lakes - Parte 1/2
+08:38
+Definindo Data Lakes - Parte 2/2
+05:44
+Benefícios do Data Lake
+05:54
+Definindo Data Stores
+04:48
+Benefícios do Data Store
+03:02
+Sistemas Híbridos de Armazenamento
+05:27
+Bibliografia, Referências e Links Úteis
+0 Páginas
+04
+Armazenamento e Processamento Paralelo
+livre
+Introdução
+02:12
+O Que é um Cluster de Computadores?
+06:24
+O Que é Armazenamento Paralelo?
+06:11
+Software para Armazenamento Paralelo - Apache Hadoop - Parte 1/2
+06:34
+Software para Armazenamento Paralelo - Apache Hadoop - Parte 2/2
+04:49
+Processamento Paralelo de Big Data
+07:54
+Arquitetura de Armazenamento e Processamento Paralelo
+08:53
+Soluções de Armazenamento e Processamento Paralelo - Parte 1/2
+05:46
+Soluções de Armazenamento e Processamento Paralelo - Parte 2/2
+07:11
+Bibliografia, Referências e Links Úteis
+0 Páginas
+05
+Cloud Computing
+livre
+Introdução
+01:02
+O Que é Cloud Computing?
+06:04
+Cloud Computing e Big Data
+08:03
+Principais Provedores em Nuvem - Parte 1/2
+04:58
+Principais Provedores em Nuvem - Parte 2/2
+04:30
+Conhecendo a AWS - Amazon Web Services
+10:01
+Demo - Big Data na Nuvem AWS
+0 Páginas
+Demo - Big Data na Nuvem AWS - Parte 1/5
+06:35
+Demo - Big Data na Nuvem AWS - Parte 2/5
+04:02
+Demo - Big Data na Nuvem AWS - Parte 3/5
+07:36
+Demo - Big Data na Nuvem AWS - Parte 4/5
+05:03
+Demo - Big Data na Nuvem AWS - Parte 5/5
+08:48
+Bibliografia, Referências e Links Úteis
+0 Páginas
+06
+MLOps e DataOps
+livre
+Introdução
+00:56
+O Que é Machine Learning?
+06:11
+O Pipeline de Machine Learning
+07:02
+O Que é Machine Learning Ops? - Parte 1/2
+05:42
+O Que é Machine Learning Ops? - Parte 2/2
+03:06
+Quais Problemas Podem Ser Resolvidos com MLOps?
+0 Páginas
+O Engenheiro de Machine Learning
+0 Páginas
+DevOps, MLOps, AIOps, DataOps
+03:11
+O Que é DataOps? - Parte 1/2
+02:45
+O Que é DataOps? - Parte 2/2
+03:04
+O Engenheiro DataOps
+0 Páginas
+Big Data x Small Data
+04:49
+Principais Ferramentas e Plataformas de MLOps
+0 Páginas
+Principais Ferramentas e Plataformas de DataOps
+0 Páginas
+Bibliografia, Referências e Links Úteis
+0 Páginas
+07
+Dados Como Serviço
+livre
+Introdução
+02:55
+Data as a Service (DaaS)
+05:21
+Arquitetura DaaS
+07:58
+Principais Benefícios de DaaS - Parte 1/2
+04:36
+Principais Benefícios de DaaS - Parte 2/2
+05:15
+Arquiteturas Modernas de Big Data
+0 Páginas
+O Que é Data Lakehouse?
+0 Páginas
+O Que é Data Mesh?
+0 Páginas
+Data Mesh Como Paradigma de Arquitetura de Dados
+0 Páginas
+Soluções Comerciais
+0 Páginas
+Bibliografia, Referências e Links Úteis
+0 Páginas
+08
+ETL - Extração, Transformação e Carga de Dados
+livre
+Introdução
+01:54
+Definindo ETL
+05:47
+ETL x ELT
+05:12
+Principais Soluções de ETL e ELT do Mercado - Parte 1/4
+06:44
+Principais Soluções de ETL e ELT do Mercado - Parte 2/4
+03:24
+Principais Soluções de ETL e ELT do Mercado - Parte 3/4
+06:53
+Principais Soluções de ETL e ELT do Mercado - Parte 4/4
+05:05
+Demo ETL e Big Data - Parte 1/5
+07:47
+Demo ETL e Big Data - Parte 2/5
+06:09
+Demo ETL e Big Data - Parte 3/5
+07:31
+Demo ETL e Big Data - Parte 4/5
+03:54
+Demo ETL e Big Data - Parte 5/5
+04:28
+Bibliografia, Referências e Links Úteis
+0 Páginas
+
+09- Como Iniciar um Projeto de Big Data?
+9.1 Introdução
+9.2 O que é Big Data Analytics
+9.3 Como as Empresas Estão Utilizando o Big Data?
+06:55
+9.4 Casos de Uso do Big Data Analytics
+9.5 Como Iniciar um Projeto de Big Data?
+9.6 Definição do Business Case
+9.7 Planejamento do Projeto
+9.8 Definição dos Requisitos Técnicos
+9.9 Criação de um “Total Business Value Assessment”
+
+10 - Avaliação e Certificado de Conclusão
