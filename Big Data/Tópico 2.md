@@ -1,6 +1,6 @@
 
 
-Os 4 V's do Big Data
+<!-- Os 4 V's do Big Data
 
 - Volume (Tamanho dos Dados)
 
