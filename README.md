@@ -74,3 +74,5 @@ This repository serves to document the lessons of the course.
     9. Como Iniciar um Projeto de Big Data?
     10. Avaliação e Certificado de Conclusão
 <\details>
+
+IA
