@@ -75,4 +75,7 @@ This repository serves to document the lessons of the course.
     10. Avaliação e Certificado de Conclusão
 <\details>
 
-IA
+<!-- <details><summary> IA </summary>
+    - ChatGPT com Excel - Usando GPT como Assistente
+    - Machine Learning with ChatGPT
+<\details>
