@@ -1,8 +1,11 @@
-Importando os dados
+# Importando os dados
+
 Para isso, utilizaremos o Google Colab. Criamos um projeto e na primeira célula, passamos a variável url que contém o endereço do arquivo com os dados no formato .xlsx, ou seja, Excel.
+
 ```
 url = 'https://github.com/alura-cursos/machine_learning_chatgpt/blob/main/Dados/emprestimo.xlsx?raw=true'
 ```
+
 Agora, utilizaremos o ChatGPT para nos auxiliar no desenvolvimento de todo o projeto.
 
 Isso não significa que a IA fará nosso trabalho. Analisaremos as respostas obtidas com uma percepção crítica de uma pessoa cientista de dados e a partir disso criaremos o projeto.
@@ -28,6 +31,7 @@ Para executar o prompt apertamos "Enter" ou então clicamos no botão indicado p
 Claro! Posso ajudá-lo com o código para importar os dados do arquivo Excel (xlsx) em Python. Vamos usar a biblioteca pandas para isso. Certifique-se de ter a biblioteca pandas Instalada em seu ambiente Python.
 
 Aqui está o código para importar os dados do arquivo Excel:
+
 ```
 import pandas as pd
 
@@ -37,6 +41,7 @@ dados = pd.read_excel(url)
 #Exibir as primeiras linhas do DataFrame para verificar se os dados foram importados corretamente
 print(dados.head())
 ```
+
 Certifique-se de substituir "caminho_para_o_arquivo.xlsx" pelo caminho real do arquivo xlsx que você possui. O código utiliza a função read_excel() da biblioteca pandas para ler o arquivo e armazenar os dados em um DataFrame chamado "dados". Em seguida, o código Imprime as primeiras linhas do DataFrame para verificar se os dados foram Importados corretamente.
 
 Nesse caso, já temos a biblioteca Pandas instalada no Google Colab. Então, copiamos esse código gerado e colamos em uma nova célula.
@@ -52,6 +57,7 @@ dados = pd.read_excel(url)
 #Exibir as primeiras linhas do DataFrame para verificar se os dados foram importados corretamente
 print(dados.head())
 ```
+
 Apertamos "Shift + Enter" para executar. Repare que, como foi utilizado a função print(), o dataframe não fica visualmente bom.
 
 |ID |Age|Experience|Income|ZIP Code|Family|CCAvg|Education|Mortgage|
@@ -69,5 +75,3 @@ Apertamos "Shift + Enter" para executar. Repare que, como foi utilizado a funç�
 |2|0|0|0|0|0|
 |3|0|0|0|0|0|
 |4|0|0|0|0|1|
-
-A seguir exploraremos melhor esses dados e a formatação dataframe. Até lá!
