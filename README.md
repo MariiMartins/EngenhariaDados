@@ -82,6 +82,7 @@ This repository serves to document the lessons of the course.
     - ChatGPT com Excel- automação com macros
     - ChatGPT e GitHub Copilot
     - ChatGPT e Programação- aumente sua produtividade
+    - ChatGPT- desvendando a IA em conversas e suas aplicações
     - ChatGPT- otimizando a qualidade dos resultados
     - Machine Learning with ChatGPT
 <\details>
