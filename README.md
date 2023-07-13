@@ -61,7 +61,7 @@ This repository serves to document the lessons of the course.
     8. Inteligência Artificial nos Negócios e nas Finanças
     9. Capacitação para Trabalhar com Inteligência Artificial
     10. Avaliação e Certificado de Conclusão
-<\details>
+</details>
 
 <!-- <details><summary> Big Data </summary>
 
@@ -75,7 +75,7 @@ This repository serves to document the lessons of the course.
     8. ETL - Extração, Transformação e Carga de Dados
     9. Como Iniciar um Projeto de Big Data?
     10. Avaliação e Certificado de Conclusão
-<\details>
+</details>
 
 <!-- <details><summary> IA </summary>
     - ChatGPT com Excel - Usando GPT como Assistente
@@ -85,4 +85,4 @@ This repository serves to document the lessons of the course.
     - ChatGPT- desvendando a IA em conversas e suas aplicações
     - ChatGPT- otimizando a qualidade dos resultados
     - Machine Learning with ChatGPT
-<\details>
+</details>
