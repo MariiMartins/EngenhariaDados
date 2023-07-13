@@ -1,0 +1,3 @@
+# Personas, ICP e público-alvo
+
+Persona, ICP (Perfil de Cliente Ideal) e público-alvo são ferramentas distintas para identificar e entender clientes. O público-alvo é um grupo amplo definido por características demográficas e comportamentais. ICP (ideal customer profile) é uma descrição detalhada da empresa ou indivíduo ideal que obterá maior valor do seu produto ou serviço. Diferentemente do ICP, a Persona é uma representação semi-fictícia do cliente ideal, incluindo motivos, expectativas e objetivos. Usar essas ferramentas ajuda a compreender melhor pessoas que utilizam seus produtos e serviços dando mais assertividade na criação de requisitos, estratégias de produto e de marketing.
