@@ -2,7 +2,7 @@
 
 This repository serves to document the lessons of the course.
 
- **A PASTA DE FUNDAMENTOS DE IA ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**
+<!-- **A PASTA DE FUNDAMENTOS DE IA ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**-->
 
 <details><summary> Udemy </summary>
 
@@ -50,6 +50,7 @@ This repository serves to document the lessons of the course.
 </details>
 
 <details><summary> Fundamentos de Inteligência Artificial - DSA </summary>
+
     1. Introdução
     2. Fundamentos de Inteligência Artificial (IA)
     3. Fundamentos de Machine Learning
@@ -63,6 +64,7 @@ This repository serves to document the lessons of the course.
 <\details>
 
 <!-- <details><summary> Big Data </summary>
+
     1. Introdução
     2. O que é Big Data?
     3. Sistemas de Armazenamento de Dados
@@ -77,5 +79,9 @@ This repository serves to document the lessons of the course.
 
 <!-- <details><summary> IA </summary>
     - ChatGPT com Excel - Usando GPT como Assistente
+    - ChatGPT com Excel- automação com macros
+    - ChatGPT e GitHub Copilot
+    - ChatGPT e Programação- aumente sua produtividade
+    - ChatGPT- otimizando a qualidade dos resultados
     - Machine Learning with ChatGPT
 <\details>
