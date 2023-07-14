@@ -10,6 +10,7 @@
 |Big Data |  Big Data refere-se a um grande volume de dados, que podem ser estruturados, semiestruturados ou não estruturados. A análise desses dados pode levar a insights e informações valiosas.|
 |Bucket|   Um contêiner lógico no serviço de armazenamento de objetos da Amazon Web Services (AWS), o Amazon S3, usado para armazenar e organizar objetos de dados.|
 |CEP|   Complex Event Processing, uma tecnologia de processamento de eventos em tempo real que identifica padrões e tendências em fluxos de dados em tempo real.|
+|CI / CD| |
 |CLI | Tipo de interface de usuário que permite a interação com um computador ou outro dispositivo eletrônico usando comandos de texto digitados em um prompt de linha de comando.|
 |Cluster|   Um grupo de computadores conectados em rede, geralmente usados em conjunto para processamento distribuído de dados.|
 |Commodity| Em informática, um hardware ou software de baixo custo e amplamente disponível, geralmente usado para tarefas comuns ou básicas.|
