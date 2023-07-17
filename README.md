@@ -2,7 +2,7 @@
 
 This repository serves to document the lessons of the course.
 
-<!-- **A PASTA DE FUNDAMENTOS DE IA ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**-->
+**A PASTA DE BIG DATA ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**
 
 <details><summary> Udemy </summary>
 
@@ -75,14 +75,20 @@ This repository serves to document the lessons of the course.
     8. ETL - Extração, Transformação e Carga de Dados
     9. Como Iniciar um Projeto de Big Data?
     10. Avaliação e Certificado de Conclusão
-</details>
+</details> -->
 
-<!-- <details><summary> IA </summary>
-    - ChatGPT com Excel - Usando GPT como Assistente
-    - ChatGPT com Excel- automação com macros
-    - ChatGPT e GitHub Copilot
-    - ChatGPT e Programação- aumente sua produtividade
-    - ChatGPT- desvendando a IA em conversas e suas aplicações
-    - ChatGPT- otimizando a qualidade dos resultados
-    - Machine Learning with ChatGPT
+<details><summary> IA </summary>
+
+- ChatGPT com Excel - Usando GPT como Assistente
+- ChatGPT com Excel- automação com macros
+- ChatGPT- desvendando a IA em conversas e suas aplicações
+- ChatGPT e GitHub Copilot
+- ChatGPT e JavaScript- construa o jogo Pong
+- ChatGPT e Programação- aumente sua produtividade
+- ChatGPT- otimizando a qualidade dos resultados
+- IA no Photoshop - criando e editando imagens
+- Inteligência artificial e personas- acelerando o processo de criação
+- Inteligência artificial Generativa- Midjourney e ChatGPT
+- Machine Learning with ChatGPT
+
 </details>
