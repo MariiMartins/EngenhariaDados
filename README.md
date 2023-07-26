@@ -63,20 +63,6 @@ This repository serves to document the lessons of the course.
     10. Avaliação e Certificado de Conclusão
 </details>
 
-<!-- <details><summary> Big Data </summary>
-
-    1. Introdução
-    2. O que é Big Data?
-    3. Sistemas de Armazenamento de Dados
-    4. Armazenamento e Processamento Paralelo
-    5. Cloud Computing
-    6. MLOps e DataOps
-    7. Dados como Serviço
-    8. ETL - Extração, Transformação e Carga de Dados
-    9. Como Iniciar um Projeto de Big Data?
-    10. Avaliação e Certificado de Conclusão
-</details> -->
-
 <details><summary> IA </summary>
 
 - ChatGPT com Excel - Usando GPT como Assistente
@@ -92,3 +78,18 @@ This repository serves to document the lessons of the course.
 - Machine Learning with ChatGPT
 
 </details>
+
+
+<!-- <details><summary> Big Data </summary>
+
+    1. Introdução
+    2. O que é Big Data?
+    3. Sistemas de Armazenamento de Dados
+    4. Armazenamento e Processamento Paralelo
+    5. Cloud Computing
+    6. MLOps e DataOps
+    7. Dados como Serviço
+    8. ETL - Extração, Transformação e Carga de Dados
+    9. Como Iniciar um Projeto de Big Data?
+    10. Avaliação e Certificado de Conclusão
+</details> -->
