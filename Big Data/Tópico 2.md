@@ -47,9 +47,13 @@ Big Data e Ciência de Dados são a mesma coisa?
 
 **Exemplo 1:** Uma Companhia Áerea pode extrair, armazenar, processar e analisar dados de viagens dos passageiros a fim de oferecer rotas com maior probabilidade de venda.
 
-**Exemplo 2:** Uma Rede se Supermercados pode extrair, armazenar, processar e analisar dados de compras a fim de detectar padrões e organizar os produtos de forma a aumentar as vendas.
+**Exemplo 2:** Uma Rede de Supermercados pode extrair, armazenar, processar e analisar dados de compras a fim de detectar padrões e organizar os produtos de forma a aumentar as vendas.
 
 ## 2.8 Exemplos de Aplicação do Big Data Analytics - Parte 2/2
+
+**Exemplo 3:** Uma Rede de Hotéis pode extrair, armazenar, processar e analisar dados de comentários de clientes em redes sociais para customizar seus serviços, aumentar as vendas e reduzir custos.
+
+**Exemplo 4:** Uma Rede de Hospitais pode extrair, armazenar, processar e analisar dados de exames médicos a fim de personalizar e otimizar o atendimento dos pacientes.
 
 ## 2.9 Qual o Volume de Armazenamento do Facebook e Google?
 
