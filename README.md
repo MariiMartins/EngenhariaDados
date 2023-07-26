@@ -92,12 +92,3 @@ This repository serves to document the lessons of the course.
 - Machine Learning with ChatGPT
 
 </details>
-
-<!-- <details><summary> Hashtag Treinamentos - Python</summary>
-
-- Aula 1
-- Aula 2
-- Aula 3
-- Aula 4
-
-</details>
