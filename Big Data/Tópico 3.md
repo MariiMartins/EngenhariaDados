@@ -29,6 +29,7 @@ Em um banco de dados relacional os dados são organizados em tabela.
 
 Podemos usar Bancos de Dados Não Relacionais (NoSQL) para construir Data Lakes e Data Stores (Data Lakes e Data Stores são conceitos, como veremos mais adiante).
 Normalmente não precisamos definir o schema antes do armazenamneto ou o schema é definido no momento do armazenamneto dos dados.
+Existem diversos tipos de Banco de Dados NoSQL
 
 ## 3.6 Definindo Data Warehouses - Parte 1/2
 
