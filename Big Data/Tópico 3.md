@@ -74,6 +74,8 @@ A estrutura dos dados ou schema (esquema) não é definida quando os dados sçao
 
 ## 3.10 Definindo Data Lakes - Parte 2/2
 
+..
+
 ## 3.11 Benefícios do Data Lake
 
 ## 3.12 Definindo Data Stores
