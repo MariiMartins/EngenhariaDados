@@ -74,12 +74,45 @@ A estrutura dos dados ou schema (esquema) não é definida quando os dados sçao
 
 ## 3.10 Definindo Data Lakes - Parte 2/2
 
-..
+Diferentes tipos de análises, como consultas SQL, análises de Big Data, pesquisa de texto, análises em tempo real e aprendizado de máquina, podem ser usados para descobrir insights.
+
+Os Data Lakes permitem que as empresas gerem diferentes tipos de percepções sobre os dados, desde relatorios sobre dados históricos até modelos pre ditivos criados com Machine Learning.
+
+O principal desafio de uma arquitetura de Data Lake é que os dados brutos são armazenados sem supervisão do conteúdo. Para que um Data Lake torne os dados utilizáveis, ele precisa ter mecanismos definidos para catalogar e proteger os dados. Sem esses elementos, os dados não podem ser encontrados ou confiáveis, resultando em "Pantano de Dados" (Data Swamp). Atender às necessidades de públicos mais amplos exige que os Data Lakes tenham governança, gestão de metadados, consistencia semântica e controles de acesso.
+
+Data Lake é um conceito e pode ser construído com diferentes tecnologias como Apache Hadooop ou Banco de Dados NoSQL.
+
+Podemos importar dados do DW para o Data Lake e vice-versa dependendo das necessidades de negócio da empresa.
+
+Para o DW normalmente usamos *ETL* (Extração, Transformação e Carga)
+
+Para o Data Lake normalmente usamos *ELT* (Extração, Carga e Transformação)
+
+Data Lakes e DWs podem fazer parte de uma grande estrutura central de armazenamneto chamada DataHub.
 
 ## 3.11 Benefícios do Data Lake
 
+- *Armazenamento em Formato Bruto:* não precisamos limpar e transformar os dados antes do armazenamento.
+- *Importação de Qualquer Quantidade de Dados em Tempo Real:* os dados sao coletados de várias fontes e movidos para o Data Lake em seu formato original. Este processo permite dimensionar dados de qualquer tamanho, enquanto economiza tempo de definição de estrutura de dados, esquema e transformações.
+- *Repositório Central para Todos os Dados da Empresa:* os Data Lakes permitem que várias funções como Cientistas de Dados, Engenheiros de Machine Learning, Analista de Dados e Analistas de Negócios, acessem dados com sua ferramenta analítica específica.
+- *Sem Necessidade de Movimentação dos Dados:* análises podem ser executadas sem necessidade de mover os dados para um sistema de análise separado
+
 ## 3.12 Definindo Data Stores
 
+Um Data Store é um repositório para armazenar e gerenciar de forma persistente coleções de dados que incluem não apenas dados estruturados, mas também tipos de armazenamento variado, como documentos, dados no formato de chave-valor, filas de mensagens e outros formatos de arquivo.
+
+Tipos mais comuns de Data Stores:
+
+- Armazenamento de chave-valor (Redis, Memcached)
+- Motor de pesquisa de texto completo (Elastic Search)
+- Fila de mensagens (Apache Kafka)
+- Sistema de arquivos distribuidos (Hadoop HDFS, AWS S3)
+
 ## 3.13 Benefícios do Data Store
+
+- *Armazenamento de Variados Tipos de Dados:* dados que não se encaixam em outros repositórios de armazenamento.
+- *Flexibilidade :* armazenamento de dados aderente às necessidades da aplicação final.
+- *Suporte a Dados Semi-Estruturados :* dados que possuem alguma organização prévia, mas que devem ser usados em seu formato original.
+- *Custo Total Menor:* por se tratar de um tipo simplificado de armazenamento o custo total tende a ser menor que outra solução de armazenamento.
 
 ## 3.14 Sistemas Híbridos de Armazenamento
