@@ -93,3 +93,15 @@ This repository serves to document the lessons of the course.
     9. Como Iniciar um Projeto de Big Data?
     10. Avaliação e Certificado de Conclusão
 </details> -->
+
+
+<!--  <details><summary> Data Analytics Fundamentals - AWS </summary>
+
+- Lição 1: Introdução a soluções de análise de dados
+- Lição 2: Volume – armazenamento de dados
+- Lição 3: Velocidade – processamento de dados
+- Lição 4: Variedade – estrutura e tipos de dados
+- Lição 5: Veracidade – limpeza e transformação
+- Lição 6: Valor – geração de relatórios e business intelligence
+- Lição 7: Principais lições
+</details> -->
