@@ -1,3 +1,4 @@
+<!--
 # Copy-On-Write (COW) e Docker
 
 Antes de entender as camadas propriamente ditas, precisamos entender como um dos principais requisitos para essa coisa acontecer, o *Copy-On-Write* (ou COW para os íntimos), funciona. Nas palavras do próprio Jérome Petazzoni:
