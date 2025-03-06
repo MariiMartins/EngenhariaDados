@@ -1,4 +1,19 @@
-# Tabelas de INSS e IRRF 2024 (valores aproximados)
-FAIXAS_INSS = [(1518.00, 0.075), (2793.88, 0.09), (4190.83, 0.12), (8157.41, 0.14)]
-FAIXAS_IRRF = [(2259.20, 0), (2828.65, 0.075), (3751.05, 0.15), (4664.68, 0.225), (float('inf'), 0.275)]
-DEDUCOES_IRRF = [0, 169.44, 381.44, 662.77, 896.00]  # Correspondentes às faixas
+FAIXAS_INSS = [
+    (1518.00, 0.075, 0),  # Faixa 1: até R$ 1.518,00 - alíquota 7,5%
+    (1275.87, 0.09, 22.77),  # Faixa 2: de R$ 1.518,01 até R$ 2.793,88 - alíquota 9%
+    (1396.94, 0.12, 106.59),  # Faixa 3: de R$ 2.793,89 até R$ 4.190,83 - alíquota 12%
+    (3966.57, 0.14, 190.40),  # Faixa 4: de R$ 4.190,84 até R$ 8.157,41 - alíquota 14%
+    (float('inf'), 0.14, 0)   # Faixa 5: acima de R$ 8.157,42 - alíquota 14% sem dedução
+]
+
+# Faixas e deduções do IRRF (Atualizadas)
+FAIXAS_IRRF = [
+    (2259.20, 0, 0),  # Faixa 1: até R$ 2.259,20 - alíquota 0% e sem dedução
+    (922.66, 0.075, 169.44),  # Faixa 2: de R$ 2.259,21 até R$ 2.828,65 - alíquota 7,5%
+    (924.39, 0.15, 381.44),  # Faixa 3: de R$ 2.828,66 até R$ 3.751,05 - alíquota 15%
+    (913.62, 0.225, 662.77),  # Faixa 4: de R$ 3.751,06 até R$ 4.664,68 - alíquota 22,5%
+    (float('inf'), 0.275, 896.00)  # Faixa 5: acima de R$ 4.664,69 - alíquota 27,5%
+]
+
+# Teto atualizado do INSS
+INSS_TETO = 961.64

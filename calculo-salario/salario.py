@@ -1,4 +1,4 @@
-from tabelas import FAIXAS_INSS, FAIXAS_IRRF, DEDUCOES_IRRF
+from tabelas import FAIXAS_INSS, FAIXAS_IRRF, INSS_TETO
 
 def calcular_salario_liquido(salario_bruto, beneficios=0, outros_descontos=0):
     """
@@ -7,31 +7,37 @@ def calcular_salario_liquido(salario_bruto, beneficios=0, outros_descontos=0):
     # Cálculo do INSS
     inss = 0
     salario_restante = salario_bruto
-    for limite, aliquota in FAIXAS_INSS:
+    for limite, aliquota, deducao in FAIXAS_INSS:
         if salario_restante > limite:
             inss += limite * aliquota
             salario_restante -= limite
         else:
             inss += salario_restante * aliquota
             break
-    inss = min(inss, 961.64)  # Teto do INSS
-    
-    # Base de cálculo do IRRF
+    inss = min(inss, INSS_TETO)  # Garantir que o INSS não ultrapasse o teto (R$ 961,64)
+
+    # Base de cálculo do IRRF (salário bruto - INSS)
     base_irrf = salario_bruto - inss
-    
+
     # Cálculo do IRRF
     irrf = 0
     salario_restante = base_irrf
-    for i, (limite, aliquota) in enumerate(FAIXAS_IRRF):
+    for i, (limite, aliquota, deducao) in enumerate(FAIXAS_IRRF):
         if salario_restante > limite:
             irrf += (limite - (FAIXAS_IRRF[i-1][0] if i > 0 else 0)) * aliquota
         else:
             irrf += (salario_restante - (FAIXAS_IRRF[i-1][0] if i > 0 else 0)) * aliquota
             break
-    irrf -= DEDUCOES_IRRF[i]  # Aplicando dedução
-    irrf = max(irrf, 0)  # IRRF não pode ser negativo
-    
-    # Salário líquido
+
+    # Dedução correta de acordo com a faixa
+    for i, (limite, aliquota, deducao) in enumerate(FAIXAS_IRRF):
+        if salario_restante <= limite:
+            irrf -= deducao
+            break
+
+    irrf = max(irrf, 0)  # O IRRF não pode ser negativo
+
+    # Cálculo do salário líquido
     salario_liquido = salario_bruto - inss - irrf + beneficios - outros_descontos
     
     return {
