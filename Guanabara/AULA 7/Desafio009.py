@@ -1,0 +1,30 @@
+#Desafio 009
+#Faça um programa que leia um numero inteiro qualquer e mostre na tela sua tabuada
+n1 = int(input('Digita o valor ae: \n'))
+a1 = (n1 * 1)
+a2 = (n1 * 2)
+a3 = (n1 * 3)
+a4 = (n1 * 4)
+a5 = (n1 * 5)
+a6 = (n1 * 6)
+a7 = (n1 * 7)
+a8 = (n1 * 8)
+a9 = (n1 * 9)
+a10 = (n1 * 10)
+print('Sua tabuada é: \n {}\n {}\n {}\n {}\n {}\n {}\n {}\n {}\n {}\n {}\n'
+      .format(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10))
+
+#Resolução Guanabara
+num = int(input('Digita um numero para ver sua tabuada: \n'))
+print("-" *12)
+print('{} x {:2} = {}'.format(num, 1, num * 1))
+print('{} x {:2} = {}'.format(num, 2, num * 2))
+print('{} x {:2} = {}'.format(num, 3, num * 3))
+print('{} x {:2} = {}'.format(num, 4, num * 4))
+print('{} x {:2} = {}'.format(num, 5, num * 5))
+print('{} x {:2} = {}'.format(num, 6, num * 6))
+print('{} x {:2} = {}'.format(num, 7, num * 7))
+print('{} x {:2} = {}'.format(num, 8, num * 8))
+print('{} x {:2} = {}'.format(num, 9, num * 9))
+print('{} x {} = {}'.format(num, 10, num * 10))
+print("-" *12)
