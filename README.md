@@ -2,6 +2,7 @@
 
 This repository serves to document the lessons of the course.
 
+<!--
 **A PASTA DE BIG DATA ESTÁ SOB REVISÃO, SENDO ASSIM TODOS SEUS DOCUMENTOS ESTÃO EM PROCESSO DE REVISÃO E SÓ SERÃO LIBERADOS NO FIM DO CURSO**
 
 <details><summary> Udemy </summary>
@@ -76,11 +77,9 @@ This repository serves to document the lessons of the course.
 - Inteligência artificial e personas- acelerando o processo de criação
 - Inteligência artificial Generativa- Midjourney e ChatGPT
 - Machine Learning with ChatGPT
-
 </details>
 
-
-<!-- <details><summary> Big Data </summary>
+ <details><summary> Big Data </summary>
 
     1. Introdução
     2. O que é Big Data?
@@ -92,10 +91,9 @@ This repository serves to document the lessons of the course.
     8. ETL - Extração, Transformação e Carga de Dados
     9. Como Iniciar um Projeto de Big Data?
     10. Avaliação e Certificado de Conclusão
-</details> -->
+</details>
 
-
-<!--  <details><summary> Data Analytics Fundamentals - AWS </summary>
+<details><summary> Data Analytics Fundamentals - AWS </summary>
 
 - Lição 1: Introdução a soluções de análise de dados
 - Lição 2: Volume – armazenamento de dados
